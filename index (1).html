@@ -3,43 +3,37 @@
 <html lang="he">
 <head>
     <meta charset="UTF-8">
-    <title>שפה ברורה</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>שפה ברורה – חקוק במוח</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>ברוכים הבאים ל״שפה ברורה״</h1>
-        <p>שיטת קריץ אין מוח – ללמוד שפה באמת.</p>
-        <button onclick="startLearning()">התחל ללמוד עכשיו</button>
-    </header>
 
-    <section id="intro">
-        <h2>הקדמה לשיטה</h2>
-        <p>לימוד בארבעה שלבים: כתיבה, השלמה, בע״פ חלקי, בע״פ מלא – ועוד חזרות וניסיונות.</p>
-    </section>
+<!-- דף בית -->
+<header>
+    <h1>ברוכים הבאים לשפה ברורה – חקוק במוח</h1>
+    <p>שלום עליכם, אני אוהב אותך, נשוחח ביחד</p>
+    <button onclick="window.location.href='learn.html'">התחל ללמוד עכשיו</button>
+    <button onclick="window.location.href='choose_language.html'">בחר שפה ללמוד</button>
+</header>
 
-    <section id="steps">
-        <h2>שלבי הלימוד</h2>
-        <ol>
-            <li>שלב א: כתיבה 3 פעמים עם שמיעה</li>
-            <li>שלב ב: כתיבה עם השלמה (2 אותיות חסרות)</li>
-            <li>שלב ג: כתיבה בע״פ חלקי – אות ראשונה + קווים</li>
-            <li>שלב ד: כתיבה בע״פ מלא – שום רמז</li>
-        </ol>
-    </section>
+<!-- דף חזרה -->
+<section id="review">
+    <h2>חזרה על מילים</h2>
+    <p>בואו נתחיל לחזור על המילים שנלמדו!</p>
+    <form action="review.php" method="POST">
+        <label for="word">בחר מילה:</label>
+        <input type="text" id="word" name="word">
+        <button type="submit">שלח</button>
+    </form>
+</section>
 
-    <section id="language-select">
-        <h2>בחירת שפה</h2>
-        <select>
-            <option>מאנגלית ללשון קודש</option>
-            <option>מלשון קודש לאנגלית</option>
-        </select>
-    </section>
+<!-- דף למורים -->
+<section id="teachers">
+    <h2>גישה למורים</h2>
+    <p>התחבר למערכת למורים כדי לעקוב אחרי התלמידים שלך.</p>
+    <button onclick="window.location.href='teacher_login.html'">התחבר למערכת</button>
+</section>
 
-    <footer>
-        <p>© שפה ברורה - כל הזכויות שמורות</p>
-    </footer>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
