@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>שפה ברורה – חקוק במוח</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- דף בית -->
+<header>
+    <h1>ברוכים הבאים לשפה ברורה – חקוק במוח</h1>
+    <p>שלום עליכם, אני אוהב אותך, נשוחח ביחד</p>
+    <button onclick="window.location.href='learn.html'">התחל ללמוד עכשיו</button>
+    <button onclick="window.location.href='choose_language.html'">בחר שפה ללמוד</button>
+</header>
+
+<!-- דף חזרה -->
+<section id="review">
+    <h2>חזרה על מילים</h2>
+    <p>בואו נתחיל לחזור על המילים שנלמדו!</p>
+    <form action="review.php" method="POST">
+        <label for="word">בחר מילה:</label>
+        <input type="text" id="word" name="word">
+        <button type="submit">שלח</button>
+    </form>
+</section>
+
+<!-- דף למורים -->
+<section id="teachers">
+    <h2>גישה למורים</h2>
+    <p>התחבר למערכת למורים כדי לעקוב אחרי התלמידים שלך.</p>
+    <button onclick="window.location.href='teacher_login.html'">התחבר למערכת</button>
+</section>
+
+</body>
+</html>
