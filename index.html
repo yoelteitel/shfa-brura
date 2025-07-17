@@ -3,19 +3,24 @@
 <html lang="he">
 <head>
   <meta charset="UTF-8">
-  <title>שפה ברורה – חקוק במוח</title>
+  <title>שפה ברורה – 100 מילים</title>
   <link rel="stylesheet" href="style.css">
-  <script src="words.js" defer></script>
-  <script src="logic.js" defer></script>
 </head>
 <body>
   <header>
     <h1>שפה ברורה – חקוק במוח</h1>
-    <p>שלום עליכם, איך האב דיר ליב, לאמיר שמועסן צוזאַמען!</p>
+    <p>שלום עליכם, איך האב דיר ליב. לאָמיר שמועסן צוזאַמען!</p>
   </header>
   <main>
-    <button onclick="startLearning()">התחל ללמוד</button>
-    <div id="learning-area"></div>
+    <div class="controls">
+      <button onclick="showStage(1)">שלב א</button>
+      <button onclick="showStage(2)">שלב ב</button>
+      <button onclick="showStage(3)">שלב ג</button>
+      <button onclick="showStage(4)">שלב ד</button>
+    </div>
+    <div id="wordArea"></div>
+    <div id="message"></div>
   </main>
+  <script src="app.js"></script>
 </body>
 </html>
