@@ -5,30 +5,17 @@
   <meta charset="UTF-8">
   <title>שפה ברורה – חקוק במוח</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <script src="words.js" defer></script>
+  <script src="logic.js" defer></script>
 </head>
 <body>
-  <div id="language-select" class="language-select">
-    <h2>בחר את שפת האם שלך:</h2>
-    <button onclick="selectLanguage('he')">עברית</button>
-    <button onclick="selectLanguage('yi')">אידיש</button>
-    <button onclick="selectLanguage('en')">English</button>
-  </div>
-
-  <div id="main-content" class="hidden">
-    <header>
-      <h1>שפה ברורה – חקוק במוח</h1>
-    </header>
-    <main>
-      <section>
-        <h2>שלום עליכם, איך האב דיר ליב, לאָמיר שמועסן צוזאַמען!</h2>
-        <p>שיטה חדשנית ללימוד שפות על־ידי כתיבה, הפנמה וזיכרון עמוק.</p>
-        <button onclick="startLearning()">📘 התחל ללמוד</button>
-      </section>
-    </main>
-    <footer>
-      כל הזכויות שמורות © שפה ברורה – חקוק במוח
-    </footer>
-  </div>
+  <header>
+    <h1>שפה ברורה – חקוק במוח</h1>
+    <p>שלום עליכם, איך האב דיר ליב, לאמיר שמועסן צוזאַמען!</p>
+  </header>
+  <main>
+    <button onclick="startLearning()">התחל ללמוד</button>
+    <div id="learning-area"></div>
+  </main>
 </body>
 </html>
