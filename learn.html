@@ -3,19 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>לימוד מילים – שפה ברורה</title>
+  <title>לימוד מילים</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
   <header>
     <h1>לימוד מילים</h1>
+    <div id="progress-container"><div id="progress-bar"></div></div>
+    <p id="progress-text">0 מתוך מילים</p>
     <button onclick="location.href='index.html'">חזור לדף הבית</button>
   </header>
-  <main id="learning-area">
+  <main>
     <div id="word-display"></div>
     <input type="text" id="user-input" placeholder="כתוב כאן את המילה">
-    <button id="check-btn">בדוק</button>
+    <button onclick="prevStage()">חזור שלב</button>
+    <button onclick="skipWord()">דלג מילה</button>
     <div id="feedback"></div>
   </main>
 </body>

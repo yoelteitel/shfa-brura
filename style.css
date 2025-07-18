@@ -1,11 +1,8 @@
 
-body { font-family: Arial, sans-serif; direction: rtl; background: #f4f4f4; }
-header { padding: 20px; text-align: center; background: #fff; }
+body { font-family: Arial, sans-serif; direction: rtl; background: #f4f4f4; text-align: center; }
+header { padding: 20px; background: #fff; }
 button { margin: 5px; padding: 10px 20px; font-size: 16px; cursor: pointer; }
-.content { display: flex; }
-.sidebar { width: 25%; background: #fff; padding: 10px; max-height: 80vh; overflow-y: auto; }
-main { flex: 1; padding: 20px; }
-#progress-container { width: 80%; background: #ddd; height: 20px; margin: auto; }
+#progress-container { width: 80%; background: #ddd; height: 20px; margin: 10px auto; }
 #progress-bar { height: 100%; width: 0%; background: #4caf50; }
-ul { list-style: none; padding: 0; }
-li { margin: 5px 0; cursor: pointer; }
+#word-display { font-size: 24px; margin: 20px 0; }
+#feedback { font-size: 20px; margin-top: 10px; color: red; }
