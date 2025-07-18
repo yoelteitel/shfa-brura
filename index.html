@@ -5,12 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>שפה ברורה – חקוק במוח</title>
   <link rel="stylesheet" href="style.css">
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const audio = document.getElementById('welcome-audio');
+      audio.play().catch(() => {});
+    });
+  </script>
 </head>
 <body>
   <header>
     <h1>שפה ברורה – חקוק במוח</h1>
     <p>שלום עליכם, אני אוהב אותך, בוא נשוחח ביחד</p>
-    <button onclick="location.href='learn.html'">התחל ללמוד עכשיו</button>
+    <button onclick="location.href='learn_with_sidebar.html'">התחל ללמוד עכשיו</button>
+    <audio id="welcome-audio" src="audio/welcome.mp3"></audio>
   </header>
 </body>
 </html>
