@@ -104,7 +104,6 @@ const words = [
 
 let currentIndex = 0;
 let stage = 1;
-let score = 0;
 
 const wordDisplay = document.getElementById('word-display');
 const userInput = document.getElementById('user-input');
@@ -119,12 +118,21 @@ function updateProgress() {
   progressText.textContent = `${currentIndex} מתוך ${words.length} מילים (${percent}%)`;
 }
 
+function playWordAudio(word) {
+  const filename = word.toLowerCase().replace(/ /g, '_') + '.mp3';
+  const audio = new Audio('audio/' + filename);
+  audio.play().catch(() => {});
+}
+
 function showWord() {
   feedback.textContent = '';
   const currentWord = words[currentIndex];
   if (stage === 1) {
     wordDisplay.textContent = `${currentWord.hebrew} – ${currentWord.english}`;
-    playWordAudio(currentWord.english);
+    // הפעל אוטומטית אודיו אם קיים
+    if (currentIndex < 10) {
+      playWordAudio(currentWord.english);
+    }
   } else if (stage === 2) {
     wordDisplay.textContent = `${currentWord.hebrew} – ${currentWord.english[0]}____`;
   } else if (stage === 3) {
@@ -134,11 +142,6 @@ function showWord() {
   }
   userInput.value = '';
   updateProgress();
-}
-
-function playWordAudio(word) {
-  const audio = new Audio('audio/' + word.toLowerCase().replace(/ /g, '_') + '.mp3');
-  audio.play().catch(() => {});
 }
 
 function checkWord() {
@@ -174,21 +177,26 @@ function skipWord() {
   showWord();
 }
 
-function selectWordFromList(index) {
-  currentIndex = index;
-  stage = 1;
-  showWord();
-}
-
-// בניית רשימת המילים בסיידבר
+// בניית רשימת המילים בסיידבר עם כפתור האזנה
 const wordList = document.getElementById('word-list');
 words.forEach((w, i) => {
   const li = document.createElement('li');
-  li.textContent = `${i + 1}. ${w.hebrew} – ${w.english}`;
+  li.innerHTML = `${i + 1}. ${w.hebrew} – ${w.english} <button onclick="playWordAudio('${w.english}')">🔊</button>`;
   li.style.cursor = 'pointer';
-  li.addEventListener('click', () => selectWordFromList(i));
+  li.addEventListener('click', () => { currentIndex = i; stage = 1; showWord(); });
   wordList.appendChild(li);
 });
 
 checkBtn.addEventListener('click', checkWord);
+showWord();
+
+// קפיצה למילה לפי פרמטר URL
+const urlParams = new URLSearchParams(window.location.search);
+const startWord = urlParams.get('word');
+if (startWord !== null) {
+  const index = parseInt(startWord);
+  if (!isNaN(index) && index >= 0 && index < words.length) {
+    currentIndex = index;
+  }
+}
 showWord();
