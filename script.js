@@ -112,6 +112,7 @@ const progressBar = document.getElementById('progress-bar');
 const canvas = document.getElementById('draw-canvas');
 const ctx = canvas.getContext('2d');
 let drawing = false;
+let hasDrawing = false;
 
 function updateProgress() {
   const percent = Math.floor((currentIndex / words.length) * 100);
@@ -159,6 +160,7 @@ function skipWord() {
   showWord();
 }
 
+// בדיקה אוטומטית בהקלדה
 userInput.addEventListener('input', () => {
   const currentWord = words[currentIndex];
   if (userInput.value.trim().toLowerCase() === currentWord.english.toLowerCase()) {
@@ -197,6 +199,7 @@ canvas.addEventListener('touchend', stopDraw);
 
 function startDraw(e) {
   drawing = true;
+  hasDrawing = true;
   ctx.beginPath();
   ctx.moveTo(e.offsetX, e.offsetY);
 }
@@ -215,6 +218,7 @@ function startDrawTouch(e) {
   const x = e.touches[0].clientX - rect.left;
   const y = e.touches[0].clientY - rect.top;
   drawing = true;
+  hasDrawing = true;
   ctx.beginPath();
   ctx.moveTo(x, y);
 }
@@ -230,6 +234,18 @@ function drawTouch(e) {
   ctx.lineTo(x, y);
   ctx.stroke();
 }
-function clearCanvas() { ctx.clearRect(0, 0, canvas.width, canvas.height); }
+function clearCanvas() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  hasDrawing = false;
+}
+
+function checkDrawing() {
+  if (hasDrawing) {
+    feedback.textContent = "נכון! 😊 (ציור)";
+    setTimeout(() => nextStage(), 800);
+  } else {
+    feedback.textContent = "צייר משהו קודם!";
+  }
+}
 
 showWord();

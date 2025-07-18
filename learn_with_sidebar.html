@@ -7,21 +7,16 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
   <style>
-    #draw-canvas {
-      border: 2px solid #444;
-      background: #fff;
-      touch-action: none;
-    }
+    #draw-canvas { border: 2px solid #444; background: #fff; touch-action: none; }
   </style>
 </head>
 <body>
   <header>
     <h1>לימוד מילים – קלדה או ציור</h1>
-    <div id="progress-container">
-      <div id="progress-bar"></div>
-    </div>
+    <div id="progress-container"><div id="progress-bar"></div></div>
     <p id="progress-text">0 מתוך 100 מילים (0%)</p>
     <button onclick="location.href='index.html'">חזור לדף הבית</button>
+    <button onclick="location.href='word_list.html'">רשימת מילים</button>
   </header>
   <div class="content">
     <aside class="sidebar">
@@ -32,6 +27,7 @@
       <div id="word-display"></div>
       <input type="text" id="user-input" placeholder="כתוב כאן את המילה">
       <canvas id="draw-canvas" width="300" height="150"></canvas>
+      <button onclick="checkDrawing()">סיימתי לצייר</button>
       <button onclick="clearCanvas()">נקה ציור</button>
       <button onclick="skipWord()">דלג מילה</button>
       <div id="feedback"></div>
