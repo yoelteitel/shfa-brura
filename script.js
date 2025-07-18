@@ -104,13 +104,14 @@ const words = [
 
 let currentIndex = 0;
 let stage = 1;
-
 const wordDisplay = document.getElementById('word-display');
 const userInput = document.getElementById('user-input');
 const feedback = document.getElementById('feedback');
-const checkBtn = document.getElementById('check-btn');
 const progressText = document.getElementById('progress-text');
 const progressBar = document.getElementById('progress-bar');
+const canvas = document.getElementById('draw-canvas');
+const ctx = canvas.getContext('2d');
+let drawing = false;
 
 function updateProgress() {
   const percent = Math.floor((currentIndex / words.length) * 100);
@@ -142,28 +143,8 @@ function showWord() {
     wordDisplay.textContent = currentWord.hebrew;
   }
   userInput.value = '';
+  clearCanvas();
   updateProgress();
-}
-
-function checkWord() {
-  const currentWord = words[currentIndex];
-  if (userInput.value.trim().toLowerCase() === currentWord.english.toLowerCase()) {
-    feedback.textContent = "נכון!";
-    stage++;
-    if (stage > 4) {
-      stage = 1;
-      currentIndex++;
-      if (currentIndex >= words.length) {
-        wordDisplay.textContent = "סיימת את כל המילים!";
-        userInput.style.display = 'none';
-        checkBtn.style.display = 'none';
-        return;
-      }
-    }
-    showWord();
-  } else {
-    feedback.textContent = "נסה שוב!";
-  }
 }
 
 function skipWord() {
@@ -171,22 +152,96 @@ function skipWord() {
   if (currentIndex >= words.length) {
     wordDisplay.textContent = "סיימת את כל המילים!";
     userInput.style.display = 'none';
-    checkBtn.style.display = 'none';
+    canvas.style.display = 'none';
     return;
   }
   stage = 1;
   showWord();
 }
 
-// בניית רשימת המילים בסיידבר עם השמעה
-const wordList = document.getElementById('word-list');
-words.forEach((w, i) => {
-  const li = document.createElement('li');
-  li.innerHTML = `${i + 1}. ${w.hebrew} – ${w.english} <button onclick="playWordAudio('${w.english}')">🔊</button>`;
-  li.style.cursor = 'pointer';
-  li.addEventListener('click', () => { currentIndex = i; stage = 1; showWord(); });
-  wordList.appendChild(li);
+// בדיקה בזמן הקלדה
+userInput.addEventListener('input', () => {
+  const currentWord = words[currentIndex];
+  if (userInput.value.trim().toLowerCase() === currentWord.english.toLowerCase()) {
+    feedback.textContent = "נכון! 😊";
+    setTimeout(() => nextStage(), 800);
+  } else if (userInput.value.trim().length > 0) {
+    feedback.textContent = "נסה שוב!";
+  } else {
+    feedback.textContent = '';
+  }
 });
 
-checkBtn.addEventListener('click', checkWord);
+function nextStage() {
+  stage++;
+  if (stage > 4) {
+    stage = 1;
+    currentIndex++;
+    if (currentIndex >= words.length) {
+      wordDisplay.textContent = "סיימת את כל המילים!";
+      userInput.style.display = 'none';
+      canvas.style.display = 'none';
+      return;
+    }
+  }
+  showWord();
+}
+
+// --- ציור ---
+canvas.addEventListener('mousedown', startDraw);
+canvas.addEventListener('mousemove', draw);
+canvas.addEventListener('mouseup', stopDraw);
+canvas.addEventListener('mouseout', stopDraw);
+
+canvas.addEventListener('touchstart', startDrawTouch);
+canvas.addEventListener('touchmove', drawTouch);
+canvas.addEventListener('touchend', stopDraw);
+
+function startDraw(e) {
+  drawing = true;
+  ctx.beginPath();
+  ctx.moveTo(e.offsetX, e.offsetY);
+}
+
+function draw(e) {
+  if (!drawing) return;
+  ctx.lineWidth = 4;
+  ctx.lineCap = "round";
+  ctx.strokeStyle = "#000";
+  ctx.lineTo(e.offsetX, e.offsetY);
+  ctx.stroke();
+}
+
+function stopDraw() {
+  drawing = false;
+  ctx.beginPath();
+}
+
+function startDrawTouch(e) {
+  e.preventDefault();
+  const rect = canvas.getBoundingClientRect();
+  const x = e.touches[0].clientX - rect.left;
+  const y = e.touches[0].clientY - rect.top;
+  drawing = true;
+  ctx.beginPath();
+  ctx.moveTo(x, y);
+}
+
+function drawTouch(e) {
+  if (!drawing) return;
+  e.preventDefault();
+  const rect = canvas.getBoundingClientRect();
+  const x = e.touches[0].clientX - rect.left;
+  const y = e.touches[0].clientY - rect.top;
+  ctx.lineWidth = 4;
+  ctx.lineCap = "round";
+  ctx.strokeStyle = "#000";
+  ctx.lineTo(x, y);
+  ctx.stroke();
+}
+
+function clearCanvas() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+
 showWord();

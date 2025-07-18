@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>לימוד מילים – שפה ברורה</title>
+  <title>לימוד מילים – קלדה וציור</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
+  <style>
+    #draw-canvas {
+      border: 2px solid #444;
+      background: #fff;
+      touch-action: none;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>לימוד מילים</h1>
+    <h1>לימוד מילים – קלדה או ציור</h1>
     <div id="progress-container">
       <div id="progress-bar"></div>
     </div>
@@ -24,7 +31,8 @@
     <main id="learning-area">
       <div id="word-display"></div>
       <input type="text" id="user-input" placeholder="כתוב כאן את המילה">
-      <button id="check-btn">בדוק</button>
+      <canvas id="draw-canvas" width="300" height="150"></canvas>
+      <button onclick="clearCanvas()">נקה ציור</button>
       <button onclick="skipWord()">דלג מילה</button>
       <div id="feedback"></div>
     </main>
