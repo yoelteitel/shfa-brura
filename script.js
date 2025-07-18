@@ -129,14 +129,15 @@ function showWord() {
   const currentWord = words[currentIndex];
   if (stage === 1) {
     wordDisplay.textContent = `${currentWord.hebrew} – ${currentWord.english}`;
-    // הפעל אוטומטית אודיו אם קיים
-    if (currentIndex < 10) {
-      playWordAudio(currentWord.english);
-    }
+    if (currentIndex < 10) playWordAudio(currentWord.english);
   } else if (stage === 2) {
-    wordDisplay.textContent = `${currentWord.hebrew} – ${currentWord.english[0]}____`;
+    const base = currentWord.english;
+    const partial = base.substring(0, base.length - 2) + "__";
+    wordDisplay.textContent = `${currentWord.hebrew} – ${partial}`;
   } else if (stage === 3) {
-    wordDisplay.textContent = `${currentWord.hebrew} – ${currentWord.english[0]}______`;
+    const base = currentWord.english;
+    const partial = base[0] + "_".repeat(base.length - 1);
+    wordDisplay.textContent = `${currentWord.hebrew} – ${partial}`;
   } else if (stage === 4) {
     wordDisplay.textContent = currentWord.hebrew;
   }
@@ -177,7 +178,7 @@ function skipWord() {
   showWord();
 }
 
-// בניית רשימת המילים בסיידבר עם כפתור האזנה
+// בניית רשימת המילים בסיידבר עם השמעה
 const wordList = document.getElementById('word-list');
 words.forEach((w, i) => {
   const li = document.createElement('li');
@@ -188,15 +189,4 @@ words.forEach((w, i) => {
 });
 
 checkBtn.addEventListener('click', checkWord);
-showWord();
-
-// קפיצה למילה לפי פרמטר URL
-const urlParams = new URLSearchParams(window.location.search);
-const startWord = urlParams.get('word');
-if (startWord !== null) {
-  const index = parseInt(startWord);
-  if (!isNaN(index) && index >= 0 && index < words.length) {
-    currentIndex = index;
-  }
-}
 showWord();
