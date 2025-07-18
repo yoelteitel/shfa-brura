@@ -1,8 +1,13 @@
 
 let words = [];
-let currentIndex = parseInt(localStorage.getItem('currentIndex')) || 0;
+let currentIndex = 0;
 let stage = 1;
 let reviewMode = false;
+
+function getWordParam() {
+  const params = new URLSearchParams(window.location.search);
+  return parseInt(params.get('word')) || 0;
+}
 
 const wordDisplay = document.getElementById('word-display');
 const userInput = document.getElementById('user-input');
@@ -13,6 +18,7 @@ const progressBar = document.getElementById('progress-bar');
 async function loadWords() {
   const response = await fetch('words.json');
   words = await response.json();
+  currentIndex = getWordParam();
   showWord();
 }
 
@@ -64,15 +70,11 @@ function nextStage() {
   if (stage > 4) {
     stage = 1;
     currentIndex++;
-    localStorage.setItem('currentIndex', currentIndex);
-
-    if (!reviewMode && currentIndex % 10 === 0) {
-      reviewMode = true;
-      alert("זמן חזרה! נעבור למצב חזרה (10 מילים).");
-    } else if (reviewMode && currentIndex % 10 === 0) {
-      reviewMode = false;
+    if (!reviewMode && currentIndex % 10 === 0 && currentIndex < words.length) {
+      // מעבר אוטומטי לחזרה 10
+      window.location.href = 'review.html?start=' + (currentIndex - 10);
+      return;
     }
-
     if (currentIndex >= words.length) {
       wordDisplay.textContent = "סיימת את כל המילים!";
       userInput.style.display = 'none';
@@ -90,7 +92,6 @@ function prevStage() {
 
 function skipWord() {
   currentIndex++;
-  localStorage.setItem('currentIndex', currentIndex);
   if (currentIndex >= words.length) {
     wordDisplay.textContent = "סיימת את כל המילים!";
     userInput.style.display = 'none';

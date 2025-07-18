@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>משחק חזרה – התאמות</title>
+  <title>משחק חזרה – 20 מילים</title>
   <link rel="stylesheet" href="style.css">
   <style>
     .container { display: flex; justify-content: space-around; margin-top: 20px; }
@@ -26,7 +26,7 @@
     async function loadReviewWords() {
       const res = await fetch('words.json');
       const words = await res.json();
-      const start = Math.max(0, words.length - 10);
+      const start = Math.max(0, words.length - 20);
       const reviewWords = words.slice(start);
       leftItems = reviewWords.map(w => w.hebrew);
       rightItems = reviewWords.map(w => w.english);
@@ -76,7 +76,7 @@
       div.classList.add('matched');
       let scoreEl = document.getElementById('score');
       let currentScore = (parseInt(scoreEl.textContent.match(/\d+/)) || 0) + 1;
-      scoreEl.textContent = "ציון: " + currentScore + "/10";
+      scoreEl.textContent = "ציון: " + currentScore + "/20";
     
             selectedLeft.classList.add('matched');
             div.classList.add('matched');
@@ -91,7 +91,7 @@
 </head>
 <body>
   <header>
-    <h1>חזרה על 10 מילים אחרונות – התאמות</h1>
+    <h1>חזרה על 20 מילים אחרונות – התאמות</h1>
     <button onclick="location.href='learn.html'">חזור ללימוד</button>
   </header>
   <div class="container">
@@ -99,7 +99,7 @@
     <div class="column" id="right-column"></div>
   </div>
 
-    <div id="score" style="margin-top:20px; font-size:20px;">ציון: 0/10</div>
+    <div id="score" style="margin-top:20px; font-size:20px;">ציון: 0/20</div>
     </body>
     
 </html>
