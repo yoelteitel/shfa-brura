@@ -159,7 +159,6 @@ function skipWord() {
   showWord();
 }
 
-// בדיקה בזמן הקלדה
 userInput.addEventListener('input', () => {
   const currentWord = words[currentIndex];
   if (userInput.value.trim().toLowerCase() === currentWord.english.toLowerCase()) {
@@ -187,12 +186,11 @@ function nextStage() {
   showWord();
 }
 
-// --- ציור ---
+// ציור
 canvas.addEventListener('mousedown', startDraw);
 canvas.addEventListener('mousemove', draw);
 canvas.addEventListener('mouseup', stopDraw);
 canvas.addEventListener('mouseout', stopDraw);
-
 canvas.addEventListener('touchstart', startDrawTouch);
 canvas.addEventListener('touchmove', drawTouch);
 canvas.addEventListener('touchend', stopDraw);
@@ -202,7 +200,6 @@ function startDraw(e) {
   ctx.beginPath();
   ctx.moveTo(e.offsetX, e.offsetY);
 }
-
 function draw(e) {
   if (!drawing) return;
   ctx.lineWidth = 4;
@@ -211,12 +208,7 @@ function draw(e) {
   ctx.lineTo(e.offsetX, e.offsetY);
   ctx.stroke();
 }
-
-function stopDraw() {
-  drawing = false;
-  ctx.beginPath();
-}
-
+function stopDraw() { drawing = false; ctx.beginPath(); }
 function startDrawTouch(e) {
   e.preventDefault();
   const rect = canvas.getBoundingClientRect();
@@ -226,7 +218,6 @@ function startDrawTouch(e) {
   ctx.beginPath();
   ctx.moveTo(x, y);
 }
-
 function drawTouch(e) {
   if (!drawing) return;
   e.preventDefault();
@@ -239,9 +230,6 @@ function drawTouch(e) {
   ctx.lineTo(x, y);
   ctx.stroke();
 }
-
-function clearCanvas() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-}
+function clearCanvas() { ctx.clearRect(0, 0, canvas.width, canvas.height); }
 
 showWord();

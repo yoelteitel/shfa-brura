@@ -5,178 +5,115 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>רשימת המילים</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      direction: rtl;
-      background-color: #f9f9f9;
-      text-align: center;
-    }
-    table {
-      margin: 20px auto;
-      width: 80%;
-      border-collapse: collapse;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      background-color: #fff;
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    th {
-      background-color: #4CAF50;
-      color: white;
-      padding: 12px;
-      font-size: 18px;
-    }
-    td {
-      padding: 10px;
-      border-bottom: 1px solid #ddd;
-      font-size: 16px;
-    }
-    tr:nth-child(even) {
-      background-color: #f2f2f2;
-    }
-    tr:hover {
-      background-color: #e8f5e9;
-    }
-    button {
-      padding: 5px 10px;
-      border: none;
-      background-color: #4CAF50;
-      color: white;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #45a049;
-    }
-    a {
-      text-decoration: none;
-      color: #333;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-  <script>
-    function playWordAudio(word) {
-      const filename = word.toLowerCase().replace(/ /g, '_') + '.mp3';
-      const audio = new Audio('audio/' + filename);
-      audio.play().catch(() => { alert("אין קובץ אודיו למילה זו"); });
-    }
-  </script>
 </head>
 <body>
   <header>
-    <h1 style="margin-top:20px;">רשימת 100 מילים</h1>
+    <h1>רשימת 100 מילים</h1>
     <button onclick="location.href='index.html'">חזור לדף הבית</button>
   </header>
-  <table>
-    <thead>
-      <tr><th>#</th><th>מילה</th><th>אודיו</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>1</td><td><a href="learn_with_sidebar.html?word=0">שלום – hello</a></td><td><button onclick="playWordAudio('hello')">🔊</button></td></tr>
-<tr><td>2</td><td><a href="learn_with_sidebar.html?word=1">כלב – dog</a></td><td><button onclick="playWordAudio('dog')">🔊</button></td></tr>
-<tr><td>3</td><td><a href="learn_with_sidebar.html?word=2">מים – water</a></td><td><button onclick="playWordAudio('water')">🔊</button></td></tr>
-<tr><td>4</td><td><a href="learn_with_sidebar.html?word=3">תודה – thank you</a></td><td><button onclick="playWordAudio('thank you')">🔊</button></td></tr>
-<tr><td>5</td><td><a href="learn_with_sidebar.html?word=4">כן – yes</a></td><td><button onclick="playWordAudio('yes')">🔊</button></td></tr>
-<tr><td>6</td><td><a href="learn_with_sidebar.html?word=5">לא – no</a></td><td><button onclick="playWordAudio('no')">🔊</button></td></tr>
-<tr><td>7</td><td><a href="learn_with_sidebar.html?word=6">אוכל – food</a></td><td><button onclick="playWordAudio('food')">🔊</button></td></tr>
-<tr><td>8</td><td><a href="learn_with_sidebar.html?word=7">חבר – friend</a></td><td><button onclick="playWordAudio('friend')">🔊</button></td></tr>
-<tr><td>9</td><td><a href="learn_with_sidebar.html?word=8">בית – house</a></td><td><button onclick="playWordAudio('house')">🔊</button></td></tr>
-<tr><td>10</td><td><a href="learn_with_sidebar.html?word=9">חתול – cat</a></td><td><button onclick="playWordAudio('cat')">🔊</button></td></tr>
-<tr><td>11</td><td><a href="learn_with_sidebar.html?word=10">ספר – book</a></td><td><button onclick="playWordAudio('book')">🔊</button></td></tr>
-<tr><td>12</td><td><a href="learn_with_sidebar.html?word=11">דלת – door</a></td><td><button onclick="playWordAudio('door')">🔊</button></td></tr>
-<tr><td>13</td><td><a href="learn_with_sidebar.html?word=12">אור – light</a></td><td><button onclick="playWordAudio('light')">🔊</button></td></tr>
-<tr><td>14</td><td><a href="learn_with_sidebar.html?word=13">חושך – dark</a></td><td><button onclick="playWordAudio('dark')">🔊</button></td></tr>
-<tr><td>15</td><td><a href="learn_with_sidebar.html?word=14">שמיים – sky</a></td><td><button onclick="playWordAudio('sky')">🔊</button></td></tr>
-<tr><td>16</td><td><a href="learn_with_sidebar.html?word=15">עץ – tree</a></td><td><button onclick="playWordAudio('tree')">🔊</button></td></tr>
-<tr><td>17</td><td><a href="learn_with_sidebar.html?word=16">אדמה – earth</a></td><td><button onclick="playWordAudio('earth')">🔊</button></td></tr>
-<tr><td>18</td><td><a href="learn_with_sidebar.html?word=17">שמש – sun</a></td><td><button onclick="playWordAudio('sun')">🔊</button></td></tr>
-<tr><td>19</td><td><a href="learn_with_sidebar.html?word=18">ירח – moon</a></td><td><button onclick="playWordAudio('moon')">🔊</button></td></tr>
-<tr><td>20</td><td><a href="learn_with_sidebar.html?word=19">כוכב – star</a></td><td><button onclick="playWordAudio('star')">🔊</button></td></tr>
-<tr><td>21</td><td><a href="learn_with_sidebar.html?word=20">ים – sea</a></td><td><button onclick="playWordAudio('sea')">🔊</button></td></tr>
-<tr><td>22</td><td><a href="learn_with_sidebar.html?word=21">נהר – river</a></td><td><button onclick="playWordAudio('river')">🔊</button></td></tr>
-<tr><td>23</td><td><a href="learn_with_sidebar.html?word=22">הר – mountain</a></td><td><button onclick="playWordAudio('mountain')">🔊</button></td></tr>
-<tr><td>24</td><td><a href="learn_with_sidebar.html?word=23">אבן – stone</a></td><td><button onclick="playWordAudio('stone')">🔊</button></td></tr>
-<tr><td>25</td><td><a href="learn_with_sidebar.html?word=24">זהב – gold</a></td><td><button onclick="playWordAudio('gold')">🔊</button></td></tr>
-<tr><td>26</td><td><a href="learn_with_sidebar.html?word=25">כסף – silver</a></td><td><button onclick="playWordAudio('silver')">🔊</button></td></tr>
-<tr><td>27</td><td><a href="learn_with_sidebar.html?word=26">אש – fire</a></td><td><button onclick="playWordAudio('fire')">🔊</button></td></tr>
-<tr><td>28</td><td><a href="learn_with_sidebar.html?word=27">רוח – wind</a></td><td><button onclick="playWordAudio('wind')">🔊</button></td></tr>
-<tr><td>29</td><td><a href="learn_with_sidebar.html?word=28">גשם – rain</a></td><td><button onclick="playWordAudio('rain')">🔊</button></td></tr>
-<tr><td>30</td><td><a href="learn_with_sidebar.html?word=29">שלג – snow</a></td><td><button onclick="playWordAudio('snow')">🔊</button></td></tr>
-<tr><td>31</td><td><a href="learn_with_sidebar.html?word=30">אוויר – air</a></td><td><button onclick="playWordAudio('air')">🔊</button></td></tr>
-<tr><td>32</td><td><a href="learn_with_sidebar.html?word=31">בריאות – health</a></td><td><button onclick="playWordAudio('health')">🔊</button></td></tr>
-<tr><td>33</td><td><a href="learn_with_sidebar.html?word=32">משפחה – family</a></td><td><button onclick="playWordAudio('family')">🔊</button></td></tr>
-<tr><td>34</td><td><a href="learn_with_sidebar.html?word=33">ילד – child</a></td><td><button onclick="playWordAudio('child')">🔊</button></td></tr>
-<tr><td>35</td><td><a href="learn_with_sidebar.html?word=34">ילדה – girl</a></td><td><button onclick="playWordAudio('girl')">🔊</button></td></tr>
-<tr><td>36</td><td><a href="learn_with_sidebar.html?word=35">איש – man</a></td><td><button onclick="playWordAudio('man')">🔊</button></td></tr>
-<tr><td>37</td><td><a href="learn_with_sidebar.html?word=36">אישה – woman</a></td><td><button onclick="playWordAudio('woman')">🔊</button></td></tr>
-<tr><td>38</td><td><a href="learn_with_sidebar.html?word=37">לב – heart</a></td><td><button onclick="playWordAudio('heart')">🔊</button></td></tr>
-<tr><td>39</td><td><a href="learn_with_sidebar.html?word=38">יד – hand</a></td><td><button onclick="playWordAudio('hand')">🔊</button></td></tr>
-<tr><td>40</td><td><a href="learn_with_sidebar.html?word=39">רגל – leg</a></td><td><button onclick="playWordAudio('leg')">🔊</button></td></tr>
-<tr><td>41</td><td><a href="learn_with_sidebar.html?word=40">ראש – head</a></td><td><button onclick="playWordAudio('head')">🔊</button></td></tr>
-<tr><td>42</td><td><a href="learn_with_sidebar.html?word=41">עין – eye</a></td><td><button onclick="playWordAudio('eye')">🔊</button></td></tr>
-<tr><td>43</td><td><a href="learn_with_sidebar.html?word=42">פה – mouth</a></td><td><button onclick="playWordAudio('mouth')">🔊</button></td></tr>
-<tr><td>44</td><td><a href="learn_with_sidebar.html?word=43">שן – tooth</a></td><td><button onclick="playWordAudio('tooth')">🔊</button></td></tr>
-<tr><td>45</td><td><a href="learn_with_sidebar.html?word=44">אף – nose</a></td><td><button onclick="playWordAudio('nose')">🔊</button></td></tr>
-<tr><td>46</td><td><a href="learn_with_sidebar.html?word=45">אוזן – ear</a></td><td><button onclick="playWordAudio('ear')">🔊</button></td></tr>
-<tr><td>47</td><td><a href="learn_with_sidebar.html?word=46">צבע – color</a></td><td><button onclick="playWordAudio('color')">🔊</button></td></tr>
-<tr><td>48</td><td><a href="learn_with_sidebar.html?word=47">אדום – red</a></td><td><button onclick="playWordAudio('red')">🔊</button></td></tr>
-<tr><td>49</td><td><a href="learn_with_sidebar.html?word=48">כחול – blue</a></td><td><button onclick="playWordAudio('blue')">🔊</button></td></tr>
-<tr><td>50</td><td><a href="learn_with_sidebar.html?word=49">ירוק – green</a></td><td><button onclick="playWordAudio('green')">🔊</button></td></tr>
-<tr><td>51</td><td><a href="learn_with_sidebar.html?word=50">צהוב – yellow</a></td><td><button onclick="playWordAudio('yellow')">🔊</button></td></tr>
-<tr><td>52</td><td><a href="learn_with_sidebar.html?word=51">לבן – white</a></td><td><button onclick="playWordAudio('white')">🔊</button></td></tr>
-<tr><td>53</td><td><a href="learn_with_sidebar.html?word=52">שחור – black</a></td><td><button onclick="playWordAudio('black')">🔊</button></td></tr>
-<tr><td>54</td><td><a href="learn_with_sidebar.html?word=53">אפור – gray</a></td><td><button onclick="playWordAudio('gray')">🔊</button></td></tr>
-<tr><td>55</td><td><a href="learn_with_sidebar.html?word=54">חום – brown</a></td><td><button onclick="playWordAudio('brown')">🔊</button></td></tr>
-<tr><td>56</td><td><a href="learn_with_sidebar.html?word=55">ורוד – pink</a></td><td><button onclick="playWordAudio('pink')">🔊</button></td></tr>
-<tr><td>57</td><td><a href="learn_with_sidebar.html?word=56">סגול – purple</a></td><td><button onclick="playWordAudio('purple')">🔊</button></td></tr>
-<tr><td>58</td><td><a href="learn_with_sidebar.html?word=57">כתום – orange</a></td><td><button onclick="playWordAudio('orange')">🔊</button></td></tr>
-<tr><td>59</td><td><a href="learn_with_sidebar.html?word=58">בוקר – morning</a></td><td><button onclick="playWordAudio('morning')">🔊</button></td></tr>
-<tr><td>60</td><td><a href="learn_with_sidebar.html?word=59">צהריים – noon</a></td><td><button onclick="playWordAudio('noon')">🔊</button></td></tr>
-<tr><td>61</td><td><a href="learn_with_sidebar.html?word=60">ערב – evening</a></td><td><button onclick="playWordAudio('evening')">🔊</button></td></tr>
-<tr><td>62</td><td><a href="learn_with_sidebar.html?word=61">לילה – night</a></td><td><button onclick="playWordAudio('night')">🔊</button></td></tr>
-<tr><td>63</td><td><a href="learn_with_sidebar.html?word=62">יום – day</a></td><td><button onclick="playWordAudio('day')">🔊</button></td></tr>
-<tr><td>64</td><td><a href="learn_with_sidebar.html?word=63">שבוע – week</a></td><td><button onclick="playWordAudio('week')">🔊</button></td></tr>
-<tr><td>65</td><td><a href="learn_with_sidebar.html?word=64">חודש – month</a></td><td><button onclick="playWordAudio('month')">🔊</button></td></tr>
-<tr><td>66</td><td><a href="learn_with_sidebar.html?word=65">שנה – year</a></td><td><button onclick="playWordAudio('year')">🔊</button></td></tr>
-<tr><td>67</td><td><a href="learn_with_sidebar.html?word=66">אתמול – yesterday</a></td><td><button onclick="playWordAudio('yesterday')">🔊</button></td></tr>
-<tr><td>68</td><td><a href="learn_with_sidebar.html?word=67">היום – today</a></td><td><button onclick="playWordAudio('today')">🔊</button></td></tr>
-<tr><td>69</td><td><a href="learn_with_sidebar.html?word=68">מחר – tomorrow</a></td><td><button onclick="playWordAudio('tomorrow')">🔊</button></td></tr>
-<tr><td>70</td><td><a href="learn_with_sidebar.html?word=69">שעון – clock</a></td><td><button onclick="playWordAudio('clock')">🔊</button></td></tr>
-<tr><td>71</td><td><a href="learn_with_sidebar.html?word=70">דקה – minute</a></td><td><button onclick="playWordAudio('minute')">🔊</button></td></tr>
-<tr><td>72</td><td><a href="learn_with_sidebar.html?word=71">שעה – hour</a></td><td><button onclick="playWordAudio('hour')">🔊</button></td></tr>
-<tr><td>73</td><td><a href="learn_with_sidebar.html?word=72">זמן – time</a></td><td><button onclick="playWordAudio('time')">🔊</button></td></tr>
-<tr><td>74</td><td><a href="learn_with_sidebar.html?word=73">חיים – life</a></td><td><button onclick="playWordAudio('life')">🔊</button></td></tr>
-<tr><td>75</td><td><a href="learn_with_sidebar.html?word=74">מוות – death</a></td><td><button onclick="playWordAudio('death')">🔊</button></td></tr>
-<tr><td>76</td><td><a href="learn_with_sidebar.html?word=75">אהבה – love</a></td><td><button onclick="playWordAudio('love')">🔊</button></td></tr>
-<tr><td>77</td><td><a href="learn_with_sidebar.html?word=76">שנאה – hate</a></td><td><button onclick="playWordAudio('hate')">🔊</button></td></tr>
-<tr><td>78</td><td><a href="learn_with_sidebar.html?word=77">אמת – truth</a></td><td><button onclick="playWordAudio('truth')">🔊</button></td></tr>
-<tr><td>79</td><td><a href="learn_with_sidebar.html?word=78">שקר – lie</a></td><td><button onclick="playWordAudio('lie')">🔊</button></td></tr>
-<tr><td>80</td><td><a href="learn_with_sidebar.html?word=79">חכמה – wisdom</a></td><td><button onclick="playWordAudio('wisdom')">🔊</button></td></tr>
-<tr><td>81</td><td><a href="learn_with_sidebar.html?word=80">טוב – good</a></td><td><button onclick="playWordAudio('good')">🔊</button></td></tr>
-<tr><td>82</td><td><a href="learn_with_sidebar.html?word=81">רע – bad</a></td><td><button onclick="playWordAudio('bad')">🔊</button></td></tr>
-<tr><td>83</td><td><a href="learn_with_sidebar.html?word=82">חם – hot</a></td><td><button onclick="playWordAudio('hot')">🔊</button></td></tr>
-<tr><td>84</td><td><a href="learn_with_sidebar.html?word=83">קר – cold</a></td><td><button onclick="playWordAudio('cold')">🔊</button></td></tr>
-<tr><td>85</td><td><a href="learn_with_sidebar.html?word=84">מהיר – fast</a></td><td><button onclick="playWordAudio('fast')">🔊</button></td></tr>
-<tr><td>86</td><td><a href="learn_with_sidebar.html?word=85">איטי – slow</a></td><td><button onclick="playWordAudio('slow')">🔊</button></td></tr>
-<tr><td>87</td><td><a href="learn_with_sidebar.html?word=86">גדול – big</a></td><td><button onclick="playWordAudio('big')">🔊</button></td></tr>
-<tr><td>88</td><td><a href="learn_with_sidebar.html?word=87">קטן – small</a></td><td><button onclick="playWordAudio('small')">🔊</button></td></tr>
-<tr><td>89</td><td><a href="learn_with_sidebar.html?word=88">יפה – beautiful</a></td><td><button onclick="playWordAudio('beautiful')">🔊</button></td></tr>
-<tr><td>90</td><td><a href="learn_with_sidebar.html?word=89">מכוער – ugly</a></td><td><button onclick="playWordAudio('ugly')">🔊</button></td></tr>
-<tr><td>91</td><td><a href="learn_with_sidebar.html?word=90">חזק – strong</a></td><td><button onclick="playWordAudio('strong')">🔊</button></td></tr>
-<tr><td>92</td><td><a href="learn_with_sidebar.html?word=91">חלש – weak</a></td><td><button onclick="playWordAudio('weak')">🔊</button></td></tr>
-<tr><td>93</td><td><a href="learn_with_sidebar.html?word=92">חדש – new</a></td><td><button onclick="playWordAudio('new')">🔊</button></td></tr>
-<tr><td>94</td><td><a href="learn_with_sidebar.html?word=93">ישן – old</a></td><td><button onclick="playWordAudio('old')">🔊</button></td></tr>
-<tr><td>95</td><td><a href="learn_with_sidebar.html?word=94">עשיר – rich</a></td><td><button onclick="playWordAudio('rich')">🔊</button></td></tr>
-<tr><td>96</td><td><a href="learn_with_sidebar.html?word=95">עני – poor</a></td><td><button onclick="playWordAudio('poor')">🔊</button></td></tr>
-<tr><td>97</td><td><a href="learn_with_sidebar.html?word=96">קל – easy</a></td><td><button onclick="playWordAudio('easy')">🔊</button></td></tr>
-<tr><td>98</td><td><a href="learn_with_sidebar.html?word=97">קשה – hard</a></td><td><button onclick="playWordAudio('hard')">🔊</button></td></tr>
-<tr><td>99</td><td><a href="learn_with_sidebar.html?word=98">קרוב – near</a></td><td><button onclick="playWordAudio('near')">🔊</button></td></tr>
-<tr><td>100</td><td><a href="learn_with_sidebar.html?word=99">רחוק – far</a></td><td><button onclick="playWordAudio('far')">🔊</button></td></tr>
+  <table border="1" style="width:80%; margin:auto; border-collapse:collapse;">
+    <tr><th>#</th><th>מילה</th></tr>
+    <tr><td>1</td><td>שלום – hello</td></tr>
+<tr><td>2</td><td>כלב – dog</td></tr>
+<tr><td>3</td><td>מים – water</td></tr>
+<tr><td>4</td><td>תודה – thank you</td></tr>
+<tr><td>5</td><td>כן – yes</td></tr>
+<tr><td>6</td><td>לא – no</td></tr>
+<tr><td>7</td><td>אוכל – food</td></tr>
+<tr><td>8</td><td>חבר – friend</td></tr>
+<tr><td>9</td><td>בית – house</td></tr>
+<tr><td>10</td><td>חתול – cat</td></tr>
+<tr><td>11</td><td>ספר – book</td></tr>
+<tr><td>12</td><td>דלת – door</td></tr>
+<tr><td>13</td><td>אור – light</td></tr>
+<tr><td>14</td><td>חושך – dark</td></tr>
+<tr><td>15</td><td>שמיים – sky</td></tr>
+<tr><td>16</td><td>עץ – tree</td></tr>
+<tr><td>17</td><td>אדמה – earth</td></tr>
+<tr><td>18</td><td>שמש – sun</td></tr>
+<tr><td>19</td><td>ירח – moon</td></tr>
+<tr><td>20</td><td>כוכב – star</td></tr>
+<tr><td>21</td><td>ים – sea</td></tr>
+<tr><td>22</td><td>נהר – river</td></tr>
+<tr><td>23</td><td>הר – mountain</td></tr>
+<tr><td>24</td><td>אבן – stone</td></tr>
+<tr><td>25</td><td>זהב – gold</td></tr>
+<tr><td>26</td><td>כסף – silver</td></tr>
+<tr><td>27</td><td>אש – fire</td></tr>
+<tr><td>28</td><td>רוח – wind</td></tr>
+<tr><td>29</td><td>גשם – rain</td></tr>
+<tr><td>30</td><td>שלג – snow</td></tr>
+<tr><td>31</td><td>אוויר – air</td></tr>
+<tr><td>32</td><td>בריאות – health</td></tr>
+<tr><td>33</td><td>משפחה – family</td></tr>
+<tr><td>34</td><td>ילד – child</td></tr>
+<tr><td>35</td><td>ילדה – girl</td></tr>
+<tr><td>36</td><td>איש – man</td></tr>
+<tr><td>37</td><td>אישה – woman</td></tr>
+<tr><td>38</td><td>לב – heart</td></tr>
+<tr><td>39</td><td>יד – hand</td></tr>
+<tr><td>40</td><td>רגל – leg</td></tr>
+<tr><td>41</td><td>ראש – head</td></tr>
+<tr><td>42</td><td>עין – eye</td></tr>
+<tr><td>43</td><td>פה – mouth</td></tr>
+<tr><td>44</td><td>שן – tooth</td></tr>
+<tr><td>45</td><td>אף – nose</td></tr>
+<tr><td>46</td><td>אוזן – ear</td></tr>
+<tr><td>47</td><td>צבע – color</td></tr>
+<tr><td>48</td><td>אדום – red</td></tr>
+<tr><td>49</td><td>כחול – blue</td></tr>
+<tr><td>50</td><td>ירוק – green</td></tr>
+<tr><td>51</td><td>צהוב – yellow</td></tr>
+<tr><td>52</td><td>לבן – white</td></tr>
+<tr><td>53</td><td>שחור – black</td></tr>
+<tr><td>54</td><td>אפור – gray</td></tr>
+<tr><td>55</td><td>חום – brown</td></tr>
+<tr><td>56</td><td>ורוד – pink</td></tr>
+<tr><td>57</td><td>סגול – purple</td></tr>
+<tr><td>58</td><td>כתום – orange</td></tr>
+<tr><td>59</td><td>בוקר – morning</td></tr>
+<tr><td>60</td><td>צהריים – noon</td></tr>
+<tr><td>61</td><td>ערב – evening</td></tr>
+<tr><td>62</td><td>לילה – night</td></tr>
+<tr><td>63</td><td>יום – day</td></tr>
+<tr><td>64</td><td>שבוע – week</td></tr>
+<tr><td>65</td><td>חודש – month</td></tr>
+<tr><td>66</td><td>שנה – year</td></tr>
+<tr><td>67</td><td>אתמול – yesterday</td></tr>
+<tr><td>68</td><td>היום – today</td></tr>
+<tr><td>69</td><td>מחר – tomorrow</td></tr>
+<tr><td>70</td><td>שעון – clock</td></tr>
+<tr><td>71</td><td>דקה – minute</td></tr>
+<tr><td>72</td><td>שעה – hour</td></tr>
+<tr><td>73</td><td>זמן – time</td></tr>
+<tr><td>74</td><td>חיים – life</td></tr>
+<tr><td>75</td><td>מוות – death</td></tr>
+<tr><td>76</td><td>אהבה – love</td></tr>
+<tr><td>77</td><td>שנאה – hate</td></tr>
+<tr><td>78</td><td>אמת – truth</td></tr>
+<tr><td>79</td><td>שקר – lie</td></tr>
+<tr><td>80</td><td>חכמה – wisdom</td></tr>
+<tr><td>81</td><td>טוב – good</td></tr>
+<tr><td>82</td><td>רע – bad</td></tr>
+<tr><td>83</td><td>חם – hot</td></tr>
+<tr><td>84</td><td>קר – cold</td></tr>
+<tr><td>85</td><td>מהיר – fast</td></tr>
+<tr><td>86</td><td>איטי – slow</td></tr>
+<tr><td>87</td><td>גדול – big</td></tr>
+<tr><td>88</td><td>קטן – small</td></tr>
+<tr><td>89</td><td>יפה – beautiful</td></tr>
+<tr><td>90</td><td>מכוער – ugly</td></tr>
+<tr><td>91</td><td>חזק – strong</td></tr>
+<tr><td>92</td><td>חלש – weak</td></tr>
+<tr><td>93</td><td>חדש – new</td></tr>
+<tr><td>94</td><td>ישן – old</td></tr>
+<tr><td>95</td><td>עשיר – rich</td></tr>
+<tr><td>96</td><td>עני – poor</td></tr>
+<tr><td>97</td><td>קל – easy</td></tr>
+<tr><td>98</td><td>קשה – hard</td></tr>
+<tr><td>99</td><td>קרוב – near</td></tr>
+<tr><td>100</td><td>רחוק – far</td></tr>
 
-    </tbody>
   </table>
 </body>
 </html>
