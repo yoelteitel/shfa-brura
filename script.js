@@ -2,11 +2,18 @@
 let words = [];
 let currentIndex = 0;
 let stage = 1;
-let reviewMode = false;
 
-function getWordParam() {
+function getParam(name) {
   const params = new URLSearchParams(window.location.search);
-  return parseInt(params.get('word')) || 0;
+  return params.get(name);
+}
+
+async function loadWords() {
+  const response = await fetch('words.json');
+  words = await response.json();
+  const startWord = parseInt(getParam('word'));
+  currentIndex = isNaN(startWord) ? 0 : startWord;
+  showWord();
 }
 
 const wordDisplay = document.getElementById('word-display');
@@ -14,13 +21,6 @@ const userInput = document.getElementById('user-input');
 const feedback = document.getElementById('feedback');
 const progressText = document.getElementById('progress-text');
 const progressBar = document.getElementById('progress-bar');
-
-async function loadWords() {
-  const response = await fetch('words.json');
-  words = await response.json();
-  currentIndex = getWordParam();
-  showWord();
-}
 
 function updateProgress() {
   const percent = Math.floor((currentIndex / words.length) * 100);
@@ -70,9 +70,12 @@ function nextStage() {
   if (stage > 4) {
     stage = 1;
     currentIndex++;
-    if (!reviewMode && currentIndex % 10 === 0 && currentIndex < words.length) {
-      // מעבר אוטומטי לחזרה 10
+    if (currentIndex % 10 === 0 && currentIndex < words.length) {
       window.location.href = 'review.html?start=' + (currentIndex - 10);
+      return;
+    }
+    if (currentIndex === 100) {
+      window.location.href = 'review_20.html?start=80';
       return;
     }
     if (currentIndex >= words.length) {

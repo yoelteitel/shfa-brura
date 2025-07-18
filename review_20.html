@@ -26,7 +26,7 @@
     async function loadReviewWords() {
       const res = await fetch('words.json');
       const words = await res.json();
-      const start = Math.max(0, words.length - 20);
+      const start = parseInt(new URLSearchParams(window.location.search).get('start')) || Math.max(0, words.length - 20);
       const reviewWords = words.slice(start);
       leftItems = reviewWords.map(w => w.hebrew);
       rightItems = reviewWords.map(w => w.english);

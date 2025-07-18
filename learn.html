@@ -6,17 +6,31 @@
   <title>לימוד מילים</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
+  <style>
+    #word-list-btn {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+      padding: 10px;
+      background: #4caf50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
+  <button id="word-list-btn" onclick="window.open('word_list.html', '_blank', 'width=600,height=800')">
+    קובץ מילים
+  </button>
   <header>
     <h1>לימוד מילים</h1>
     <div id="progress-container"><div id="progress-bar"></div></div>
     <p id="progress-text">0 מתוך מילים</p>
     <button onclick="location.href='index.html'">חזור לדף הבית</button>
-  
-    <button onclick="window.open('word_list.html', '_blank', 'width=600,height=800')">פתח רשימת מילים</button>
-    </header>
-    
+  </header>
   <main>
     <div id="word-display"></div>
     <input type="text" id="user-input" placeholder="כתוב כאן את המילה">
