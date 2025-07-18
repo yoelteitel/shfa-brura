@@ -1,6 +1,6 @@
 
 let words = [];
-let currentIndex = 0;
+let currentIndex = parseInt(localStorage.getItem('currentIndex')) || 0;
 let stage = 1;
 let reviewMode = false;
 
@@ -19,7 +19,7 @@ async function loadWords() {
 function updateProgress() {
   const percent = Math.floor((currentIndex / words.length) * 100);
   progressBar.style.width = percent + "%";
-  progressText.textContent = `${currentIndex} מתוך ${words.length} מילים (${percent}%)`;
+  progressText.textContent = `מילה ${currentIndex + 1} מתוך ${words.length} (${percent}%)`;
 }
 
 function showWord() {
@@ -64,12 +64,12 @@ function nextStage() {
   if (stage > 4) {
     stage = 1;
     currentIndex++;
+    localStorage.setItem('currentIndex', currentIndex);
 
     if (!reviewMode && currentIndex % 10 === 0) {
       reviewMode = true;
-      currentIndex = currentIndex - 10;
-      alert("זמן חזרה! חזור על 10 המילים האחרונות.");
-    } else if (reviewMode && (currentIndex % 10 === 0)) {
+      alert("זמן חזרה! נעבור למצב חזרה (10 מילים).");
+    } else if (reviewMode && currentIndex % 10 === 0) {
       reviewMode = false;
     }
 
@@ -90,6 +90,7 @@ function prevStage() {
 
 function skipWord() {
   currentIndex++;
+  localStorage.setItem('currentIndex', currentIndex);
   if (currentIndex >= words.length) {
     wordDisplay.textContent = "סיימת את כל המילים!";
     userInput.style.display = 'none';

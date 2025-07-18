@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>משחק חזרה – התאמות</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .container { display: flex; justify-content: space-around; margin-top: 20px; }
+    .column { display: flex; flex-direction: column; gap: 10px; }
+    .item { background: #fff; padding: 10px; border: 1px solid #ccc; cursor: pointer; }
+    .item.matched { background: #cfc; }
+  </style>
+  <script>
+    let leftItems = [];
+    let rightItems = [];
+    let selectedLeft = null;
+
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
+
+    async function loadReviewWords() {
+      const res = await fetch('words.json');
+      const words = await res.json();
+      const start = Math.max(0, words.length - 10);
+      const reviewWords = words.slice(start);
+      leftItems = reviewWords.map(w => w.hebrew);
+      rightItems = reviewWords.map(w => w.english);
+      shuffle(rightItems);
+
+      const leftColumn = document.getElementById('left-column');
+      const rightColumn = document.getElementById('right-column');
+      leftItems.forEach((item, index) => {
+        const div = document.createElement('div');
+        div.className = 'item';
+        div.textContent = item;
+        div.dataset.index = index;
+        div.onclick = () => selectLeft(div);
+        leftColumn.appendChild(div);
+      });
+      rightItems.forEach((item, index) => {
+        const div = document.createElement('div');
+        div.className = 'item';
+        div.textContent = item;
+        div.dataset.index = index;
+        div.onclick = () => matchRight(div);
+        rightColumn.appendChild(div);
+      });
+    }
+
+    function selectLeft(div) {
+      document.querySelectorAll('.item').forEach(el => el.classList.remove('selected'));
+      div.classList.add('selected');
+      selectedLeft = div;
+    }
+
+    function matchRight(div) {
+      if (!selectedLeft) return;
+      const leftIndex = selectedLeft.dataset.index;
+      const rightIndex = div.dataset.index;
+      const heb = leftItems[leftIndex];
+      const eng = rightItems[rightIndex];
+      fetch('words.json')
+        .then(res => res.json())
+        .then(words => {
+          const correctEng = words.find(w => w.hebrew === heb).english;
+          if (correctEng === eng) {
+            selectedLeft.classList.add('matched');
+            div.classList.add('matched');
+          } else {
+            alert('לא מתאים! נסה שוב.');
+          }
+        });
+    }
+
+    window.onload = loadReviewWords;
+  </script>
+</head>
+<body>
+  <header>
+    <h1>חזרה על 10 מילים אחרונות – התאמות</h1>
+    <button onclick="location.href='learn.html'">חזור ללימוד</button>
+  </header>
+  <div class="container">
+    <div class="column" id="left-column"></div>
+    <div class="column" id="right-column"></div>
+  </div>
+</body>
+</html>
