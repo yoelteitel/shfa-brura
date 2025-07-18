@@ -132,7 +132,7 @@ function showWord() {
     if (currentIndex < 10) playWordAudio(currentWord.english);
   } else if (stage === 2) {
     const base = currentWord.english;
-    const partial = base.substring(0, base.length - 2) + "__";
+    const partial = base.slice(0, Math.max(base.length - 2, 1)) + "__";
     wordDisplay.textContent = `${currentWord.hebrew} – ${partial}`;
   } else if (stage === 3) {
     const base = currentWord.english;
