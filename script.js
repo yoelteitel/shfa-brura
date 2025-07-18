@@ -1,6 +1,7 @@
-const words = [{"hebrew": "ספר", "english": "book"}, {"hebrew": "ערב", "english": "evening"}, {"hebrew": "אוכל", "english": "food"}, {"hebrew": "שלום", "english": "hello"}, {"hebrew": "אור", "english": "light"}, {"hebrew": "בוקר", "english": "morning"}, {"hebrew": "לא", "english": "no"}, {"hebrew": "תודה", "english": "thanks"}, {"hebrew": "מים", "english": "water"}, {"hebrew": "כן", "english": "yes"}];
+const words = [{"hebrew": "תפוח", "english": "apple"}, {"hebrew": "בננה", "english": "banana"}, {"hebrew": "מיטה", "english": "bed"}, {"hebrew": "מיטה זוגית", "english": "bedroom"}, {"hebrew": "אופניים", "english": "bicycle"}, {"hebrew": "סירה", "english": "boat"}, {"hebrew": "בקבוק", "english": "bottle"}, {"hebrew": "קופסה", "english": "box"}, {"hebrew": "גשר", "english": "bridge"}, {"hebrew": "עוגת שוקולד", "english": "brownie"}, {"hebrew": "עוגה", "english": "cake"}, {"hebrew": "מצלמה", "english": "camera"}, {"hebrew": "מכונית", "english": "car"}, {"hebrew": "כיסא", "english": "chair"}, {"hebrew": "שוקולד", "english": "chocolate"}, {"hebrew": "עיר", "english": "city"}, {"hebrew": "שעון", "english": "clock"}, {"hebrew": "בגד", "english": "clothes"}, {"hebrew": "ענן", "english": "cloud"}, {"hebrew": "מחשב", "english": "computer"}, {"hebrew": "עוגיות", "english": "cookies"}, {"hebrew": "רופא", "english": "doctor"}, {"hebrew": "דלת", "english": "door"}, {"hebrew": "שמלה", "english": "dress"}, {"hebrew": "ברווז", "english": "duck"}, {"hebrew": "אוזן", "english": "ear"}, {"hebrew": "ביצה", "english": "egg"}, {"hebrew": "דג", "english": "fish"}, {"hebrew": "פרח", "english": "flower"}, {"hebrew": "מזלג", "english": "fork"}, {"hebrew": "מקרר", "english": "fridge"}, {"hebrew": "פרי", "english": "fruit"}, {"hebrew": "גינה", "english": "garden"}, {"hebrew": "ענבים", "english": "grapes"}, {"hebrew": "דשא", "english": "grass"}, {"hebrew": "שיער", "english": "hair"}, {"hebrew": "יד", "english": "hand"}, {"hebrew": "כובע", "english": "hat"}, {"hebrew": "סוס", "english": "horse"}, {"hebrew": "קרח", "english": "ice"}, {"hebrew": "מיץ", "english": "juice"}, {"hebrew": "מפתח", "english": "key"}, {"hebrew": "מטבח", "english": "kitchen"}, {"hebrew": "רגל", "english": "leg"}, {"hebrew": "לימון", "english": "lemon"}, {"hebrew": "אור", "english": "light"}, {"hebrew": "שפתיים", "english": "lips"}, {"hebrew": "מנעול", "english": "lock"}, {"hebrew": "מפה", "english": "map"}, {"hebrew": "חלב", "english": "milk"}, {"hebrew": "מראה", "english": "mirror"}, {"hebrew": "עכבר", "english": "mouse"}, {"hebrew": "מוזיקה", "english": "music"}, {"hebrew": "עיתון", "english": "newspaper"}, {"hebrew": "מחברת", "english": "notebook"}, {"hebrew": "אחות", "english": "nurse"}, {"hebrew": "תפוז", "english": "orange"}, {"hebrew": "תנור", "english": "oven"}, {"hebrew": "מכנסיים", "english": "pants"}, {"hebrew": "עט", "english": "pen"}, {"hebrew": "עיפרון", "english": "pencil"}, {"hebrew": "פלפל", "english": "pepper"}, {"hebrew": "טלפון", "english": "phone"}, {"hebrew": "פסנתר", "english": "piano"}, {"hebrew": "תמונה", "english": "picture"}, {"hebrew": "מטוס", "english": "plane"}, {"hebrew": "צמח", "english": "plant"}, {"hebrew": "מלכה", "english": "queen"}, {"hebrew": "ארנב", "english": "rabbit"}, {"hebrew": "חדר", "english": "room"}, {"hebrew": "סלט", "english": "salad"}, {"hebrew": "מלח", "english": "salt"}, {"hebrew": "חול", "english": "sand"}, {"hebrew": "חולצה", "english": "shirt"}, {"hebrew": "נעליים", "english": "shoes"}, {"hebrew": "חנות", "english": "shop"}, {"hebrew": "שלט", "english": "sign"}, {"hebrew": "שלג", "english": "snow"}, {"hebrew": "ספה", "english": "sofa"}, {"hebrew": "כף", "english": "spoon"}, {"hebrew": "כוכב", "english": "star"}, {"hebrew": "סוכר", "english": "sugar"}, {"hebrew": "שמש", "english": "sun"}, {"hebrew": "חולצה ארוכה", "english": "sweater"}, {"hebrew": "שולחן", "english": "table"}, {"hebrew": "טלוויזיה", "english": "television"}, {"hebrew": "כרטיס", "english": "ticket"}, {"hebrew": "שן", "english": "tooth"}, {"hebrew": "מגבת", "english": "towel"}, {"hebrew": "רכבת", "english": "train"}, {"hebrew": "עץ", "english": "tree"}, {"hebrew": "מטריה", "english": "umbrella"}, {"hebrew": "כינור", "english": "violin"}, {"hebrew": "קיר", "english": "wall"}, {"hebrew": "מים", "english": "water"}, {"hebrew": "חלון", "english": "window"}, {"hebrew": "כף עץ", "english": "wooden spoon"}, {"hebrew": "חצר", "english": "yard"}, {"hebrew": "חוט", "english": "yarn"}, {"hebrew": "חיות", "english": "zoo"}];
 let currentIndex = 0;
 let stage = 1;
+let reviewMode = false;  // מצב חזרה
 const wordDisplay = document.getElementById('word-display');
 const userInput = document.getElementById('user-input');
 const feedback = document.getElementById('feedback');
@@ -38,51 +39,13 @@ function checkInput() {
   const expected = currentWord.english.toLowerCase();
   const input = userInput.value.trim().toLowerCase();
 
-  // שלב א
-  if (stage === 1) {
-    if (input === expected) {
-      feedback.textContent = "נכון! 😊";
-      setTimeout(nextStage, 800);
-    } else if (input && input !== expected.slice(0, input.length)) {
-      feedback.textContent = "נסה שוב!";
-    } else {
-      feedback.textContent = "";
-    }
-  } 
-  // שלב ב
-  else if (stage === 2) {
-    const missing = expected.slice(-2);
-    if (input === missing) {
-      feedback.textContent = "נכון! 😊";
-      setTimeout(nextStage, 800);
-    } else if (input && input !== missing.slice(0, input.length)) {
-      feedback.textContent = "נסה שוב!";
-    } else {
-      feedback.textContent = "";
-    }
-  } 
-  // שלב ג
-  else if (stage === 3) {
-    const missing = expected.slice(1);
-    if (input === missing) {
-      feedback.textContent = "נכון! 😊";
-      setTimeout(nextStage, 800);
-    } else if (input && input !== missing.slice(0, input.length)) {
-      feedback.textContent = "נסה שוב!";
-    } else {
-      feedback.textContent = "";
-    }
-  } 
-  // שלב ד
-  else if (stage === 4) {
-    if (input === expected) {
-      feedback.textContent = "נכון! 😊";
-      setTimeout(nextStage, 800);
-    } else if (input && input !== expected.slice(0, input.length)) {
-      feedback.textContent = "נסה שוב!";
-    } else {
-      feedback.textContent = "";
-    }
+  if (input === expected) {
+    feedback.textContent = "נכון! 😊";
+    setTimeout(nextStage, 800);
+  } else if (input && input !== expected.slice(0, input.length)) {
+    feedback.textContent = "נסה שוב!";
+  } else {
+    feedback.textContent = "";
   }
 }
 
@@ -91,6 +54,17 @@ function nextStage() {
   if (stage > 4) {
     stage = 1;
     currentIndex++;
+
+    // בדיקה אם יש חזרה כל 10 מילים
+    if (!reviewMode && currentIndex % 10 === 0) {
+      reviewMode = true;
+      currentIndex = currentIndex - 10;  // חוזרים לתחילת ה-10 מילים האחרונות
+      alert("זמן חזרה! חזור על 10 המילים האחרונות.");
+    } else if (reviewMode && (currentIndex % 10 === 0)) {
+      // סיום חזרה
+      reviewMode = false;
+    }
+
     if (currentIndex >= words.length) {
       wordDisplay.textContent = "סיימת את כל המילים!";
       userInput.style.display = 'none';
