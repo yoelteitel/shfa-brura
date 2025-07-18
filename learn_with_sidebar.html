@@ -10,23 +10,24 @@
 <body>
   <header>
     <h1>לימוד מילים</h1>
-    <div id="score-display" style="font-weight:bold;">ניקוד: 0</div>
-    <div id="summary-display" style="margin-top:10px;">למדת 0 מילים נכונות מתוך 0 ניסיונות (0% הצלחה)</div>
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+    <p id="progress-text">0 מתוך 100 מילים (0%)</p>
     <button onclick="location.href='index.html'">חזור לדף הבית</button>
-    <button onclick="location.href='word_list.html'">צפה ברשימת המילים</button>
   </header>
-  <main id="learning-area">
-    <div id="word-display"></div>
-    <button onclick="playWordAudio(words[currentIndex].english)">🔊 השמע מילה</button>
-    <button onclick="startSpeechRecognition()">🎤 אמור את המילה</button>
-    <input type="text" id="user-input" placeholder="כתוב כאן את המילה">
-    <button id="check-btn">בדוק</button>
-    <div id="feedback"></div>
-    <h2>היסטוריית ניקוד אחרונות</h2>
-    <table border="1" style="margin:10px auto; width:50%;">
-      <thead><tr><th>מילה</th><th>נקודות</th></tr></thead>
-      <tbody id="high-score-table"></tbody>
-    </table>
-  </main>
+  <div class="content">
+    <aside class="sidebar">
+      <h2>רשימת מילים</h2>
+      <ul id="word-list"></ul>
+    </aside>
+    <main id="learning-area">
+      <div id="word-display"></div>
+      <input type="text" id="user-input" placeholder="כתוב כאן את המילה">
+      <button id="check-btn">בדוק</button>
+      <button onclick="skipWord()">דלג מילה</button>
+      <div id="feedback"></div>
+    </main>
+  </div>
 </body>
 </html>

@@ -1,71 +1,123 @@
 const words = [
-  {hebrew: "שלום", english: "Hello"},
-  {hebrew: "כלב", english: "Dog"},
-  {hebrew: "חתול", english: "Cat"},
-  {hebrew: "מים", english: "Water"},
-  {hebrew: "ספר", english: "Book"},
-  {hebrew: "כיסא", english: "Chair"},
-  {hebrew: "שולחן", english: "Table"},
-  {hebrew: "דלת", english: "Door"},
-  {hebrew: "חלון", english: "Window"},
-  {hebrew: "בית", english: "House"},
-  {hebrew: "עץ", english: "Tree"},
-  {hebrew: "שמש", english: "Sun"},
-  {hebrew: "ירח", english: "Moon"},
-  {hebrew: "כוכב", english: "Star"},
-  {hebrew: "ים", english: "Sea"},
-  {hebrew: "נהר", english: "River"},
-  {hebrew: "אדמה", english: "Earth"},
-  {hebrew: "שמיים", english: "Sky"},
-  {hebrew: "רוח", english: "Wind"},
-  {hebrew: "גשם", english: "Rain"},
-  {hebrew: "שלג", english: "Snow"},
-  {hebrew: "חול", english: "Sand"},
-  {hebrew: "רכב", english: "Car"},
-  {hebrew: "אופניים", english: "Bicycle"},
-  {hebrew: "מטוס", english: "Airplane"},
-  {hebrew: "אוטובוס", english: "Bus"},
-  {hebrew: "רכבת", english: "Train"},
-  {hebrew: "מעלית", english: "Elevator"},
-  {hebrew: "כביש", english: "Road"},
-  {hebrew: "גשר", english: "Bridge"},
-  {hebrew: "מחשב", english: "Computer"},
-  {hebrew: "טלפון", english: "Phone"},
-  {hebrew: "עכבר", english: "Mouse"},
-  {hebrew: "מקלדת", english: "Keyboard"},
-  {hebrew: "מסך", english: "Screen"},
-  {hebrew: "עט", english: "Pen"},
-  {hebrew: "עיפרון", english: "Pencil"},
-  {hebrew: "נייר", english: "Paper"},
-  {hebrew: "מחברת", english: "Notebook"},
-  {hebrew: "תיק", english: "Bag"},
-  {hebrew: "בגד", english: "Clothes"},
-  {hebrew: "כובע", english: "Hat"},
-  {hebrew: "נעל", english: "Shoe"},
-  {hebrew: "גרב", english: "Sock"},
-  {hebrew: "מכנסיים", english: "Pants"},
-  {hebrew: "חולצה", english: "Shirt"},
-  {hebrew: "שמלה", english: "Dress"},
-  {hebrew: "מעיל", english: "Coat"},
-  {hebrew: "צעיף", english: "Scarf"},
-  {hebrew: "שעון", english: "Watch"}
+  {hebrew: "שלום", english: "hello"},
+  {hebrew: "כלב", english: "dog"},
+  {hebrew: "מים", english: "water"},
+  {hebrew: "תודה", english: "thank you"},
+  {hebrew: "כן", english: "yes"},
+  {hebrew: "לא", english: "no"},
+  {hebrew: "אוכל", english: "food"},
+  {hebrew: "חבר", english: "friend"},
+  {hebrew: "בית", english: "house"},
+  {hebrew: "חתול", english: "cat"},
+  {hebrew: "ספר", english: "book"},
+  {hebrew: "דלת", english: "door"},
+  {hebrew: "אור", english: "light"},
+  {hebrew: "חושך", english: "dark"},
+  {hebrew: "שמיים", english: "sky"},
+  {hebrew: "עץ", english: "tree"},
+  {hebrew: "אדמה", english: "earth"},
+  {hebrew: "שמש", english: "sun"},
+  {hebrew: "ירח", english: "moon"},
+  {hebrew: "כוכב", english: "star"},
+  {hebrew: "ים", english: "sea"},
+  {hebrew: "נהר", english: "river"},
+  {hebrew: "הר", english: "mountain"},
+  {hebrew: "אבן", english: "stone"},
+  {hebrew: "זהב", english: "gold"},
+  {hebrew: "כסף", english: "silver"},
+  {hebrew: "אש", english: "fire"},
+  {hebrew: "רוח", english: "wind"},
+  {hebrew: "גשם", english: "rain"},
+  {hebrew: "שלג", english: "snow"},
+  {hebrew: "אוויר", english: "air"},
+  {hebrew: "בריאות", english: "health"},
+  {hebrew: "משפחה", english: "family"},
+  {hebrew: "ילד", english: "child"},
+  {hebrew: "ילדה", english: "girl"},
+  {hebrew: "איש", english: "man"},
+  {hebrew: "אישה", english: "woman"},
+  {hebrew: "לב", english: "heart"},
+  {hebrew: "יד", english: "hand"},
+  {hebrew: "רגל", english: "leg"},
+  {hebrew: "ראש", english: "head"},
+  {hebrew: "עין", english: "eye"},
+  {hebrew: "פה", english: "mouth"},
+  {hebrew: "שן", english: "tooth"},
+  {hebrew: "אף", english: "nose"},
+  {hebrew: "אוזן", english: "ear"},
+  {hebrew: "צבע", english: "color"},
+  {hebrew: "אדום", english: "red"},
+  {hebrew: "כחול", english: "blue"},
+  {hebrew: "ירוק", english: "green"},
+  {hebrew: "צהוב", english: "yellow"},
+  {hebrew: "לבן", english: "white"},
+  {hebrew: "שחור", english: "black"},
+  {hebrew: "אפור", english: "gray"},
+  {hebrew: "חום", english: "brown"},
+  {hebrew: "ורוד", english: "pink"},
+  {hebrew: "סגול", english: "purple"},
+  {hebrew: "כתום", english: "orange"},
+  {hebrew: "בוקר", english: "morning"},
+  {hebrew: "צהריים", english: "noon"},
+  {hebrew: "ערב", english: "evening"},
+  {hebrew: "לילה", english: "night"},
+  {hebrew: "יום", english: "day"},
+  {hebrew: "שבוע", english: "week"},
+  {hebrew: "חודש", english: "month"},
+  {hebrew: "שנה", english: "year"},
+  {hebrew: "אתמול", english: "yesterday"},
+  {hebrew: "היום", english: "today"},
+  {hebrew: "מחר", english: "tomorrow"},
+  {hebrew: "שעון", english: "clock"},
+  {hebrew: "דקה", english: "minute"},
+  {hebrew: "שעה", english: "hour"},
+  {hebrew: "זמן", english: "time"},
+  {hebrew: "חיים", english: "life"},
+  {hebrew: "מוות", english: "death"},
+  {hebrew: "אהבה", english: "love"},
+  {hebrew: "שנאה", english: "hate"},
+  {hebrew: "אמת", english: "truth"},
+  {hebrew: "שקר", english: "lie"},
+  {hebrew: "חכמה", english: "wisdom"},
+  {hebrew: "טוב", english: "good"},
+  {hebrew: "רע", english: "bad"},
+  {hebrew: "חם", english: "hot"},
+  {hebrew: "קר", english: "cold"},
+  {hebrew: "מהיר", english: "fast"},
+  {hebrew: "איטי", english: "slow"},
+  {hebrew: "גדול", english: "big"},
+  {hebrew: "קטן", english: "small"},
+  {hebrew: "יפה", english: "beautiful"},
+  {hebrew: "מכוער", english: "ugly"},
+  {hebrew: "חזק", english: "strong"},
+  {hebrew: "חלש", english: "weak"},
+  {hebrew: "חדש", english: "new"},
+  {hebrew: "ישן", english: "old"},
+  {hebrew: "עשיר", english: "rich"},
+  {hebrew: "עני", english: "poor"},
+  {hebrew: "קל", english: "easy"},
+  {hebrew: "קשה", english: "hard"},
+  {hebrew: "קרוב", english: "near"},
+  {hebrew: "רחוק", english: "far"}
 ];
 
 
 let currentIndex = 0;
 let stage = 1;
 let score = 0;
-let correctAnswers = 0;
-let attempts = 0;
-let scoreHistory = [];
 
 const wordDisplay = document.getElementById('word-display');
 const userInput = document.getElementById('user-input');
 const feedback = document.getElementById('feedback');
 const checkBtn = document.getElementById('check-btn');
-const scoreDisplay = document.getElementById('score-display');
-const highScoreTable = document.getElementById('high-score-table');
-const summaryDisplay = document.getElementById('summary-display');
+const progressText = document.getElementById('progress-text');
+const progressBar = document.getElementById('progress-bar');
+
+function updateProgress() {
+  const percent = Math.floor((currentIndex / words.length) * 100);
+  progressBar.style.width = percent + "%";
+  progressText.textContent = `${currentIndex} מתוך ${words.length} מילים (${percent}%)`;
+}
 
 function showWord() {
   feedback.textContent = '';
@@ -81,6 +133,7 @@ function showWord() {
     wordDisplay.textContent = currentWord.hebrew;
   }
   userInput.value = '';
+  updateProgress();
 }
 
 function playWordAudio(word) {
@@ -88,45 +141,10 @@ function playWordAudio(word) {
   audio.play().catch(() => {});
 }
 
-function updateScore(points) {
-  score += points;
-  scoreDisplay.textContent = "ניקוד: " + score;
-  updateSummary();
-}
-
-function addScoreHistory(word, points) {
-  scoreHistory.push({ word: word, points: points });
-  renderHighScoreTable();
-}
-
-function renderHighScoreTable() {
-  highScoreTable.innerHTML = '';
-  scoreHistory.slice(-10).forEach(entry => {
-    const row = document.createElement('tr');
-    const cellWord = document.createElement('td');
-    const cellPoints = document.createElement('td');
-    cellWord.textContent = entry.word;
-    cellPoints.textContent = entry.points;
-    row.appendChild(cellWord);
-    row.appendChild(cellPoints);
-    highScoreTable.appendChild(row);
-  });
-}
-
-function updateSummary() {
-  const totalAttempts = attempts;
-  const successRate = totalAttempts > 0 ? Math.round((correctAnswers / totalAttempts) * 100) : 0;
-  summaryDisplay.textContent = `למדת ${correctAnswers} מילים נכונות מתוך ${totalAttempts} ניסיונות (${successRate}% הצלחה)`;
-}
-
 function checkWord() {
   const currentWord = words[currentIndex];
-  attempts++;
   if (userInput.value.trim().toLowerCase() === currentWord.english.toLowerCase()) {
     feedback.textContent = "נכון!";
-    correctAnswers++;
-    updateScore(10);
-    addScoreHistory(currentWord.english, 10);
     stage++;
     if (stage > 4) {
       stage = 1;
@@ -141,38 +159,36 @@ function checkWord() {
     showWord();
   } else {
     feedback.textContent = "נסה שוב!";
-    addScoreHistory(currentWord.english, 0);
-    updateSummary();
   }
 }
 
-function startSpeechRecognition() {
-  if (!('webkitSpeechRecognition' in window)) {
-    alert('דפדפן זה לא תומך בזיהוי דיבור.');
+function skipWord() {
+  currentIndex++;
+  if (currentIndex >= words.length) {
+    wordDisplay.textContent = "סיימת את כל המילים!";
+    userInput.style.display = 'none';
+    checkBtn.style.display = 'none';
     return;
   }
-  const recognition = new webkitSpeechRecognition();
-  recognition.lang = 'en-US';
-  recognition.start();
-  recognition.onresult = function(event) {
-    const spoken = event.results[0][0].transcript.toLowerCase();
-    const expected = words[currentIndex].english.toLowerCase();
-    attempts++;
-    if (spoken.includes(expected)) {
-      alert('נכון!');
-      correctAnswers++;
-      updateScore(10);
-      addScoreHistory(expected, 10);
-    } else {
-      alert('שמענו: ' + spoken + ' – נסה שוב');
-      addScoreHistory(expected, 0);
-    }
-    updateSummary();
-  };
-  recognition.onerror = function() {
-    alert('שגיאה בזיהוי קול, נסה שוב.');
-  };
+  stage = 1;
+  showWord();
 }
+
+function selectWordFromList(index) {
+  currentIndex = index;
+  stage = 1;
+  showWord();
+}
+
+// בניית רשימת המילים בסיידבר
+const wordList = document.getElementById('word-list');
+words.forEach((w, i) => {
+  const li = document.createElement('li');
+  li.textContent = `${i + 1}. ${w.hebrew} – ${w.english}`;
+  li.style.cursor = 'pointer';
+  li.addEventListener('click', () => selectWordFromList(i));
+  wordList.appendChild(li);
+});
 
 checkBtn.addEventListener('click', checkWord);
 showWord();
