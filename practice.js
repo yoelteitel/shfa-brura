@@ -228,3 +228,54 @@ function prevGroup() {
     showGroup();
   }
 }
+
+// שמירת מיקום אחרון
+function saveProgress() {
+  localStorage.setItem('currentGroupIndex', currentGroupIndex);
+  localStorage.setItem('currentStage', stage);
+}
+
+// טעינת מיקום אחרון
+function loadProgress() {
+  const savedGroup = localStorage.getItem('currentGroupIndex');
+  const savedStage = localStorage.getItem('currentStage');
+  if (savedGroup !== null) currentGroupIndex = parseInt(savedGroup);
+  if (savedStage !== null) stage = parseInt(savedStage);
+}
+
+// שכתוב פונקציות להצגת שלבים עם שמירה
+function showGroup() {
+  saveProgress();
+  if (currentGroupIndex >= groups.length) {
+    startFinalExam();
+    return;
+  }
+  currentWordIndex = 0;
+  score = 0;
+  attempts = 0;
+  updateProgress();
+  if (stage === 1) showStageA();
+  else if (stage === 2) showStageB();
+  else if (stage === 3) showStageC();
+}
+
+function nextStage() {
+  if (stage === 1) stage = 2;
+  else if (stage === 2) stage = 3;
+  else if (stage === 3) {
+    alert(`סיום קבוצה ${currentGroupIndex+1}. ציון במשחק: ${score}/${attempts}`);
+    if (groups[currentGroupIndex].review) {
+      showReview();
+      return;
+    } else {
+      currentGroupIndex++;
+      stage = 1;
+    }
+  }
+  saveProgress();
+  showGroup();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadProgress();
+});
