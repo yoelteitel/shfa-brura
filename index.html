@@ -8,8 +8,16 @@
 </head>
 <body>
   <header>
-    <h1>שפה ברורה – תרגול דיבור (10 מילים)</h1>
-    <button onclick="window.location.href='speech_practice.html'">תרגול דיבור</button>
+    <h1>שפה ברורה – תרגול דיבור</h1>
+    <p>בחר את סוג התרגול:</p>
+    <button onclick="startPractice(4)">תרגול 4 מילים</button>
+    <button onclick="startPractice(6)">תרגול 6 מילים</button>
   </header>
+  <script>
+    function startPractice(count) {
+      localStorage.setItem('practiceCount', count);
+      window.location.href = 'speech_practice.html';
+    }
+  </script>
 </body>
 </html>
