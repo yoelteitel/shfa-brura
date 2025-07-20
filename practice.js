@@ -28,7 +28,7 @@ function showGroup() {
 }
 
 function updateProgress() {
-  document.getElementById('progress').innerHTML = totalProgress() + '<br>' + `קבוצה ${currentGroupIndex+1} מתוך ${groups.length} – שלב ${stage}`;
+  document.getElementById('progress').innerHTML = `קבוצה ${currentGroupIndex+1} מתוך ${groups.length} – שלב ${stage}`;
 }
 
 function nextStage() {
@@ -279,13 +279,3 @@ function nextStage() {
 document.addEventListener('DOMContentLoaded', () => {
   loadProgress();
 });
-
-
-
-function totalProgress() {
-  const completedGroups = currentGroupIndex;
-  const totalGroups = groups.length;
-  const percentage = Math.floor((completedGroups / totalGroups) * 100);
-  return `התלמיד התקדם ${percentage}% מכלל 72 המילים`;
-}
-
