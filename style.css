@@ -8,3 +8,8 @@ table.word-table, th, td { border: 1px solid black; padding: 5px; }
 .word { padding: 5px; margin: 5px; background: #eee; cursor: pointer; border-radius: 3px; text-align: center; }
 .word:hover { background: #ccc; }
 #progress { margin: 10px; font-weight: bold; }
+
+/* Improved UI */
+body { background: linear-gradient(#f9f9f9, #eaeaea); }
+header { padding: 10px; background: #fff; box-shadow: 0 0 5px #ccc; }
+#progress { color: #333; font-size: 1.2em; margin: 20px; }
