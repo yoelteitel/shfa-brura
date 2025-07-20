@@ -59,12 +59,21 @@ function playWord() {
 }
 
 function checkVoice() {
-  if (!('webkitSpeechRecognition' in window)) { alert('אין תמיכה בזיהוי קול'); return; }
+  const feedback = document.getElementById('feedback');
+  if (!('webkitSpeechRecognition' in window)) {
+    feedback.textContent = 'הדפדפן לא תומך בזיהוי קול.';
+    return;
+  }
+  feedback.textContent = 'מקשיב...';
   const recognition = new webkitSpeechRecognition();
   recognition.lang = 'en-US';
   recognition.onresult = (e) => {
     const spoken = e.results[0][0].transcript.toLowerCase();
-    alert(spoken === words[currentIndex].english.toLowerCase() ? 'נאמר נכון!' : 'אמרת: ' + spoken);
+    if (spoken === words[currentIndex].english.toLowerCase()) {
+      feedback.textContent = 'נאמר נכון! 🎉';
+    } else {
+      feedback.textContent = `אמרת: ${spoken}`;
+    }
   };
   recognition.start();
 }

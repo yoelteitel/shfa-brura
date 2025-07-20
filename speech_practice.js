@@ -2,16 +2,13 @@
 let words = [];
 let practiceList = [];
 let step = 1;
-let correctMatches = 0;
 
 async function loadWords() {
   const res = await fetch('words.json');
   words = await res.json();
-  const group = parseInt(localStorage.getItem('speechGroup')) || 1;
   const level = new URLSearchParams(window.location.search).get('level') || 'medium';
   const count = (level === 'medium') ? 4 : 6;
-  const start = (group - 1) * 10;
-  practiceList = words.slice(start, start + count);
+  practiceList = words.slice(0, count);
 }
 
 function startSpeechPractice() {
@@ -21,14 +18,18 @@ function startSpeechPractice() {
     step = 2;
   } else if (step === 2) {
     buildVoiceCheck(container);
-    step = 3;
+    document.getElementById('next-step').style.display = 'none';
   }
 }
 
 function buildMatching(container) {
-  container.innerHTML = '<h2>שלב א: לחץ על מילה לשמיעה</h2>';
+  container.innerHTML = '<h2>שלב א: לחץ על מילה בעברית ואז באנגלית</h2>';
   practiceList.forEach(w => {
     container.innerHTML += `<button onclick="playWord('${w.english}')">${w.hebrew}</button>`;
+  });
+  container.innerHTML += '<br><br>';
+  practiceList.forEach(w => {
+    container.innerHTML += `<button>${w.english}</button>`;
   });
 }
 
@@ -39,7 +40,7 @@ function playWord(word) {
 }
 
 function buildVoiceCheck(container) {
-  container.innerHTML = '<h2>שלב ב: אמור את המילים בקול</h2><button onclick="startVoiceCheck()">התחל</button>';
+  container.innerHTML = '<h2>שלב ב: אמור את המילים בקול</h2><button onclick="startVoiceCheck()">התחל בדיקה</button>';
 }
 
 function startVoiceCheck() {
