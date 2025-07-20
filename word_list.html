@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="he">
-<head><meta charset="UTF-8"><title>רשימת מילים</title></head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>קובץ מילים</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    async function loadWords() {
+      const res = await fetch('words.json');
+      const words = await res.json();
+      let html = '<table class="word-table"><tr><th>#</th><th>עברית</th><th>אנגלית</th></tr>';
+      words.forEach((w, i) => {
+        html += `<tr><td>${i+1}</td><td>${w.hebrew}</td><td>${w.english}</td></tr>`;
+      });
+      html += '</table>';
+      document.getElementById('words').innerHTML = html;
+    }
+    loadWords();
+  </script>
+</head>
 <body>
-<h1>רשימת מילים</h1>
-<table border="1"><tr><td>1</td><td><a href='learn.html?word=0'>תפוח – apple</a></td></tr>
-<tr><td>2</td><td><a href='learn.html?word=1'>בננה – banana</a></td></tr>
-<tr><td>3</td><td><a href='learn.html?word=2'>עוגה – cake</a></td></tr>
-<tr><td>4</td><td><a href='learn.html?word=3'>דלת – door</a></td></tr>
-<tr><td>5</td><td><a href='learn.html?word=4'>ביצה – egg</a></td></tr>
-<tr><td>6</td><td><a href='learn.html?word=5'>דג – fish</a></td></tr>
-<tr><td>7</td><td><a href='learn.html?word=6'>ענבים – grapes</a></td></tr>
-<tr><td>8</td><td><a href='learn.html?word=7'>כובע – hat</a></td></tr>
-<tr><td>9</td><td><a href='learn.html?word=8'>קרח – ice</a></td></tr>
-<tr><td>10</td><td><a href='learn.html?word=9'>מיץ – juice</a></td></tr>
-<tr><td>11</td><td><a href='learn.html?word=10'>מפתח – key</a></td></tr>
-<tr><td>12</td><td><a href='learn.html?word=11'>לימון – lemon</a></td></tr>
-<tr><td>13</td><td><a href='learn.html?word=12'>חלב – milk</a></td></tr>
-<tr><td>14</td><td><a href='learn.html?word=13'>מחברת – notebook</a></td></tr>
-<tr><td>15</td><td><a href='learn.html?word=14'>תפוז – orange</a></td></tr>
-<tr><td>16</td><td><a href='learn.html?word=15'>עט – pen</a></td></tr>
-<tr><td>17</td><td><a href='learn.html?word=16'>עיפרון – pencil</a></td></tr>
-<tr><td>18</td><td><a href='learn.html?word=17'>מלכה – queen</a></td></tr>
-<tr><td>19</td><td><a href='learn.html?word=18'>ארנב – rabbit</a></td></tr>
-<tr><td>20</td><td><a href='learn.html?word=19'>שמש – sun</a></td></tr>
-</table>
-<button onclick="location.href='index.html'">חזור</button>
-</body></html>
+  <header>
+    <h1>קובץ מילים</h1>
+    <button onclick="location.href='index.html'">חזור לדף הבית</button>
+  </header>
+  <main id="words"></main>
+</body>
+</html>

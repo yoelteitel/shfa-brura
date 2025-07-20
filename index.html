@@ -3,21 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>שפה ברורה – תרגול דיבור</title>
+  <title>שפה ברורה – דף הבית</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>שפה ברורה – תרגול דיבור</h1>
-    <p>בחר את סוג התרגול:</p>
-    <button onclick="startPractice(4)">תרגול 4 מילים</button>
-    <button onclick="startPractice(6)">תרגול 6 מילים</button>
+    <h1>שפה ברורה</h1>
+    <p>בחר סוג תרגול:</p>
+    <button onclick="location.href='speech_practice.html'">תרגול דיבור</button>
+    <button onclick="location.href='word_list.html'">קובץ מילים</button>
   </header>
-  <script>
-    function startPractice(count) {
-      localStorage.setItem('practiceCount', count);
-      window.location.href = 'speech_practice.html';
-    }
-  </script>
 </body>
 </html>

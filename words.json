@@ -22,5 +22,101 @@
   {
     "hebrew": "דג",
     "english": "fish"
+  },
+  {
+    "hebrew": "ענבים",
+    "english": "grapes"
+  },
+  {
+    "hebrew": "כובע",
+    "english": "hat"
+  },
+  {
+    "hebrew": "קרח",
+    "english": "ice"
+  },
+  {
+    "hebrew": "מיץ",
+    "english": "juice"
+  },
+  {
+    "hebrew": "חתול",
+    "english": "cat"
+  },
+  {
+    "hebrew": "כלב",
+    "english": "dog"
+  },
+  {
+    "hebrew": "כיסא",
+    "english": "chair"
+  },
+  {
+    "hebrew": "שולחן",
+    "english": "table"
+  },
+  {
+    "hebrew": "חלון",
+    "english": "window"
+  },
+  {
+    "hebrew": "מפתח",
+    "english": "key"
+  },
+  {
+    "hebrew": "ספר",
+    "english": "book"
+  },
+  {
+    "hebrew": "עט",
+    "english": "pen"
+  },
+  {
+    "hebrew": "עיפרון",
+    "english": "pencil"
+  },
+  {
+    "hebrew": "מחברת",
+    "english": "notebook"
+  },
+  {
+    "hebrew": "טלפון",
+    "english": "phone"
+  },
+  {
+    "hebrew": "מחשב",
+    "english": "computer"
+  },
+  {
+    "hebrew": "מיטה",
+    "english": "bed"
+  },
+  {
+    "hebrew": "שמיכה",
+    "english": "blanket"
+  },
+  {
+    "hebrew": "כרית",
+    "english": "pillow"
+  },
+  {
+    "hebrew": "עיר",
+    "english": "city"
+  },
+  {
+    "hebrew": "מדינה",
+    "english": "country"
+  },
+  {
+    "hebrew": "רכב",
+    "english": "car"
+  },
+  {
+    "hebrew": "אופניים",
+    "english": "bicycle"
+  },
+  {
+    "hebrew": "לחם",
+    "english": "bread"
   }
 ]
