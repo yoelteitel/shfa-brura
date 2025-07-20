@@ -3,21 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>שפה ברורה – גרסה משולבת</title>
+  <title>שפה ברורה – גרסה מתקדמת</title>
   <link rel="stylesheet" href="style.css">
-  <script>
-    function startLearning(mode) {
-      if (mode === 'restart') localStorage.setItem('currentIndex', 0);
-      window.location.href = 'learn.html';
-    }
-  </script>
 </head>
 <body>
   <header>
-    <h1>שפה ברורה – גרסה משולבת</h1>
-    <button onclick="startLearning('continue')">המשך מהמקום האחרון</button>
-    <button onclick="startLearning('restart')">התחל מההתחלה</button>
-    <button onclick="location.href='practice.html'">תרגול לבעלי זיכרון טוב</button>
+    <h1>שפה ברורה – 50 מילים</h1>
+    <button onclick="window.location.href='learn.html'">לימוד כתיבה (Spelling)</button>
+    <button onclick="window.location.href='speech_menu.html'">תרגול דיבור</button>
+    <button onclick="window.location.href='words_list.html'">קובץ מילים</button>
   </header>
 </body>
 </html>

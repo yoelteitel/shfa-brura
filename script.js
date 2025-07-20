@@ -44,10 +44,6 @@ function nextStage() {
     stage = 1;
     currentIndex++;
     localStorage.setItem('currentIndex', currentIndex);
-    if (currentIndex % 10 === 0 && currentIndex < words.length) {
-      window.location.href = 'practice.html';
-      return;
-    }
   }
   showWord();
 }
@@ -58,6 +54,7 @@ function skipWord() { currentIndex++; showWord(); }
 function playWord() {
   const w = words[currentIndex];
   const u = new SpeechSynthesisUtterance(w.english);
+  u.lang = 'en-US';
   speechSynthesis.speak(u);
 }
 
