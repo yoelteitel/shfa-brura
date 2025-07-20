@@ -16,9 +16,9 @@ function updateProgress() {
 }
 
 function showWord() {
-  const display = document.getElementById('word-display');
   const w = words[currentIndex];
   if (!w) return;
+  const display = document.getElementById('word-display');
   if (stage === 1) display.textContent = `${w.hebrew} – ${w.english}`;
   else if (stage === 2) display.textContent = `${w.hebrew} – ${w.english.slice(0, -2)}__`;
   else if (stage === 3) display.textContent = `${w.hebrew} – ${w.english[0]}${'_'.repeat(w.english.length - 1)}`;
@@ -44,10 +44,6 @@ function nextStage() {
     stage = 1;
     currentIndex++;
     localStorage.setItem('currentIndex', currentIndex);
-    if (currentIndex % 10 === 0 && currentIndex < words.length) {
-      window.location.href = 'review.html';
-      return;
-    }
   }
   showWord();
 }
@@ -62,7 +58,7 @@ function playWord() {
 }
 
 function checkVoice() {
-  if (!('webkitSpeechRecognition' in window)) { alert('הדפדפן לא תומך בזיהוי קול'); return; }
+  if (!('webkitSpeechRecognition' in window)) { alert('אין תמיכה בזיהוי קול'); return; }
   const recognition = new webkitSpeechRecognition();
   recognition.lang = 'en-US';
   recognition.onresult = (e) => {
