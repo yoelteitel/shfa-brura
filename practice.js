@@ -150,25 +150,11 @@ function checkVoice() {
   }, 1000);
 }
 
-
 function startFinalExam() {
   fetch('final_exam.json')
     .then(res => res.json())
-    .then(examWords => startExam(examWords));
+    .then(words => startExam(words));
 }
-
-  document.getElementById('stage-container').innerHTML = '<h2>מבחן מסכם על 72 מילים!</h2><p>כאן יוצג משחק התאמות ותרגול אמירה של 18 מילים (מילה מכל קבוצה).</p>';
-  document.getElementById('next-step').style.display = 'none';
-}
-
-function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-}
-
-loadGroups();
 
 function startExam(words) {
   const container = document.getElementById('stage-container');
@@ -243,3 +229,12 @@ function checkExamVoice() {
     askNextExamWord();
   }, 1000);
 }
+
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+loadGroups();
