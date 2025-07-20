@@ -44,6 +44,10 @@ function nextStage() {
     stage = 1;
     currentIndex++;
     localStorage.setItem('currentIndex', currentIndex);
+    if (currentIndex % 10 === 0 && currentIndex < words.length) {
+      window.location.href = 'practice.html';
+      return;
+    }
   }
   showWord();
 }
