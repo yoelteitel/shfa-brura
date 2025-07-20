@@ -2,6 +2,7 @@
 body { font-family: Arial, sans-serif; text-align: center; direction: rtl; background: #f9f9f9; }
 button { margin: 5px; padding: 8px 12px; cursor: pointer; border-radius: 5px; border: 1px solid #666; }
 button:hover { background: #ddd; }
+table, th, td { border: 1px solid black; padding: 5px; }
 .match-game { display: flex; justify-content: center; margin: 20px; gap: 50px; }
 .word { padding: 5px; margin: 3px; background: #eee; cursor: pointer; border-radius: 3px; }
 .word:hover { background: #ccc; }
