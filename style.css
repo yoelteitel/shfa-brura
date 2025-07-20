@@ -35,3 +35,8 @@ button {
 button:hover {
     background: #2980b9;
 }
+.hidden { display: none; }
+table, th, td {
+    border: 1px solid #333;
+    padding: 8px;
+}
