@@ -3,6 +3,8 @@ let groups = [];
 let currentGroupIndex = 0;
 let stage = 1; // 1=לימוד, 2=משחק, 3=אמירה
 let currentWordIndex = 0;
+let score = 0;
+let attempts = 0;
 let selectedHeb = null;
 let selectedEng = null;
 
@@ -14,19 +16,19 @@ async function loadGroups() {
 
 function showGroup() {
   if (currentGroupIndex >= groups.length) {
-    document.getElementById('stage-container').innerHTML = '<h2>סיימת את כל המילים!</h2>';
-    document.getElementById('next-step').style.display = 'none';
+    startFinalExam();
     return;
   }
   stage = 1;
   currentWordIndex = 0;
+  score = 0;
+  attempts = 0;
   updateProgress();
   showStageA();
 }
 
 function updateProgress() {
-  const progress = document.getElementById('progress');
-  progress.innerHTML = `קבוצה ${currentGroupIndex+1} מתוך ${groups.length} – שלב ${stage}`;
+  document.getElementById('progress').innerHTML = `קבוצה ${currentGroupIndex+1} מתוך ${groups.length} – שלב ${stage}`;
 }
 
 function nextStage() {
@@ -37,8 +39,13 @@ function nextStage() {
     stage = 3;
     showStageC();
   } else if (stage === 3) {
-    currentGroupIndex++;
-    showGroup();
+    alert(`סיום קבוצה ${currentGroupIndex+1}. ציון במשחק: ${score}/${attempts}`);
+    if (groups[currentGroupIndex].review) {
+      showReview();
+    } else {
+      currentGroupIndex++;
+      showGroup();
+    }
   }
   updateProgress();
 }
@@ -63,13 +70,9 @@ function showStageB() {
   shuffle(english);
 
   let gameHTML = '<div class="columns"><div><h3>עברית</h3>';
-  hebrew.forEach(h => {
-    gameHTML += `<div class="word" onclick="selectWord(this, 'hebrew')">${h}</div>`;
-  });
+  hebrew.forEach(h => gameHTML += `<div class="word" onclick="selectWord(this, 'hebrew')">${h}</div>`);
   gameHTML += '</div><div><h3>אנגלית</h3>';
-  english.forEach(e => {
-    gameHTML += `<div class="word" onclick="selectWord(this, 'english')">${e}</div>`;
-  });
+  english.forEach(e => gameHTML += `<div class="word" onclick="selectWord(this, 'english')">${e}</div>`);
   gameHTML += '</div></div>';
   container.innerHTML += gameHTML;
 }
@@ -77,10 +80,11 @@ function showStageB() {
 function selectWord(el, lang) {
   if (lang === 'hebrew') selectedHeb = el.innerText;
   else selectedEng = el.innerText;
-
   if (selectedHeb && selectedEng) {
+    attempts++;
     const pair = groups[currentGroupIndex].words.find(w => w.hebrew === selectedHeb && w.english === selectedEng);
     if (pair) {
+      score++;
       markMatched(selectedHeb, selectedEng);
       document.getElementById('feedback').innerText = 'נכון!';
     } else {
@@ -119,10 +123,33 @@ function nextWord() {
   askNextWord();
 }
 
+function showReview() {
+  const container = document.getElementById('stage-container');
+  container.innerHTML = '<h2>חזרה על 8 מילים</h2>';
+  const lastTwo = [groups[currentGroupIndex - 1], groups[currentGroupIndex]];
+  let combined = [...lastTwo[0].words, ...lastTwo[1].words];
+  const hebrew = combined.map(w => w.hebrew);
+  const english = combined.map(w => w.english);
+  shuffle(hebrew);
+  shuffle(english);
+  let gameHTML = '<div class="columns"><div><h3>עברית</h3>';
+  hebrew.forEach(h => gameHTML += `<div class="word" onclick="selectWord(this, 'hebrew')">${h}</div>`);
+  gameHTML += '</div><div><h3>אנגלית</h3>';
+  english.forEach(e => gameHTML += `<div class="word" onclick="selectWord(this, 'english')">${e}</div>`);
+  gameHTML += '</div></div>';
+  container.innerHTML += gameHTML;
+  document.getElementById('next-step').onclick = () => { currentGroupIndex++; showGroup(); };
+}
+
 function playWord(word) {
   const u = new SpeechSynthesisUtterance(word);
   u.lang = 'en-US';
   speechSynthesis.speak(u);
+}
+
+function startFinalExam() {
+  const container = document.getElementById('stage-container');
+  container.innerHTML = '<h2>מבחן מסכם על 72 מילים!</h2>';
 }
 
 function shuffle(array) {
