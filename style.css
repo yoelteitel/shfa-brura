@@ -1,8 +1,1 @@
-
-body { font-family: Arial, sans-serif; direction: rtl; background: #f4f4f4; text-align: center; }
-header { padding: 20px; background: #fff; }
-button { margin: 5px; padding: 10px 20px; font-size: 16px; cursor: pointer; }
-#progress-container { width: 80%; background: #ddd; height: 20px; margin: 10px auto; }
-#progress-bar { height: 100%; width: 0%; background: #4caf50; }
-#word-display { font-size: 24px; margin: 20px 0; }
-#feedback { font-size: 20px; margin-top: 10px; color: red; }
+body { font-family: Arial; text-align: center; } #progress-container{background:#ddd;width:80%;height:20px;margin:auto;} #progress-bar{height:20px;background:green;width:0;}
