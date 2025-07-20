@@ -25,8 +25,7 @@ function nextStage() {
 function showStageA() {
   const container = document.getElementById('stage-container');
   container.innerHTML = '<h2>שלב א: למד את המילים</h2>';
-  let table = '<table style="margin:auto; border-collapse:collapse;">';
-  table += '<tr><th>עברית</th><th>אנגלית</th><th>שמיעה</th></tr>';
+  let table = '<table class="word-table"><tr><th>עברית</th><th>אנגלית</th><th>שמיעה</th></tr>';
   words.forEach(w => {
     table += `<tr><td>${w.hebrew}</td><td>${w.english}</td><td><button onclick="playWord('${w.english}')">🔊</button></td></tr>`;
   });
