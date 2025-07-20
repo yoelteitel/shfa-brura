@@ -23,13 +23,9 @@ function startSpeechPractice() {
 }
 
 function buildMatching(container) {
-  container.innerHTML = '<h2>שלב א: לחץ על מילה בעברית ואז באנגלית</h2>';
+  container.innerHTML = '<h2>שלב א: לחץ על מילה בעברית לשמיעה</h2>';
   practiceList.forEach(w => {
     container.innerHTML += `<button onclick="playWord('${w.english}')">${w.hebrew}</button>`;
-  });
-  container.innerHTML += '<br><br>';
-  practiceList.forEach(w => {
-    container.innerHTML += `<button>${w.english}</button>`;
   });
 }
 

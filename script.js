@@ -16,8 +16,11 @@ function updateProgress() {
 }
 
 function showWord() {
+  if (currentIndex >= words.length) {
+    document.getElementById('word-display').textContent = 'סיימת את כל המילים!';
+    return;
+  }
   const w = words[currentIndex];
-  if (!w) return;
   const display = document.getElementById('word-display');
   if (stage === 1) display.textContent = `${w.hebrew} – ${w.english}`;
   else if (stage === 2) display.textContent = `${w.hebrew} – ${w.english.slice(0, -2)}__`;
@@ -28,6 +31,7 @@ function showWord() {
 }
 
 function checkInput() {
+  if (currentIndex >= words.length) return;
   const w = words[currentIndex];
   const input = document.getElementById('user-input').value.trim().toLowerCase();
   if (input === w.english.toLowerCase()) {
@@ -52,6 +56,7 @@ function prevStage() { stage = Math.max(1, stage - 1); showWord(); }
 function skipWord() { currentIndex++; showWord(); }
 
 function playWord() {
+  if (currentIndex >= words.length) return;
   const w = words[currentIndex];
   const u = new SpeechSynthesisUtterance(w.english);
   u.lang = 'en-US';

@@ -10,26 +10,18 @@
       localStorage.setItem('currentIndex', index);
       window.location.href = 'learn.html';
     }
-    function goToReview(group) {
-      localStorage.setItem('reviewGroup', group);
-      window.location.href = 'review.html';
-    }
-    function goToSpeech(group) {
-      localStorage.setItem('speechGroup', group);
-      window.location.href = 'speech_practice.html';
-    }
   </script>
 </head>
 <body>
   <header>
     <h1>קובץ מילים</h1>
-    <button onclick="location.href='index.html'">חזור</button>
+    <button onclick="location.href='index.html'">חזור לדף הבית</button>
   </header>
   <main>
-    <h2>רשימת מילים לפי קבוצות</h2>
-    <div id="word-groups">
-<h3>קבוצה 1</h3><ul><li>תפוח – apple <button onclick='goToWord(0)'>למד</button></li><li>בננה – banana <button onclick='goToWord(1)'>למד</button></li><li>עוגה – cake <button onclick='goToWord(2)'>למד</button></li><li>דלת – door <button onclick='goToWord(3)'>למד</button></li><li>ביצה – egg <button onclick='goToWord(4)'>למד</button></li><li>דג – fish <button onclick='goToWord(5)'>למד</button></li><li>ענבים – grapes <button onclick='goToWord(6)'>למד</button></li><li>כובע – hat <button onclick='goToWord(7)'>למד</button></li><li>קרח – ice <button onclick='goToWord(8)'>למד</button></li><li>מיץ – juice <button onclick='goToWord(9)'>למד</button></li></ul><button onclick='goToReview(1)'>חזרת קבוצה</button><button onclick='goToSpeech(1)'>תרגול דיבור</button><h3>קבוצה 2</h3><ul><li>מפתח – key <button onclick='goToWord(10)'>למד</button></li><li>לימון – lemon <button onclick='goToWord(11)'>למד</button></li><li>חלב – milk <button onclick='goToWord(12)'>למד</button></li><li>מחברת – notebook <button onclick='goToWord(13)'>למד</button></li><li>תפוז – orange <button onclick='goToWord(14)'>למד</button></li><li>עט – pen <button onclick='goToWord(15)'>למד</button></li><li>עיפרון – pencil <button onclick='goToWord(16)'>למד</button></li><li>מלכה – queen <button onclick='goToWord(17)'>למד</button></li><li>ארנב – rabbit <button onclick='goToWord(18)'>למד</button></li><li>שמש – sun <button onclick='goToWord(19)'>למד</button></li></ul><button onclick='goToReview(2)'>חזרת קבוצה</button><button onclick='goToSpeech(2)'>תרגול דיבור</button><h3>קבוצה 3</h3><ul><li>שולחן – table <button onclick='goToWord(20)'>למד</button></li><li>מטריה – umbrella <button onclick='goToWord(21)'>למד</button></li><li>כינור – violin <button onclick='goToWord(22)'>למד</button></li><li>מים – water <button onclick='goToWord(23)'>למד</button></li><li>קסילופון – xylophone <button onclick='goToWord(24)'>למד</button></li><li>חוט – yarn <button onclick='goToWord(25)'>למד</button></li><li>חצר – yard <button onclick='goToWord(26)'>למד</button></li><li>חדר – room <button onclick='goToWord(27)'>למד</button></li><li>חלון – window <button onclick='goToWord(28)'>למד</button></li><li>אינטרנט – internet <button onclick='goToWord(29)'>למד</button></li></ul><button onclick='goToReview(3)'>חזרת קבוצה</button><button onclick='goToSpeech(3)'>תרגול דיבור</button><h3>קבוצה 4</h3><ul><li>ספר – book <button onclick='goToWord(30)'>למד</button></li><li>כיסא – chair <button onclick='goToWord(31)'>למד</button></li><li>כלב – dog <button onclick='goToWord(32)'>למד</button></li><li>חתול – cat <button onclick='goToWord(33)'>למד</button></li><li>מיטה – bed <button onclick='goToWord(34)'>למד</button></li><li>מחשב – computer <button onclick='goToWord(35)'>למד</button></li><li>גינה – garden <button onclick='goToWord(36)'>למד</button></li><li>אור – light <button onclick='goToWord(37)'>למד</button></li><li>כוכב – star <button onclick='goToWord(38)'>למד</button></li><li>זמן – time <button onclick='goToWord(39)'>למד</button></li></ul><button onclick='goToReview(4)'>חזרת קבוצה</button><button onclick='goToSpeech(4)'>תרגול דיבור</button><h3>קבוצה 5</h3><ul><li>עיר – city <button onclick='goToWord(40)'>למד</button></li><li>רחוב – street <button onclick='goToWord(41)'>למד</button></li><li>גשר – bridge <button onclick='goToWord(42)'>למד</button></li><li>פרח – flower <button onclick='goToWord(43)'>למד</button></li><li>הר – mountain <button onclick='goToWord(44)'>למד</button></li><li>אגם – lake <button onclick='goToWord(45)'>למד</button></li><li>ים – sea <button onclick='goToWord(46)'>למד</button></li><li>נהר – river <button onclick='goToWord(47)'>למד</button></li><li>שוק – market <button onclick='goToWord(48)'>למד</button></li><li>עבודה – work <button onclick='goToWord(49)'>למד</button></li></ul><button onclick='goToReview(5)'>חזרת קבוצה</button><button onclick='goToSpeech(5)'>תרגול דיבור</button>
-    </div>
+    <h2>רשימת מילים</h2>
+    <ul>
+<li>תפוח – apple <button onclick='goToWord(0)'>למד מילה</button></li><li>בננה – banana <button onclick='goToWord(1)'>למד מילה</button></li><li>עוגה – cake <button onclick='goToWord(2)'>למד מילה</button></li><li>דלת – door <button onclick='goToWord(3)'>למד מילה</button></li><li>ביצה – egg <button onclick='goToWord(4)'>למד מילה</button></li><li>דג – fish <button onclick='goToWord(5)'>למד מילה</button></li><li>ענבים – grapes <button onclick='goToWord(6)'>למד מילה</button></li><li>כובע – hat <button onclick='goToWord(7)'>למד מילה</button></li><li>קרח – ice <button onclick='goToWord(8)'>למד מילה</button></li><li>מיץ – juice <button onclick='goToWord(9)'>למד מילה</button></li><li>מפתח – key <button onclick='goToWord(10)'>למד מילה</button></li><li>לימון – lemon <button onclick='goToWord(11)'>למד מילה</button></li><li>חלב – milk <button onclick='goToWord(12)'>למד מילה</button></li><li>מחברת – notebook <button onclick='goToWord(13)'>למד מילה</button></li><li>תפוז – orange <button onclick='goToWord(14)'>למד מילה</button></li><li>עט – pen <button onclick='goToWord(15)'>למד מילה</button></li><li>עיפרון – pencil <button onclick='goToWord(16)'>למד מילה</button></li><li>מלכה – queen <button onclick='goToWord(17)'>למד מילה</button></li><li>ארנב – rabbit <button onclick='goToWord(18)'>למד מילה</button></li><li>שמש – sun <button onclick='goToWord(19)'>למד מילה</button></li>
+    </ul>
   </main>
 </body>
 </html>
