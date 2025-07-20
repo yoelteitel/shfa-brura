@@ -11,11 +11,16 @@
   <header>
     <h1>תרגול – 72 מילים</h1>
     <button onclick="location.href='index.html'">חזור</button>
+    <button onclick="location.href='word_list.html'">קובץ מילים</button>
   </header>
   <main>
     <div id="progress"></div>
     <div id="stage-container"></div>
-    <button id="next-step" onclick="nextStage()">שלב הבא</button>
+    <div>
+      <button onclick="prevGroup()">חזור קובץ</button>
+      <button onclick="skipGroup()">דלג קובץ</button>
+      <button id="next-step" onclick="nextStage()">שלב הבא</button>
+    </div>
     <div id="feedback"></div>
   </main>
 </body>

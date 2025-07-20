@@ -11,7 +11,8 @@
       const groups = await res.json();
       let html = '';
       groups.forEach(g => {
-        html += `<h3>קבוצה ${g.group}</h3><table class='word-table'><tr><th>#</th><th>עברית</th><th>אנגלית</th></tr>`;
+        html += `<h3><a href="practice.html?group=${g.group}">קבוצה ${g.group}</a></h3>`;
+        html += '<table class="word-table"><tr><th>#</th><th>עברית</th><th>אנגלית</th></tr>';
         g.words.forEach((w,i) => {
           html += `<tr><td>${i+1}</td><td>${w.hebrew}</td><td>${w.english}</td></tr>`;
         });

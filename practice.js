@@ -160,3 +160,71 @@ function shuffle(array) {
 }
 
 loadGroups();
+
+function startFinalExam() {
+  fetch('final_exam.json')
+    .then(res => res.json())
+    .then(words => startExam(words));
+}
+
+let examIndex = 0;
+let examScore = 0;
+let examAttempts = 0;
+let examWords = [];
+
+function startExam(words) {
+  examWords = words;
+  examIndex = 0;
+  examScore = 0;
+  examAttempts = 0;
+  askNextExamWord();
+}
+
+function askNextExamWord() {
+  if (examIndex >= examWords.length) {
+    document.getElementById('stage-container').innerHTML =
+      `<h2>סיימת את המבחן!</h2><p>ציון: ${examScore}/${examAttempts}</p>`;
+    return;
+  }
+  const container = document.getElementById('stage-container');
+  container.innerHTML = `<h2>מבחן מסכם</h2><p>${examWords[examIndex].hebrew}</p>
+    <input type="text" id="answer" placeholder="כתוב את המילה באנגלית">
+    <button onclick="checkExamAnswer()">בדוק</button>`;
+}
+
+function checkExamAnswer() {
+  const ans = document.getElementById('answer').value.trim().toLowerCase();
+  examAttempts++;
+  if (ans === examWords[examIndex].english.toLowerCase()) {
+    examScore++;
+    document.getElementById('feedback').innerText = 'נכון!';
+  } else {
+    document.getElementById('feedback').innerText = `טעות! התשובה: ${examWords[examIndex].english}`;
+  }
+  examIndex++;
+  setTimeout(askNextExamWord, 800);
+}
+
+// אחוז התקדמות
+function updateProgress() {
+  const totalGroups = groups.length;
+  const completed = currentGroupIndex;
+  const percent = Math.floor((completed / totalGroups) * 100);
+  document.getElementById('progress').innerHTML =
+    `קבוצה ${currentGroupIndex+1} מתוך ${totalGroups} – שלב ${stage} | התקדמות: ${percent}%`;
+}
+
+// דלג/חזור קבוצות
+function skipGroup() {
+  if (currentGroupIndex < groups.length - 1) {
+    currentGroupIndex++;
+    showGroup();
+  }
+}
+
+function prevGroup() {
+  if (currentGroupIndex > 0) {
+    currentGroupIndex--;
+    showGroup();
+  }
+}

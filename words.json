@@ -19,7 +19,8 @@
         "english": "door"
       }
     ],
-    "review": false
+    "review": false,
+    "link": "practice.html?group=1"
   },
   {
     "group": 2,
@@ -41,7 +42,8 @@
         "english": "hat"
       }
     ],
-    "review": true
+    "review": true,
+    "link": "practice.html?group=2"
   },
   {
     "group": 3,
@@ -63,7 +65,8 @@
         "english": "dog"
       }
     ],
-    "review": false
+    "review": false,
+    "link": "practice.html?group=3"
   },
   {
     "group": 4,
@@ -85,7 +88,8 @@
         "english": "key"
       }
     ],
-    "review": true
+    "review": true,
+    "link": "practice.html?group=4"
   },
   {
     "group": 5,
@@ -107,7 +111,8 @@
         "english": "notebook"
       }
     ],
-    "review": false
+    "review": false,
+    "link": "practice.html?group=5"
   },
   {
     "group": 6,
@@ -129,7 +134,8 @@
         "english": "blanket"
       }
     ],
-    "review": true
+    "review": true,
+    "link": "practice.html?group=6"
   },
   {
     "group": 7,
@@ -151,7 +157,8 @@
         "english": "car"
       }
     ],
-    "review": false
+    "review": false,
+    "link": "practice.html?group=7"
   },
   {
     "group": 8,
@@ -173,7 +180,8 @@
         "english": "salt"
       }
     ],
-    "review": true
+    "review": true,
+    "link": "practice.html?group=8"
   },
   {
     "group": 9,
@@ -195,7 +203,8 @@
         "english": "carrot"
       }
     ],
-    "review": false
+    "review": false,
+    "link": "practice.html?group=9"
   },
   {
     "group": 10,
@@ -217,7 +226,8 @@
         "english": "meat"
       }
     ],
-    "review": true
+    "review": true,
+    "link": "practice.html?group=10"
   },
   {
     "group": 11,
@@ -239,7 +249,8 @@
         "english": "cookies"
       }
     ],
-    "review": false
+    "review": false,
+    "link": "practice.html?group=11"
   },
   {
     "group": 12,
@@ -261,7 +272,8 @@
         "english": "knife"
       }
     ],
-    "review": true
+    "review": true,
+    "link": "practice.html?group=12"
   },
   {
     "group": 13,
@@ -283,7 +295,8 @@
         "english": "pot"
       }
     ],
-    "review": false
+    "review": false,
+    "link": "practice.html?group=13"
   },
   {
     "group": 14,
@@ -305,7 +318,8 @@
         "english": "umbrella"
       }
     ],
-    "review": true
+    "review": true,
+    "link": "practice.html?group=14"
   },
   {
     "group": 15,
@@ -327,7 +341,8 @@
         "english": "pants"
       }
     ],
-    "review": false
+    "review": false,
+    "link": "practice.html?group=15"
   },
   {
     "group": 16,
@@ -349,7 +364,8 @@
         "english": "elevator"
       }
     ],
-    "review": true
+    "review": true,
+    "link": "practice.html?group=16"
   },
   {
     "group": 17,
@@ -371,7 +387,8 @@
         "english": "field"
       }
     ],
-    "review": false
+    "review": false,
+    "link": "practice.html?group=17"
   },
   {
     "group": 18,
@@ -393,7 +410,8 @@
         "english": "stone"
       }
     ],
-    "review": true
+    "review": true,
+    "link": "practice.html?group=18"
   },
   {
     "group": 19,
@@ -415,6 +433,7 @@
         "english": "moon"
       }
     ],
-    "review": false
+    "review": false,
+    "link": "practice.html?group=19"
   }
 ]
