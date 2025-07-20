@@ -18,8 +18,7 @@
         "hebrew": "דלת",
         "english": "door"
       }
-    ],
-    "review": false
+    ]
   },
   {
     "group": 2,
@@ -40,8 +39,7 @@
         "hebrew": "כובע",
         "english": "hat"
       }
-    ],
-    "review": true
+    ]
   },
   {
     "group": 3,
@@ -62,8 +60,7 @@
         "hebrew": "כלב",
         "english": "dog"
       }
-    ],
-    "review": false
+    ]
   },
   {
     "group": 4,
@@ -84,8 +81,7 @@
         "hebrew": "מפתח",
         "english": "key"
       }
-    ],
-    "review": true
+    ]
   },
   {
     "group": 5,
@@ -106,8 +102,7 @@
         "hebrew": "מחברת",
         "english": "notebook"
       }
-    ],
-    "review": false
+    ]
   },
   {
     "group": 6,
@@ -128,8 +123,7 @@
         "hebrew": "שמיכה",
         "english": "blanket"
       }
-    ],
-    "review": true
+    ]
   },
   {
     "group": 7,
@@ -150,8 +144,7 @@
         "hebrew": "רכב",
         "english": "car"
       }
-    ],
-    "review": false
+    ]
   },
   {
     "group": 8,
@@ -172,8 +165,7 @@
         "hebrew": "מלח",
         "english": "salt"
       }
-    ],
-    "review": true
+    ]
   },
   {
     "group": 9,
@@ -194,8 +186,7 @@
         "hebrew": "גזר",
         "english": "carrot"
       }
-    ],
-    "review": false
+    ]
   },
   {
     "group": 10,
@@ -216,8 +207,7 @@
         "hebrew": "בשר",
         "english": "meat"
       }
-    ],
-    "review": true
+    ]
   },
   {
     "group": 11,
@@ -238,8 +228,7 @@
         "hebrew": "עוגיות",
         "english": "cookies"
       }
-    ],
-    "review": false
+    ]
   },
   {
     "group": 12,
@@ -260,8 +249,7 @@
         "hebrew": "סכין",
         "english": "knife"
       }
-    ],
-    "review": true
+    ]
   },
   {
     "group": 13,
@@ -282,8 +270,7 @@
         "hebrew": "סיר",
         "english": "pot"
       }
-    ],
-    "review": false
+    ]
   },
   {
     "group": 14,
@@ -304,8 +291,7 @@
         "hebrew": "מטריה",
         "english": "umbrella"
       }
-    ],
-    "review": true
+    ]
   },
   {
     "group": 15,
@@ -326,8 +312,7 @@
         "hebrew": "מכנסיים",
         "english": "pants"
       }
-    ],
-    "review": false
+    ]
   },
   {
     "group": 16,
@@ -348,8 +333,7 @@
         "hebrew": "מעלית",
         "english": "elevator"
       }
-    ],
-    "review": true
+    ]
   },
   {
     "group": 17,
@@ -370,8 +354,7 @@
         "hebrew": "שדה",
         "english": "field"
       }
-    ],
-    "review": false
+    ]
   },
   {
     "group": 18,
@@ -392,8 +375,7 @@
         "hebrew": "אבן",
         "english": "stone"
       }
-    ],
-    "review": true
+    ]
   },
   {
     "group": 19,
@@ -414,7 +396,6 @@
         "hebrew": "ירח",
         "english": "moon"
       }
-    ],
-    "review": false
+    ]
   }
 ]
