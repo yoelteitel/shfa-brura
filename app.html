@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>שפה ברורה - 72 מילים</title>
+    <style>
+        body { font-family: Arial, sans-serif; direction: rtl; text-align: center; background: #f4f4f4; margin: 0; padding: 0; }
+        .container { max-width: 700px; margin: auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        button { padding: 10px 20px; margin: 10px; border: none; border-radius: 5px; background: #3498db; color: #fff; cursor: pointer; }
+        button:hover { background: #2980b9; }
+        .word-pair { margin: 10px 0; font-size: 18px; }
+        .hidden { display: none; }
+        .dropzone, .draggable { padding: 10px; margin: 5px; border: 1px dashed #333; display: inline-block; min-width: 100px; }
+        .success { color: green; font-weight: bold; }
+        .error { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>שפה ברורה – 72 מילים</h1>
+        <div id="intro">
+            <p>ברוך הבא! לחץ על הכפתור להתחיל ללמוד את המילים.</p>
+            <button onclick="startLearning()">התחל ללמוד</button>
+        </div>
+        <div id="stageA">
+            <div class='group hidden' id='groupA1'>
+<h3>קבוצה 1 – שלב א</h3>
+<div class='word-pair'>שולחן - Table <button onclick="speak('Table')">▶</button></div>
+<div class='word-pair'>כסא - Chair <button onclick="speak('Chair')">▶</button></div>
+<div class='word-pair'>חלון - Window <button onclick="speak('Window')">▶</button></div>
+<div class='word-pair'>דלת - Door <button onclick="speak('Door')">▶</button></div>
+<button onclick='goToStageB(1)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA2'>
+<h3>קבוצה 2 – שלב א</h3>
+<div class='word-pair'>ספר - Book <button onclick="speak('Book')">▶</button></div>
+<div class='word-pair'>עט - Pen <button onclick="speak('Pen')">▶</button></div>
+<div class='word-pair'>עיפרון - Pencil <button onclick="speak('Pencil')">▶</button></div>
+<div class='word-pair'>מחברת - Notebook <button onclick="speak('Notebook')">▶</button></div>
+<button onclick='goToStageB(2)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA3'>
+<h3>קבוצה 3 – שלב א</h3>
+<div class='word-pair'>מים - Water <button onclick="speak('Water')">▶</button></div>
+<div class='word-pair'>חלב - Milk <button onclick="speak('Milk')">▶</button></div>
+<div class='word-pair'>לחם - Bread <button onclick="speak('Bread')">▶</button></div>
+<div class='word-pair'>חמאה - Butter <button onclick="speak('Butter')">▶</button></div>
+<button onclick='goToStageB(3)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA4'>
+<h3>קבוצה 4 – שלב א</h3>
+<div class='word-pair'>תפוח - Apple <button onclick="speak('Apple')">▶</button></div>
+<div class='word-pair'>בננה - Banana <button onclick="speak('Banana')">▶</button></div>
+<div class='word-pair'>תפוז - Orange <button onclick="speak('Orange')">▶</button></div>
+<div class='word-pair'>ענבים - Grapes <button onclick="speak('Grapes')">▶</button></div>
+<button onclick='goToStageB(4)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA5'>
+<h3>קבוצה 5 – שלב א</h3>
+<div class='word-pair'>יום - Day <button onclick="speak('Day')">▶</button></div>
+<div class='word-pair'>לילה - Night <button onclick="speak('Night')">▶</button></div>
+<div class='word-pair'>שמש - Sun <button onclick="speak('Sun')">▶</button></div>
+<div class='word-pair'>ירח - Moon <button onclick="speak('Moon')">▶</button></div>
+<button onclick='goToStageB(5)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA6'>
+<h3>קבוצה 6 – שלב א</h3>
+<div class='word-pair'>אב - Father <button onclick="speak('Father')">▶</button></div>
+<div class='word-pair'>אם - Mother <button onclick="speak('Mother')">▶</button></div>
+<div class='word-pair'>בן - Son <button onclick="speak('Son')">▶</button></div>
+<div class='word-pair'>בת - Daughter <button onclick="speak('Daughter')">▶</button></div>
+<button onclick='goToStageB(6)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA7'>
+<h3>קבוצה 7 – שלב א</h3>
+<div class='word-pair'>חבר - Friend <button onclick="speak('Friend')">▶</button></div>
+<div class='word-pair'>מורה - Teacher <button onclick="speak('Teacher')">▶</button></div>
+<div class='word-pair'>ילד - Child <button onclick="speak('Child')">▶</button></div>
+<div class='word-pair'>תלמיד - Student <button onclick="speak('Student')">▶</button></div>
+<button onclick='goToStageB(7)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA8'>
+<h3>קבוצה 8 – שלב א</h3>
+<div class='word-pair'>כלב - Dog <button onclick="speak('Dog')">▶</button></div>
+<div class='word-pair'>חתול - Cat <button onclick="speak('Cat')">▶</button></div>
+<div class='word-pair'>פרה - Cow <button onclick="speak('Cow')">▶</button></div>
+<div class='word-pair'>סוס - Horse <button onclick="speak('Horse')">▶</button></div>
+<button onclick='goToStageB(8)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA9'>
+<h3>קבוצה 9 – שלב א</h3>
+<div class='word-pair'>אדום - Red <button onclick="speak('Red')">▶</button></div>
+<div class='word-pair'>כחול - Blue <button onclick="speak('Blue')">▶</button></div>
+<div class='word-pair'>ירוק - Green <button onclick="speak('Green')">▶</button></div>
+<div class='word-pair'>צהוב - Yellow <button onclick="speak('Yellow')">▶</button></div>
+<button onclick='goToStageB(9)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA10'>
+<h3>קבוצה 10 – שלב א</h3>
+<div class='word-pair'>גדול - Big <button onclick="speak('Big')">▶</button></div>
+<div class='word-pair'>קטן - Small <button onclick="speak('Small')">▶</button></div>
+<div class='word-pair'>חדש - New <button onclick="speak('New')">▶</button></div>
+<div class='word-pair'>ישן - Old <button onclick="speak('Old')">▶</button></div>
+<button onclick='goToStageB(10)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA11'>
+<h3>קבוצה 11 – שלב א</h3>
+<div class='word-pair'>חם - Hot <button onclick="speak('Hot')">▶</button></div>
+<div class='word-pair'>קר - Cold <button onclick="speak('Cold')">▶</button></div>
+<div class='word-pair'>יפה - Beautiful <button onclick="speak('Beautiful')">▶</button></div>
+<div class='word-pair'>מכוער - Ugly <button onclick="speak('Ugly')">▶</button></div>
+<button onclick='goToStageB(11)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA12'>
+<h3>קבוצה 12 – שלב א</h3>
+<div class='word-pair'>מהר - Fast <button onclick="speak('Fast')">▶</button></div>
+<div class='word-pair'>איטי - Slow <button onclick="speak('Slow')">▶</button></div>
+<div class='word-pair'>גבוה - Tall <button onclick="speak('Tall')">▶</button></div>
+<div class='word-pair'>נמוך - Short <button onclick="speak('Short')">▶</button></div>
+<button onclick='goToStageB(12)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA13'>
+<h3>קבוצה 13 – שלב א</h3>
+<div class='word-pair'>עבודה - Work <button onclick="speak('Work')">▶</button></div>
+<div class='word-pair'>משחק - Game <button onclick="speak('Game')">▶</button></div>
+<div class='word-pair'>בית - Home <button onclick="speak('Home')">▶</button></div>
+<div class='word-pair'>רחוב - Street <button onclick="speak('Street')">▶</button></div>
+<button onclick='goToStageB(13)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA14'>
+<h3>קבוצה 14 – שלב א</h3>
+<div class='word-pair'>מכונית - Car <button onclick="speak('Car')">▶</button></div>
+<div class='word-pair'>רכבת - Train <button onclick="speak('Train')">▶</button></div>
+<div class='word-pair'>מטוס - Plane <button onclick="speak('Plane')">▶</button></div>
+<div class='word-pair'>אופניים - Bicycle <button onclick="speak('Bicycle')">▶</button></div>
+<button onclick='goToStageB(14)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA15'>
+<h3>קבוצה 15 – שלב א</h3>
+<div class='word-pair'>לחכות - Wait <button onclick="speak('Wait')">▶</button></div>
+<div class='word-pair'>לרוץ - Run <button onclick="speak('Run')">▶</button></div>
+<div class='word-pair'>ללכת - Walk <button onclick="speak('Walk')">▶</button></div>
+<div class='word-pair'>לשבת - Sit <button onclick="speak('Sit')">▶</button></div>
+<button onclick='goToStageB(15)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA16'>
+<h3>קבוצה 16 – שלב א</h3>
+<div class='word-pair'>לאכול - Eat <button onclick="speak('Eat')">▶</button></div>
+<div class='word-pair'>לשתות - Drink <button onclick="speak('Drink')">▶</button></div>
+<div class='word-pair'>לישון - Sleep <button onclick="speak('Sleep')">▶</button></div>
+<div class='word-pair'>לשחק - Play <button onclick="speak('Play')">▶</button></div>
+<button onclick='goToStageB(16)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA17'>
+<h3>קבוצה 17 – שלב א</h3>
+<div class='word-pair'>לפתוח - Open <button onclick="speak('Open')">▶</button></div>
+<div class='word-pair'>לסגור - Close <button onclick="speak('Close')">▶</button></div>
+<div class='word-pair'>לקרוא - Read <button onclick="speak('Read')">▶</button></div>
+<div class='word-pair'>לכתוב - Write <button onclick="speak('Write')">▶</button></div>
+<button onclick='goToStageB(17)'>עבור לשלב ב</button>
+</div>
+<div class='group hidden' id='groupA18'>
+<h3>קבוצה 18 – שלב א</h3>
+<div class='word-pair'>לראות - See <button onclick="speak('See')">▶</button></div>
+<div class='word-pair'>לשמוע - Hear <button onclick="speak('Hear')">▶</button></div>
+<div class='word-pair'>לדבר - Speak <button onclick="speak('Speak')">▶</button></div>
+<div class='word-pair'>לחשוב - Think <button onclick="speak('Think')">▶</button></div>
+<button onclick='goToStageB(18)'>עבור לשלב ב</button>
+</div>
+
+        </div>
+        <div id="stageB" class="hidden">
+            <h2>שלב ב: משחק התאמה</h2>
+            <p>גרור את המילים האנגליות ליד העבריות הנכונות.</p>
+            <div id="hebrewWords"></div>
+            <div id="englishWords"></div>
+            <div id="matchResult"></div>
+            <button onclick="checkMatches()">בדוק התאמות</button>
+            <button onclick="goToStageC()">עבור לשלב ג</button>
+        </div>
+        <div id="stageC" class="hidden">
+            <h2>שלב ג: אמור בקול</h2>
+            <div id="speakWords"></div>
+            <div id="speechResult"></div>
+            <button onclick="nextGroup()">המשך לקבוצה הבאה</button>
+        </div>
+        <div id="end" class="hidden">
+            <h2>סיימת את כל 72 המילים! כל הכבוד!</h2>
+        </div>
+    </div>
+    <script>
+        const allGroups = [
+[{he: 'שולחן', en: 'Table'},{he: 'כסא', en: 'Chair'},{he: 'חלון', en: 'Window'},{he: 'דלת', en: 'Door'}],
+[{he: 'ספר', en: 'Book'},{he: 'עט', en: 'Pen'},{he: 'עיפרון', en: 'Pencil'},{he: 'מחברת', en: 'Notebook'}],
+[{he: 'מים', en: 'Water'},{he: 'חלב', en: 'Milk'},{he: 'לחם', en: 'Bread'},{he: 'חמאה', en: 'Butter'}],
+[{he: 'תפוח', en: 'Apple'},{he: 'בננה', en: 'Banana'},{he: 'תפוז', en: 'Orange'},{he: 'ענבים', en: 'Grapes'}],
+[{he: 'יום', en: 'Day'},{he: 'לילה', en: 'Night'},{he: 'שמש', en: 'Sun'},{he: 'ירח', en: 'Moon'}],
+[{he: 'אב', en: 'Father'},{he: 'אם', en: 'Mother'},{he: 'בן', en: 'Son'},{he: 'בת', en: 'Daughter'}],
+[{he: 'חבר', en: 'Friend'},{he: 'מורה', en: 'Teacher'},{he: 'ילד', en: 'Child'},{he: 'תלמיד', en: 'Student'}],
+[{he: 'כלב', en: 'Dog'},{he: 'חתול', en: 'Cat'},{he: 'פרה', en: 'Cow'},{he: 'סוס', en: 'Horse'}],
+[{he: 'אדום', en: 'Red'},{he: 'כחול', en: 'Blue'},{he: 'ירוק', en: 'Green'},{he: 'צהוב', en: 'Yellow'}],
+[{he: 'גדול', en: 'Big'},{he: 'קטן', en: 'Small'},{he: 'חדש', en: 'New'},{he: 'ישן', en: 'Old'}],
+[{he: 'חם', en: 'Hot'},{he: 'קר', en: 'Cold'},{he: 'יפה', en: 'Beautiful'},{he: 'מכוער', en: 'Ugly'}],
+[{he: 'מהר', en: 'Fast'},{he: 'איטי', en: 'Slow'},{he: 'גבוה', en: 'Tall'},{he: 'נמוך', en: 'Short'}],
+[{he: 'עבודה', en: 'Work'},{he: 'משחק', en: 'Game'},{he: 'בית', en: 'Home'},{he: 'רחוב', en: 'Street'}],
+[{he: 'מכונית', en: 'Car'},{he: 'רכבת', en: 'Train'},{he: 'מטוס', en: 'Plane'},{he: 'אופניים', en: 'Bicycle'}],
+[{he: 'לחכות', en: 'Wait'},{he: 'לרוץ', en: 'Run'},{he: 'ללכת', en: 'Walk'},{he: 'לשבת', en: 'Sit'}],
+[{he: 'לאכול', en: 'Eat'},{he: 'לשתות', en: 'Drink'},{he: 'לישון', en: 'Sleep'},{he: 'לשחק', en: 'Play'}],
+[{he: 'לפתוח', en: 'Open'},{he: 'לסגור', en: 'Close'},{he: 'לקרוא', en: 'Read'},{he: 'לכתוב', en: 'Write'}],
+[{he: 'לראות', en: 'See'},{he: 'לשמוע', en: 'Hear'},{he: 'לדבר', en: 'Speak'},{he: 'לחשוב', en: 'Think'}]];
+        let currentGroup = 0;
+        let pairs = [];
+        
+        function startLearning() {
+            document.getElementById('intro').classList.add('hidden');
+            showGroup(1);
+        }
+        function showGroup(num) {
+            currentGroup = num;
+            document.querySelectorAll('.group').forEach(el => el.classList.add('hidden'));
+            document.getElementById('groupA'+num).classList.remove('hidden');
+        }
+        function goToStageB(groupNum) {
+            pairs = allGroups[groupNum-1];
+            document.getElementById('stageA').classList.add('hidden');
+            document.getElementById('stageB').classList.remove('hidden');
+            loadMatchGame();
+        }
+        function speak(word) {
+            const msg = new SpeechSynthesisUtterance(word);
+            speechSynthesis.speak(msg);
+        }
+        function shuffleArray(array) { return array.sort(() => Math.random() - 0.5); }
+        function loadMatchGame() {
+            const hebrewDiv = document.getElementById('hebrewWords');
+            const englishDiv = document.getElementById('englishWords');
+            hebrewDiv.innerHTML = '';
+            englishDiv.innerHTML = '';
+            pairs.forEach((p, i) => {
+                hebrewDiv.innerHTML += `<div class='dropzone' data-index='${i}'>${p.he}</div>`;
+            });
+            shuffleArray(pairs.slice()).forEach((p, i) => {
+                englishDiv.innerHTML += `<div class='draggable' draggable='true' data-word='${p.en}'>${p.en}</div>`;
+            });
+            document.querySelectorAll('.draggable').forEach(el => {
+                el.addEventListener('dragstart', e => e.dataTransfer.setData('text', e.target.getAttribute('data-word')));
+            });
+            document.querySelectorAll('.dropzone').forEach(el => {
+                el.addEventListener('dragover', e => e.preventDefault());
+                el.addEventListener('drop', e => {
+                    e.preventDefault();
+                    const word = e.dataTransfer.getData('text');
+                    el.innerHTML = el.textContent.split(' - ')[0] + ' - ' + word;
+                    el.setAttribute('data-drop', word);
+                });
+            });
+        }
+        function checkMatches() {
+            let correct = 0;
+            document.querySelectorAll('.dropzone').forEach((el, i) => {
+                if (el.getAttribute('data-drop') === pairs[i].en) correct++;
+            });
+            document.getElementById('matchResult').innerHTML = `צדקת ב-${correct} מתוך ${pairs.length}`;
+        }
+        function goToStageC() {
+            document.getElementById('stageB').classList.add('hidden');
+            document.getElementById('stageC').classList.remove('hidden');
+            loadSpeakStage();
+        }
+        function loadSpeakStage() {
+            const speakDiv = document.getElementById('speakWords');
+            speakDiv.innerHTML = '';
+            pairs.forEach(p => {
+                speakDiv.innerHTML += `<button onclick="startRecognition('${p.en}')">${p.he}</button>`;
+            });
+        }
+        function startRecognition(correctWord) {
+            const recognition = new(window.SpeechRecognition || window.webkitSpeechRecognition)();
+            recognition.lang = 'en-US';
+            recognition.start();
+            recognition.onresult = (e) => {
+                const said = e.results[0][0].transcript;
+                document.getElementById('speechResult').innerHTML = 
+                    said.toLowerCase() === correctWord.toLowerCase() 
+                    ? `<span class='success'>נכון! אמרת ${said}</span>` 
+                    : `<span class='error'>לא נכון. אמרת ${said} (צריך: ${correctWord})</span>`;
+            };
+        }
+        function nextGroup() {
+            document.getElementById('stageC').classList.add('hidden');
+            if (currentGroup < allGroups.length) {
+                document.getElementById('stageA').classList.remove('hidden');
+                showGroup(currentGroup+1);
+            } else {
+                document.getElementById('end').classList.remove('hidden');
+            }
+        }
+    </script>
+</body>
+</html>
+    
