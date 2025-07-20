@@ -8,3 +8,4 @@ table.word-table, th, td { border: 1px solid black; padding: 5px; }
 .word { padding: 5px; margin: 5px; background: #eee; cursor: pointer; border-radius: 3px; text-align: center; }
 .word:hover { background: #ccc; }
 #progress { margin: 10px; font-weight: bold; }
+#controls { margin-top: 15px; }

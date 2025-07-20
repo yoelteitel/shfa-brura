@@ -8,12 +8,15 @@
   <script>
     async function loadWords() {
       const res = await fetch('words.json');
-      const words = await res.json();
-      let html = '<table class="word-table"><tr><th>#</th><th>עברית</th><th>אנגלית</th></tr>';
-      words.forEach((w, i) => {
-        html += `<tr><td>${i+1}</td><td>${w.hebrew}</td><td>${w.english}</td></tr>`;
+      const groups = await res.json();
+      let html = '';
+      groups.forEach(g => {
+        html += `<h3>קבוצה ${g.group}</h3><table class='word-table'><tr><th>#</th><th>עברית</th><th>אנגלית</th></tr>`;
+        g.words.forEach((w,i) => {
+          html += `<tr><td>${i+1}</td><td>${w.hebrew}</td><td>${w.english}</td></tr>`;
+        });
+        html += '</table>';
       });
-      html += '</table>';
       document.getElementById('words').innerHTML = html;
     }
     loadWords();

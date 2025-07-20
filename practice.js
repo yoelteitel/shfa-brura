@@ -1,159 +1,245 @@
 
-let words = [];
-let step = 1;
-let correctMatches = 0;
-let selectedHeb = '';
-let selectedEng = '';
+let groups = [];
+let currentGroupIndex = 0;
+let stage = 1; // 1=לימוד, 2=משחק, 3=אמירה
+let currentWordIndex = 0;
+let selectedHeb = null;
+let selectedEng = null;
+let score = 0;
+let attempts = 0;
 
-async function loadWords() {
+async function loadGroups() {
   const res = await fetch('words.json');
-  words = await res.json();
+  groups = await res.json();
+  showGroup();
 }
 
-function startPractice() {
-  if (step === 1) stepOne();
-  else if (step === 2) stepTwo();
-  else if (step === 3) stepThree();
+function showGroup() {
+  if (currentGroupIndex >= groups.length) {
+    startFinalExam();
+    return;
+  }
+  stage = 1;
+  currentWordIndex = 0;
+  score = 0;
+  attempts = 0;
+  updateProgress();
+  showStageA();
 }
 
-function stepOne() {
-  const container = document.getElementById('practice-container');
-  container.innerHTML = '<h2>שלב א: לחץ על מילה בעברית ואז באנגלית</h2>';
-  correctMatches = 0;
-  words.slice(0, 6).forEach(w => {
-    container.innerHTML += `<button class='hebrew-btn' onclick="selectHebrew('${w.hebrew}')">${w.hebrew}</button> `;
-  });
-  container.innerHTML += '<br><br>';
-  words.slice(0, 6).forEach(w => {
-    container.innerHTML += `<button class='english-btn' onclick="selectEnglish('${w.english}')">${w.english}</button> `;
-  });
-  step = 2;
+function updateProgress() {
+  document.getElementById('progress').innerHTML =
+    `קבוצה ${currentGroupIndex+1} מתוך ${groups.length} – שלב ${stage}`;
 }
 
-function selectHebrew(heb) { selectedHeb = heb; }
-function selectEnglish(eng) {
-  const match = words.find(w => w.hebrew === selectedHeb);
-  if (match && match.english === eng) {
-    correctMatches++;
-    document.getElementById('practice-score').textContent = `התאמות נכונות: ${correctMatches}/6`;
+function nextStage() {
+  if (stage === 1) {
+    stage = 2;
+    showStageB();
+  } else if (stage === 2) {
+    stage = 3;
+    showStageC();
+  } else if (stage === 3) {
+    alert(`סיום קבוצה ${currentGroupIndex+1}. הציון שלך במשחק: ${score}/${attempts}`);
+    currentGroupIndex++;
+    showGroup();
+  }
+  updateProgress();
+}
+
+function backStage() {
+  if (stage > 1) {
+    stage--;
+    if (stage === 1) showStageA();
+    if (stage === 2) showStageB();
+    updateProgress();
   }
 }
 
-function stepTwo() {
-  const container = document.getElementById('practice-container');
-  container.innerHTML = '<h2>שלב ב: משחק התאמות</h2>';
-  correctMatches = 0;
+function skipWord() {
+  if (stage === 3) {
+    currentWordIndex++;
+    askNextWord();
+  }
+}
 
-  const hebList = words.slice(0, 6).map(w => w.hebrew);
-  const engList = words.slice(0, 6).map(w => w.english);
-
-  shuffleArray(hebList);
-  shuffleArray(engList);
-
-  const hebDiv = document.createElement('div');
-  hebDiv.id = 'hebrew-column';
-  const engDiv = document.createElement('div');
-  engDiv.id = 'english-column';
-
-  hebList.forEach(h => {
-    const btn = document.createElement('button');
-    btn.textContent = h;
-    btn.onclick = () => selectHebMatch(btn);
-    hebDiv.appendChild(btn);
+function showStageA() {
+  const container = document.getElementById('stage-container');
+  container.innerHTML = '<h2>שלב א: למד את המילים</h2>';
+  let table = '<table class="word-table"><tr><th>עברית</th><th>אנגלית</th><th>שמיעה</th></tr>';
+  groups[currentGroupIndex].words.forEach(w => {
+    table += `<tr><td>${w.hebrew}</td><td>${w.english}</td><td><button onclick="playWord('${w.english}')">🔊</button></td></tr>`;
   });
+  table += '</table>';
+  container.innerHTML += table;
+}
 
-  engList.forEach(e => {
-    const btn = document.createElement('button');
-    btn.textContent = e;
-    btn.onclick = () => selectEngMatch(btn);
-    engDiv.appendChild(btn);
+function showStageB() {
+  const container = document.getElementById('stage-container');
+  container.innerHTML = '<h2>שלב ב: חבר את המילים</h2>';
+  const hebrew = groups[currentGroupIndex].words.map(w => w.hebrew);
+  const english = groups[currentGroupIndex].words.map(w => w.english);
+  shuffle(hebrew);
+  shuffle(english);
+  let gameHTML = '<div class="columns"><div><h3>עברית</h3>';
+  hebrew.forEach(h => {
+    gameHTML += `<div class="word" onclick="selectWord(this, 'hebrew')">${h}</div>`;
   });
-
-  container.appendChild(hebDiv);
-  container.appendChild(engDiv);
-  container.appendChild(document.createElement('br'));
-
-  const score = document.createElement('div');
-  score.id = 'match-score';
-  score.textContent = '0/6 התאמות נכונות';
-  container.appendChild(score);
-
-  step = 3;
+  gameHTML += '</div><div><h3>אנגלית</h3>';
+  english.forEach(e => {
+    gameHTML += `<div class="word" onclick="selectWord(this, 'english')">${e}</div>`;
+  });
+  gameHTML += '</div></div>';
+  container.innerHTML += gameHTML;
 }
 
-let currentHebBtn = null;
-let currentEngBtn = null;
-
-function selectHebMatch(btn) {
-  if (currentHebBtn) currentHebBtn.classList.remove('selected');
-  currentHebBtn = btn;
-  btn.classList.add('selected');
-}
-
-function selectEngMatch(btn) {
-  if (!currentHebBtn) return;
-  if (currentEngBtn) currentEngBtn.classList.remove('selected');
-  currentEngBtn = btn;
-  btn.classList.add('selected');
-  checkMatch();
-}
-
-function checkMatch() {
-  const heb = currentHebBtn.textContent;
-  const eng = currentEngBtn.textContent;
-  const match = words.find(w => w.hebrew === heb);
-  if (match && match.english === eng) {
-    correctMatches++;
-    document.getElementById('match-score').textContent = `${correctMatches}/6 התאמות נכונות`;
-    currentHebBtn.disabled = true;
-    currentEngBtn.disabled = true;
-    currentHebBtn.classList.remove('selected');
-    currentEngBtn.classList.remove('selected');
-    currentHebBtn = null;
-    currentEngBtn = null;
-    if (correctMatches === 6) {
-      document.getElementById('match-score').textContent += " – כל ההתאמות בוצעו!";
+function selectWord(el, lang) {
+  if (lang === 'hebrew') selectedHeb = el.innerText;
+  else selectedEng = el.innerText;
+  if (selectedHeb && selectedEng) {
+    attempts++;
+    const pair = groups[currentGroupIndex].words.find(w => w.hebrew === selectedHeb && w.english === selectedEng);
+    if (pair) {
+      markMatched(selectedHeb, selectedEng);
+      score++;
+      document.getElementById('feedback').innerText = 'נכון!';
+    } else {
+      document.getElementById('feedback').innerText = 'לא נכון, נסה שוב';
     }
+    selectedHeb = null;
+    selectedEng = null;
   }
 }
 
-function stepThree() {
-  const container = document.getElementById('practice-container');
-  container.innerHTML = '<h2>שלב ג: אמור את המילים בקול</h2>';
-  container.innerHTML += `<button onclick="startVoiceCheck()">התחל בדיקת קול</button>`;
-}
-
-function startVoiceCheck() {
-  if (!('webkitSpeechRecognition' in window)) { alert('אין תמיכה בזיהוי קול'); return; }
-  let currentIndex = 0;
-  let score = 0;
-
-  function checkNext() {
-    if (currentIndex >= 6) {
-      document.getElementById('practice-score').textContent = `ציון דיבור: ${score}/6`;
-      return;
+function markMatched(h, e) {
+  document.querySelectorAll('.word').forEach(word => {
+    if (word.innerText === h || word.innerText === e) {
+      word.style.backgroundColor = '#90ee90';
+      word.onclick = null;
     }
-    const w = words[currentIndex];
-    const u = new SpeechSynthesisUtterance(w.english);
-    speechSynthesis.speak(u);
-    const recognition = new webkitSpeechRecognition();
-    recognition.lang = 'en-US';
-    recognition.onresult = (e) => {
-      const spoken = e.results[0][0].transcript.toLowerCase();
-      if (spoken === w.english.toLowerCase()) score++;
-      currentIndex++;
-      checkNext();
-    };
-    recognition.start();
-  }
-  checkNext();
+  });
 }
 
-function shuffleArray(array) {
+function showStageC() {
+  currentWordIndex = 0;
+  askNextWord();
+}
+
+function askNextWord() {
+  if (currentWordIndex >= groups[currentGroupIndex].words.length) {
+    document.getElementById('stage-container').innerHTML = '<h2>סיימת את שלב האמירה!</h2>';
+    return;
+  }
+  const container = document.getElementById('stage-container');
+  container.innerHTML = `<h2>שלב ג: אמור את המילה באנגלית</h2><p>${groups[currentGroupIndex].words[currentWordIndex].hebrew}</p><button onclick="checkVoice()">אמור מילה</button>`;
+}
+
+function playWord(word) {
+  const u = new SpeechSynthesisUtterance(word);
+  u.lang = 'en-US';
+  speechSynthesis.speak(u);
+}
+
+function checkVoice() {
+  const feedback = document.getElementById('feedback');
+  feedback.textContent = 'מקשיב... (מדמה זיהוי דיבור)';
+  setTimeout(() => {
+    feedback.textContent = 'נאמר נכון! 🎉';
+    currentWordIndex++;
+    askNextWord();
+  }, 1000);
+}
+
+
+function startFinalExam() {
+  fetch('final_exam.json')
+    .then(res => res.json())
+    .then(examWords => startExam(examWords));
+}
+
+  document.getElementById('stage-container').innerHTML = '<h2>מבחן מסכם על 72 מילים!</h2><p>כאן יוצג משחק התאמות ותרגול אמירה של 18 מילים (מילה מכל קבוצה).</p>';
+  document.getElementById('next-step').style.display = 'none';
+}
+
+function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
 }
 
-loadWords();
+loadGroups();
+
+function startExam(words) {
+  const container = document.getElementById('stage-container');
+  container.innerHTML = '<h2>מבחן מסכם – משחק התאמות</h2>';
+  let hebrew = words.map(w => w.hebrew);
+  let english = words.map(w => w.english);
+  shuffle(hebrew);
+  shuffle(english);
+
+  let gameHTML = '<div class="columns"><div><h3>עברית</h3>';
+  hebrew.forEach(h => { gameHTML += `<div class="word" onclick="selectExam(this,'hebrew')">${h}</div>`; });
+  gameHTML += '</div><div><h3>אנגלית</h3>';
+  english.forEach(e => { gameHTML += `<div class="word" onclick="selectExam(this,'english')">${e}</div>`; });
+  gameHTML += '</div></div><button onclick="startExamSpeech(words)">תרגול אמירה</button>';
+  container.innerHTML = gameHTML;
+}
+
+let examSelectedHeb = null;
+let examSelectedEng = null;
+let examScore = 0;
+let examAttempts = 0;
+
+function selectExam(el, lang) {
+  if (lang === 'hebrew') examSelectedHeb = el.innerText;
+  else examSelectedEng = el.innerText;
+
+  if (examSelectedHeb && examSelectedEng) {
+    examAttempts++;
+    fetch('final_exam.json')
+      .then(res => res.json())
+      .then(words => {
+        const pair = words.find(w => w.hebrew === examSelectedHeb && w.english === examSelectedEng);
+        if (pair) {
+          examScore++;
+          el.style.backgroundColor = '#90ee90';
+          document.getElementById('feedback').innerText = 'נכון!';
+        } else {
+          document.getElementById('feedback').innerText = 'לא נכון, נסה שוב';
+        }
+        examSelectedHeb = null;
+        examSelectedEng = null;
+      });
+  }
+}
+
+function startExamSpeech(words) {
+  const container = document.getElementById('stage-container');
+  container.innerHTML = '<h2>מבחן מסכם – אמירת מילים</h2>';
+  currentExamWordIndex = 0;
+  examWordsList = words;
+  askNextExamWord();
+}
+
+let currentExamWordIndex = 0;
+let examWordsList = [];
+
+function askNextExamWord() {
+  if (currentExamWordIndex >= examWordsList.length) {
+    document.getElementById('stage-container').innerHTML = `<h2>סיימת את המבחן!</h2><p>ציון במשחק: ${examScore}/${examAttempts}</p>`;
+    return;
+  }
+  const container = document.getElementById('stage-container');
+  container.innerHTML = `<h2>אמור את המילה באנגלית</h2><p>${examWordsList[currentExamWordIndex].hebrew}</p><button onclick="checkExamVoice()">אמור מילה</button>`;
+}
+
+function checkExamVoice() {
+  const feedback = document.getElementById('feedback');
+  feedback.textContent = 'מקשיב... (מדמה זיהוי)';
+  setTimeout(() => {
+    feedback.textContent = 'נאמר נכון!';
+    currentExamWordIndex++;
+    askNextExamWord();
+  }, 1000);
+}

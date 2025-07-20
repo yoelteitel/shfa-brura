@@ -1,122 +1,420 @@
 [
   {
-    "hebrew": "תפוח",
-    "english": "apple"
+    "group": 1,
+    "words": [
+      {
+        "hebrew": "תפוח",
+        "english": "apple"
+      },
+      {
+        "hebrew": "בננה",
+        "english": "banana"
+      },
+      {
+        "hebrew": "עוגה",
+        "english": "cake"
+      },
+      {
+        "hebrew": "דלת",
+        "english": "door"
+      }
+    ],
+    "review": false
   },
   {
-    "hebrew": "בננה",
-    "english": "banana"
+    "group": 2,
+    "words": [
+      {
+        "hebrew": "ביצה",
+        "english": "egg"
+      },
+      {
+        "hebrew": "דג",
+        "english": "fish"
+      },
+      {
+        "hebrew": "ענבים",
+        "english": "grapes"
+      },
+      {
+        "hebrew": "כובע",
+        "english": "hat"
+      }
+    ],
+    "review": true
   },
   {
-    "hebrew": "עוגה",
-    "english": "cake"
+    "group": 3,
+    "words": [
+      {
+        "hebrew": "קרח",
+        "english": "ice"
+      },
+      {
+        "hebrew": "מיץ",
+        "english": "juice"
+      },
+      {
+        "hebrew": "חתול",
+        "english": "cat"
+      },
+      {
+        "hebrew": "כלב",
+        "english": "dog"
+      }
+    ],
+    "review": false
   },
   {
-    "hebrew": "דלת",
-    "english": "door"
+    "group": 4,
+    "words": [
+      {
+        "hebrew": "כיסא",
+        "english": "chair"
+      },
+      {
+        "hebrew": "שולחן",
+        "english": "table"
+      },
+      {
+        "hebrew": "חלון",
+        "english": "window"
+      },
+      {
+        "hebrew": "מפתח",
+        "english": "key"
+      }
+    ],
+    "review": true
   },
   {
-    "hebrew": "ביצה",
-    "english": "egg"
+    "group": 5,
+    "words": [
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      },
+      {
+        "hebrew": "עט",
+        "english": "pen"
+      },
+      {
+        "hebrew": "עיפרון",
+        "english": "pencil"
+      },
+      {
+        "hebrew": "מחברת",
+        "english": "notebook"
+      }
+    ],
+    "review": false
   },
   {
-    "hebrew": "דג",
-    "english": "fish"
+    "group": 6,
+    "words": [
+      {
+        "hebrew": "טלפון",
+        "english": "phone"
+      },
+      {
+        "hebrew": "מחשב",
+        "english": "computer"
+      },
+      {
+        "hebrew": "מיטה",
+        "english": "bed"
+      },
+      {
+        "hebrew": "שמיכה",
+        "english": "blanket"
+      }
+    ],
+    "review": true
   },
   {
-    "hebrew": "ענבים",
-    "english": "grapes"
+    "group": 7,
+    "words": [
+      {
+        "hebrew": "כרית",
+        "english": "pillow"
+      },
+      {
+        "hebrew": "עיר",
+        "english": "city"
+      },
+      {
+        "hebrew": "מדינה",
+        "english": "country"
+      },
+      {
+        "hebrew": "רכב",
+        "english": "car"
+      }
+    ],
+    "review": false
   },
   {
-    "hebrew": "כובע",
-    "english": "hat"
+    "group": 8,
+    "words": [
+      {
+        "hebrew": "אופניים",
+        "english": "bicycle"
+      },
+      {
+        "hebrew": "לחם",
+        "english": "bread"
+      },
+      {
+        "hebrew": "גבינה",
+        "english": "cheese"
+      },
+      {
+        "hebrew": "מלח",
+        "english": "salt"
+      }
+    ],
+    "review": true
   },
   {
-    "hebrew": "קרח",
-    "english": "ice"
+    "group": 9,
+    "words": [
+      {
+        "hebrew": "סוכר",
+        "english": "sugar"
+      },
+      {
+        "hebrew": "עגבניה",
+        "english": "tomato"
+      },
+      {
+        "hebrew": "מלפפון",
+        "english": "cucumber"
+      },
+      {
+        "hebrew": "גזר",
+        "english": "carrot"
+      }
+    ],
+    "review": false
   },
   {
-    "hebrew": "מיץ",
-    "english": "juice"
+    "group": 10,
+    "words": [
+      {
+        "hebrew": "פלפל",
+        "english": "pepper"
+      },
+      {
+        "hebrew": "אורז",
+        "english": "rice"
+      },
+      {
+        "hebrew": "עוף",
+        "english": "chicken"
+      },
+      {
+        "hebrew": "בשר",
+        "english": "meat"
+      }
+    ],
+    "review": true
   },
   {
-    "hebrew": "חתול",
-    "english": "cat"
+    "group": 11,
+    "words": [
+      {
+        "hebrew": "מים",
+        "english": "water"
+      },
+      {
+        "hebrew": "חלב",
+        "english": "milk"
+      },
+      {
+        "hebrew": "שוקולד",
+        "english": "chocolate"
+      },
+      {
+        "hebrew": "עוגיות",
+        "english": "cookies"
+      }
+    ],
+    "review": false
   },
   {
-    "hebrew": "כלב",
-    "english": "dog"
+    "group": 12,
+    "words": [
+      {
+        "hebrew": "קפה",
+        "english": "coffee"
+      },
+      {
+        "hebrew": "תה",
+        "english": "tea"
+      },
+      {
+        "hebrew": "מזלג",
+        "english": "fork"
+      },
+      {
+        "hebrew": "סכין",
+        "english": "knife"
+      }
+    ],
+    "review": true
   },
   {
-    "hebrew": "כיסא",
-    "english": "chair"
+    "group": 13,
+    "words": [
+      {
+        "hebrew": "כפית",
+        "english": "spoon"
+      },
+      {
+        "hebrew": "צלחת",
+        "english": "plate"
+      },
+      {
+        "hebrew": "כוס",
+        "english": "cup"
+      },
+      {
+        "hebrew": "סיר",
+        "english": "pot"
+      }
+    ],
+    "review": false
   },
   {
-    "hebrew": "שולחן",
-    "english": "table"
+    "group": 14,
+    "words": [
+      {
+        "hebrew": "מחבת",
+        "english": "pan"
+      },
+      {
+        "hebrew": "שעון",
+        "english": "clock"
+      },
+      {
+        "hebrew": "משקפיים",
+        "english": "glasses"
+      },
+      {
+        "hebrew": "מטריה",
+        "english": "umbrella"
+      }
+    ],
+    "review": true
   },
   {
-    "hebrew": "חלון",
-    "english": "window"
+    "group": 15,
+    "words": [
+      {
+        "hebrew": "נעליים",
+        "english": "shoes"
+      },
+      {
+        "hebrew": "גרביים",
+        "english": "socks"
+      },
+      {
+        "hebrew": "חולצה",
+        "english": "shirt"
+      },
+      {
+        "hebrew": "מכנסיים",
+        "english": "pants"
+      }
+    ],
+    "review": false
   },
   {
-    "hebrew": "מפתח",
-    "english": "key"
+    "group": 16,
+    "words": [
+      {
+        "hebrew": "מעיל",
+        "english": "coat"
+      },
+      {
+        "hebrew": "חגורה",
+        "english": "belt"
+      },
+      {
+        "hebrew": "מזוודה",
+        "english": "suitcase"
+      },
+      {
+        "hebrew": "מעלית",
+        "english": "elevator"
+      }
+    ],
+    "review": true
   },
   {
-    "hebrew": "ספר",
-    "english": "book"
+    "group": 17,
+    "words": [
+      {
+        "hebrew": "תחנה",
+        "english": "station"
+      },
+      {
+        "hebrew": "רכבת",
+        "english": "train"
+      },
+      {
+        "hebrew": "מטוס",
+        "english": "plane"
+      },
+      {
+        "hebrew": "שדה",
+        "english": "field"
+      }
+    ],
+    "review": false
   },
   {
-    "hebrew": "עט",
-    "english": "pen"
+    "group": 18,
+    "words": [
+      {
+        "hebrew": "פרח",
+        "english": "flower"
+      },
+      {
+        "hebrew": "עץ",
+        "english": "tree"
+      },
+      {
+        "hebrew": "דשא",
+        "english": "grass"
+      },
+      {
+        "hebrew": "אבן",
+        "english": "stone"
+      }
+    ],
+    "review": true
   },
   {
-    "hebrew": "עיפרון",
-    "english": "pencil"
-  },
-  {
-    "hebrew": "מחברת",
-    "english": "notebook"
-  },
-  {
-    "hebrew": "טלפון",
-    "english": "phone"
-  },
-  {
-    "hebrew": "מחשב",
-    "english": "computer"
-  },
-  {
-    "hebrew": "מיטה",
-    "english": "bed"
-  },
-  {
-    "hebrew": "שמיכה",
-    "english": "blanket"
-  },
-  {
-    "hebrew": "כרית",
-    "english": "pillow"
-  },
-  {
-    "hebrew": "עיר",
-    "english": "city"
-  },
-  {
-    "hebrew": "מדינה",
-    "english": "country"
-  },
-  {
-    "hebrew": "רכב",
-    "english": "car"
-  },
-  {
-    "hebrew": "אופניים",
-    "english": "bicycle"
-  },
-  {
-    "hebrew": "לחם",
-    "english": "bread"
+    "group": 19,
+    "words": [
+      {
+        "hebrew": "חול",
+        "english": "sand"
+      },
+      {
+        "hebrew": "ים",
+        "english": "sea"
+      },
+      {
+        "hebrew": "שמש",
+        "english": "sun"
+      },
+      {
+        "hebrew": "ירח",
+        "english": "moon"
+      }
+    ],
+    "review": false
   }
 ]
