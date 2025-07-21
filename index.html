@@ -8,12 +8,14 @@
     <script src="script.js"></script>
 </head>
 <body>
+    <div class="top-bar">
+        <button class="nav-btn" onclick="window.location='words.html'">קובץ מילים</button>
+    </div>
     <div class="container" id="home">
         <p style="font-weight:bold;">בעזרת ה'</p>
         <h1>שפה ברורה</h1>
         <button class="nav-btn" onclick="startFromBeginning()">התחל מהתחלה</button>
         <button class="nav-btn" onclick="resumeLast()">התחל מהמקום האחרון</button>
-        <button class="nav-btn" onclick="window.location='words.html'">קובץ מילים</button>
         <button class="nav-btn" onclick="window.location='explanation.html'">הסבר השיטה</button>
     </div>
     <div class="container hidden" id="learning"></div>
