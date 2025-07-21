@@ -2,10 +2,10 @@
 body {
     font-family: Arial, sans-serif;
     direction: rtl;
-    text-align: center;
     background: #f4f4f4;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 .container {
     max-width: 800px;
@@ -15,28 +15,32 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-a {
-    text-decoration: none;
-    color: #3498db;
-    font-weight: bold;
-}
-a:hover {
-    color: #2980b9;
-}
 button {
     padding: 10px 20px;
-    margin: 10px;
+    margin: 5px;
     border: none;
     border-radius: 5px;
-    background: #3498db;
-    color: #fff;
     cursor: pointer;
 }
-button:hover {
-    background: #2980b9;
+button.word-btn {
+    background: #2ecc71;
+    color: #fff;
 }
-.hidden { display: none; }
-table, th, td {
-    border: 1px solid #333;
-    padding: 8px;
+button.nav-btn {
+    background: #3498db;
+    color: #fff;
+}
+button:hover {
+    opacity: 0.9;
+}
+.hidden {
+    display: none;
+}
+.review-page {
+    background: #fcf8e3;
+}
+input.word-input {
+    margin-top: 5px;
+    padding: 5px;
+    width: 60%;
 }

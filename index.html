@@ -3,22 +3,16 @@
 <html lang="he">
 <head>
     <meta charset="UTF-8">
-    <title>שפה ברורה - דף פתיחה</title>
+    <title>שפה ברורה – חקוק במוח</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>ברוכים הבאים ל"שפה ברורה"</h1>
-        <p>באפליקציה תלמדו 72 מילים באנגלית, מחולקות ל־18 קבוצות של 4 מילים.</p>
-        <p>בכל קבוצה:</p>
-        <ul>
-            <li><strong>שלב א:</strong> צפייה ושמיעה של המילים.</li>
-            <li><strong>שלב ב:</strong> משחק התאמה בלחיצה עם משוב מיידי.</li>
-            <li><strong>שלב ג:</strong> אמירת המילים ובדיקה אם נאמרו נכון.</li>
-        </ul>
-        <p>אחרי כל 8 מילים – משחק וחזרה נוספת על 8 המילים האחרונות.</p>
-        <p><a href="app.html">לחץ כאן להתחיל ללמוד</a></p>
-        <p><a href="words.html">קובץ המילים המלא</a></p>
+        <h1>שפה ברורה – 72 מילים</h1>
+        <p>ברוכים הבאים! בחר קבוצת מילים להתחלה או לחץ על "התחל מהמקום האחרון".</p>
+        <button onclick="resumeLast()">התחל מהמקום האחרון</button>
+        <div id="groupLinks"></div>
     </div>
 </body>
 </html>
