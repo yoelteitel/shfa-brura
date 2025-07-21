@@ -8,13 +8,34 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="home">
         <h1>שפה ברורה – 72 מילים</h1>
-        <p>ברוכים הבאים! בחר קבוצת מילים להתחלה או לחץ על "התחל מהמקום האחרון".</p>
+        <p><b>בעזרת ה'</b></p>
+        <p>
+            ברוכים הבאים ל"שפה ברורה – חקוק במוח"!<br>
+            האפליקציה תלמד אתכם לדבר ולהבין שפה חדשה במהירות ובקלות,
+            באמצעות שיטה ייחודית של חקיקה בזיכרון דרך פעולה ביד ובפה.<br>
+            בחרנו להציג לכם תחילה את המילים השימושיות ביותר, כך שאפילו אם תלמדו רק מעט,
+            כבר יהיה לכם ידע משמעותי בשפה.
+        </p>
+        <p><b>מהלך הלימוד:</b></p>
+        <ul style="text-align:right; display:inline-block;">
+            <li>המילים מחולקות לקבוצות של 4 מילים בכל פעם.</li>
+            <li>בכל קבוצה יש שלושה שלבים:
+                <ul>
+                    <li>שלב א: צפייה ושמיעה של המילים, לצד כתיבה שלהן.</li>
+                    <li>שלב ב: משחק התאמה לזכירה יעילה.</li>
+                    <li>שלב ג: אמירת המילים בקול, עם בדיקה אם נאמרו נכון.</li>
+                </ul>
+            </li>
+            <li>אחרי כל 8 מילים – משחק מילים נוסף לחזרה ותרגול.</li>
+            <li>לאחר 72 מילים – חזרה מקיפה באמצעות משחק מילים אקראי, המשלב מילה אחת מכל קבוצה.</li>
+        </ul>
+        <button class="nav-btn" onclick="startFromBeginning()">התחל מהתחלה</button>
         <button class="nav-btn" onclick="resumeLast()">התחל מהמקום האחרון</button>
-        <div id="groupLinks"></div>
-        <br>
-        <a href="words.html">קובץ המילים והחזרות</a>
+        <br><br>
+        <button class="nav-btn" onclick="window.location='words.html'">קובץ מילים</button>
     </div>
+    <div class="container hidden" id="learning"></div>
 </body>
 </html>

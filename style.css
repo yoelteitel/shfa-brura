@@ -22,12 +22,16 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+button.nav-btn {
+    background: #3498db;
+    color: #fff;
+}
 button.word-btn {
     background: #2ecc71;
     color: #fff;
 }
-button.nav-btn {
-    background: #3498db;
+button.speak-btn {
+    background: #f39c12;
     color: #fff;
 }
 button:hover {
@@ -38,6 +42,6 @@ input.word-input {
     padding: 5px;
     width: 60%;
 }
-.review-page {
-    background: #fcf8e3;
+.hidden {
+    display: none;
 }

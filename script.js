@@ -2,7 +2,6 @@
 const allGroups = [
     [ {he: "שולחן", en: "Table"}, {he: "כסא", en: "Chair"}, {he: "חלון", en: "Window"}, {he: "דלת", en: "Door"} ],
     [ {he: "ספר", en: "Book"}, {he: "עט", en: "Pen"}, {he: "עיפרון", en: "Pencil"}, {he: "מחברת", en: "Notebook"} ]
-    // להוסיף עוד עד 72 מילים
 ];
 
 let currentGroup = 0;
@@ -22,61 +21,62 @@ function resumeLast() {
         alert("לא נמצא מיקום קודם.");
     }
 }
-
-window.onload = function() {
-    const groupLinks = document.getElementById("groupLinks");
-    if (groupLinks) {
-        allGroups.forEach((_, idx) => {
-            const btn = document.createElement("button");
-            btn.innerText = "קבוצה " + (idx + 1);
-            btn.className = "nav-btn";
-            btn.onclick = () => startGroup(idx);
-            groupLinks.appendChild(btn);
-        });
-    }
+function startFromBeginning() {
+    currentGroup = 0;
+    currentStage = 0;
+    startGroup(0);
 }
-
 function startGroup(groupIndex) {
     currentGroup = groupIndex;
     currentStage = 0;
+    document.getElementById("home").classList.add("hidden");
+    document.getElementById("learning").classList.remove("hidden");
     openLearningPage();
 }
-
 function openLearningPage() {
-    document.body.innerHTML = `
-        <div class="container">
-            <h2>קבוצה ${currentGroup+1} – שלב א</h2>
-            <div id="stage"></div>
-            <button class="nav-btn" onclick="showStage(1)">עבור לשלב ב</button>
-        </div>`;
+    const learning = document.getElementById("learning");
+    learning.innerHTML = `
+        <h2>קבוצה ${currentGroup+1} – שלב א</h2>
+        <div id="stage"></div>
+        <button class="nav-btn" onclick="showStage(1)">עבור לשלב ב</button>
+    `;
     showStage(0);
 }
-
 function showStage(stageIndex) {
     currentStage = stageIndex;
     saveProgress();
     const stageDiv = document.getElementById("stage");
     const group = allGroups[currentGroup];
     stageDiv.innerHTML = "";
+
     if (stageIndex === 0) {
+        const title = document.createElement("h3");
+        title.innerText = "שלב א";
+        stageDiv.appendChild(title);
         group.forEach(p => {
             const div = document.createElement("div");
             div.className = "word-block";
             div.innerHTML = `
-                <button class="word-btn">${p.he} - ${p.en}</button><br/>
+                <button class="word-btn">${p.he} - ${p.en}</button>
+                <button class="speak-btn" onclick="speak('${p.en}')">השמע</button><br/>
                 <input class="word-input" placeholder="כתוב כאן: ${p.en}"/>
             `;
             stageDiv.appendChild(div);
         });
     }
     else if (stageIndex === 1) {
+        const title = document.createElement("h3");
+        title.innerText = "שלב ב";
+        stageDiv.appendChild(title);
         showMatchGame(group);
     }
     else if (stageIndex === 2) {
+        const title = document.createElement("h3");
+        title.innerText = "שלב ג";
+        stageDiv.appendChild(title);
         showSpeakStage(group);
     }
 }
-
 function showMatchGame(group) {
     const stageDiv = document.getElementById("stage");
     const heDiv = document.createElement("div");
@@ -109,7 +109,6 @@ function showMatchGame(group) {
     nextBtn.onclick = () => showStage(2);
     stageDiv.appendChild(nextBtn);
 }
-
 let selectedHe = null;
 function selectHe(index) {
     selectedHe = allGroups[currentGroup][index];
@@ -125,19 +124,21 @@ function selectEn(enWord) {
     }
     selectedHe = null;
 }
-
 function showSpeakStage(group) {
     const stageDiv = document.getElementById("stage");
-    stageDiv.innerHTML = `
+    stageDiv.innerHTML += `
         <p>בשלב זה אמור בקול את המילים.</p>
         <button class="nav-btn" onclick="checkMicrophone()">בדוק מיקרופון</button>
     `;
 }
-
+function speak(word) {
+    const utterance = new SpeechSynthesisUtterance(word);
+    speechSynthesis.speak(utterance);
+}
 function checkMicrophone() {
     navigator.mediaDevices.getUserMedia({ audio: true })
         .then(stream => {
-            alert("המיקרופון זמין ומחובר. דבר ובדוק באפליקציה אחרת.");
+            alert("המיקרופון זמין ומחובר.");
             stream.getTracks().forEach(track => track.stop());
         })
         .catch(err => {
