@@ -1,9002 +1,9002 @@
 const allGroups = [
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ],
   [
     {
-      "he": "The",
-      "en": "the"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Be",
-      "en": "be"
+      "he": "ספר",
+      "en": "Book"
     },
     {
-      "he": "To",
-      "en": "to"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Of",
-      "en": "of"
+      "he": "לחם",
+      "en": "Bread"
     }
   ],
   [
     {
-      "he": "And",
-      "en": "and"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "A",
-      "en": "a"
+      "he": "עיר",
+      "en": "City"
     },
     {
-      "he": "In",
-      "en": "in"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "That",
-      "en": "that"
+      "he": "לב",
+      "en": "Heart"
     }
   ],
   [
     {
-      "he": "Have",
-      "en": "have"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "I",
-      "en": "I"
+      "he": "אור",
+      "en": "Light"
     },
     {
-      "he": "It",
-      "en": "it"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "For",
-      "en": "for"
+      "he": "אבן",
+      "en": "Stone"
     }
   ],
   [
     {
-      "he": "Not",
-      "en": "not"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "On",
-      "en": "on"
+      "he": "עץ",
+      "en": "Tree"
     },
     {
-      "he": "With",
-      "en": "with"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "He",
-      "en": "he"
+      "he": "אדם",
+      "en": "Man"
     }
   ],
   [
     {
-      "he": "As",
-      "en": "as"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "You",
-      "en": "you"
+      "he": "ילד",
+      "en": "Child"
     },
     {
-      "he": "Do",
-      "en": "do"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "At",
-      "en": "at"
+      "he": "יום",
+      "en": "Day"
     }
   ],
   [
     {
-      "he": "This",
-      "en": "this"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "But",
-      "en": "but"
+      "he": "דג",
+      "en": "Fish"
     },
     {
-      "he": "His",
-      "en": "his"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "By",
-      "en": "by"
+      "he": "חיים",
+      "en": "Life"
     }
   ],
   [
     {
-      "he": "From",
-      "en": "from"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "They",
-      "en": "they"
+      "he": "שמיים",
+      "en": "Sky"
     },
     {
-      "he": "We",
-      "en": "we"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Say",
-      "en": "say"
+      "he": "עין",
+      "en": "Eye"
     }
   ],
   [
     {
-      "he": "Her",
-      "en": "her"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "She",
-      "en": "she"
+      "he": "לבוש",
+      "en": "Clothes"
     },
     {
-      "he": "Or",
-      "en": "or"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "An",
-      "en": "an"
+      "he": "שלום",
+      "en": "Peace"
     }
   ],
   [
     {
-      "he": "Will",
-      "en": "will"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "My",
-      "en": "my"
+      "he": "ברכה",
+      "en": "Blessing"
     },
     {
-      "he": "One",
-      "en": "one"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "All",
-      "en": "all"
+      "he": "גוף",
+      "en": "Body"
     }
   ],
   [
     {
-      "he": "Would",
-      "en": "would"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "There",
-      "en": "there"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Their",
-      "en": "their"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "What",
-      "en": "what"
+      "he": "שער",
+      "en": "Gate"
     }
   ],
   [
     {
-      "he": "So",
-      "en": "so"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Up",
-      "en": "up"
+      "he": "סוס",
+      "en": "Horse"
     },
     {
-      "he": "Out",
-      "en": "out"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "If",
-      "en": "if"
+      "he": "עבד",
+      "en": "Servant"
     }
   ],
   [
     {
-      "he": "About",
-      "en": "about"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "Who",
-      "en": "who"
+      "he": "זהב",
+      "en": "Gold"
     },
     {
-      "he": "Get",
-      "en": "get"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Which",
-      "en": "which"
+      "he": "נהר",
+      "en": "River"
     }
   ],
   [
     {
-      "he": "Go",
-      "en": "go"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Me",
-      "en": "me"
+      "he": "שיר",
+      "en": "Song"
     },
     {
-      "he": "When",
-      "en": "when"
+      "he": "בית",
+      "en": "House"
     },
     {
-      "he": "Make",
-      "en": "make"
+      "he": "ספר",
+      "en": "Book"
     }
   ],
   [
     {
-      "he": "Can",
-      "en": "can"
+      "he": "מים",
+      "en": "Water"
     },
     {
-      "he": "Like",
-      "en": "like"
+      "he": "לחם",
+      "en": "Bread"
     },
     {
-      "he": "Time",
-      "en": "time"
+      "he": "מלך",
+      "en": "King"
     },
     {
-      "he": "No",
-      "en": "no"
+      "he": "עיר",
+      "en": "City"
     }
   ],
   [
     {
-      "he": "Just",
-      "en": "just"
+      "he": "שמש",
+      "en": "Sun"
     },
     {
-      "he": "Him",
-      "en": "him"
+      "he": "לב",
+      "en": "Heart"
     },
     {
-      "he": "Know",
-      "en": "know"
+      "he": "יד",
+      "en": "Hand"
     },
     {
-      "he": "Take",
-      "en": "take"
+      "he": "אור",
+      "en": "Light"
     }
   ],
   [
     {
-      "he": "People",
-      "en": "people"
+      "he": "כסף",
+      "en": "Money"
     },
     {
-      "he": "Into",
-      "en": "into"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "Year",
-      "en": "year"
+      "he": "שדה",
+      "en": "Field"
     },
     {
-      "he": "Your",
-      "en": "your"
+      "he": "עץ",
+      "en": "Tree"
     }
   ],
   [
     {
-      "he": "Good",
-      "en": "good"
+      "he": "ים",
+      "en": "Sea"
     },
     {
-      "he": "Some",
-      "en": "some"
+      "he": "אדם",
+      "en": "Man"
     },
     {
-      "he": "Could",
-      "en": "could"
+      "he": "אשה",
+      "en": "Woman"
     },
     {
-      "he": "Them",
-      "en": "them"
+      "he": "ילד",
+      "en": "Child"
     }
   ],
   [
     {
-      "he": "See",
-      "en": "see"
+      "he": "לילה",
+      "en": "Night"
     },
     {
-      "he": "Other",
-      "en": "other"
+      "he": "יום",
+      "en": "Day"
     },
     {
-      "he": "Than",
-      "en": "than"
+      "he": "אוכל",
+      "en": "Food"
     },
     {
-      "he": "Then",
-      "en": "then"
+      "he": "דג",
+      "en": "Fish"
     }
   ],
   [
     {
-      "he": "Now",
-      "en": "now"
+      "he": "אש",
+      "en": "Fire"
     },
     {
-      "he": "Look",
-      "en": "look"
+      "he": "חיים",
+      "en": "Life"
     },
     {
-      "he": "Only",
-      "en": "only"
+      "he": "רוח",
+      "en": "Wind"
     },
     {
-      "he": "Come",
-      "en": "come"
+      "he": "שמיים",
+      "en": "Sky"
     }
   ],
   [
     {
-      "he": "Its",
-      "en": "its"
+      "he": "אוזן",
+      "en": "Ear"
     },
     {
-      "he": "Over",
-      "en": "over"
+      "he": "עין",
+      "en": "Eye"
     },
     {
-      "he": "Think",
-      "en": "think"
+      "he": "פה",
+      "en": "Mouth"
     },
     {
-      "he": "Also",
-      "en": "also"
+      "he": "לבוש",
+      "en": "Clothes"
     }
   ],
   [
     {
-      "he": "Back",
-      "en": "back"
+      "he": "אמת",
+      "en": "Truth"
     },
     {
-      "he": "After",
-      "en": "after"
+      "he": "שלום",
+      "en": "Peace"
     },
     {
-      "he": "Use",
-      "en": "use"
+      "he": "שמחה",
+      "en": "Joy"
     },
     {
-      "he": "Two",
-      "en": "two"
+      "he": "ברכה",
+      "en": "Blessing"
     }
   ],
   [
     {
-      "he": "How",
-      "en": "how"
+      "he": "חסד",
+      "en": "Kindness"
     },
     {
-      "he": "Our",
-      "en": "our"
+      "he": "גוף",
+      "en": "Body"
     },
     {
-      "he": "Work",
-      "en": "work"
+      "he": "כוכב",
+      "en": "Star"
     },
     {
-      "he": "First",
-      "en": "first"
+      "he": "רגל",
+      "en": "Leg"
     }
   ],
   [
     {
-      "he": "Well",
-      "en": "well"
+      "he": "אדמה",
+      "en": "Earth"
     },
     {
-      "he": "Way",
-      "en": "way"
+      "he": "שער",
+      "en": "Gate"
     },
     {
-      "he": "Even",
-      "en": "even"
+      "he": "אבן",
+      "en": "Stone"
     },
     {
-      "he": "New",
-      "en": "new"
+      "he": "סוס",
+      "en": "Horse"
     }
   ],
   [
     {
-      "he": "Want",
-      "en": "want"
+      "he": "חמור",
+      "en": "Donkey"
     },
     {
-      "he": "Because",
-      "en": "because"
+      "he": "עבד",
+      "en": "Servant"
     },
     {
-      "he": "Any",
-      "en": "any"
+      "he": "אוצר",
+      "en": "Treasure"
     },
     {
-      "he": "These",
-      "en": "these"
+      "he": "זהב",
+      "en": "Gold"
     }
   ],
   [
     {
-      "he": "Give",
-      "en": "give"
+      "he": "גן",
+      "en": "Garden"
     },
     {
-      "he": "Day",
-      "en": "day"
+      "he": "נהר",
+      "en": "River"
     },
     {
-      "he": "Most",
-      "en": "most"
+      "he": "רגל",
+      "en": "Leg"
     },
     {
-      "he": "Us",
-      "en": "us"
+      "he": "שיר",
+      "en": "Song"
     }
   ]
 ];
