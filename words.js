@@ -1,9001 +1,9001 @@
 const allGroups = [
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ],
   [
     {
-      "he": "ה",
+      "he": "The",
       "en": "the"
     },
     {
-      "he": "להיות",
+      "he": "Be",
       "en": "be"
     },
     {
-      "he": "אל",
+      "he": "To",
       "en": "to"
     },
     {
-      "he": "של",
+      "he": "Of",
       "en": "of"
     }
   ],
   [
     {
-      "he": "וגם",
+      "he": "And",
       "en": "and"
     },
     {
-      "he": "אחד",
+      "he": "A",
       "en": "a"
     },
     {
-      "he": "בתוך",
+      "he": "In",
       "en": "in"
     },
     {
-      "he": "שֶׁ",
+      "he": "That",
       "en": "that"
     }
   ],
   [
     {
-      "he": "יש",
+      "he": "Have",
       "en": "have"
     },
     {
-      "he": "אני",
+      "he": "I",
       "en": "I"
     },
     {
-      "he": "הוא",
+      "he": "It",
       "en": "it"
     },
     {
-      "he": "בשביל",
+      "he": "For",
       "en": "for"
     }
   ],
   [
     {
-      "he": "לא",
+      "he": "Not",
       "en": "not"
     },
     {
-      "he": "על",
+      "he": "On",
       "en": "on"
     },
     {
-      "he": "עם",
+      "he": "With",
       "en": "with"
     },
     {
-      "he": "הוא",
+      "he": "He",
       "en": "he"
     }
   ],
   [
     {
-      "he": "כמו",
+      "he": "As",
       "en": "as"
     },
     {
-      "he": "אתה",
+      "he": "You",
       "en": "you"
     },
     {
-      "he": "לעשות",
+      "he": "Do",
       "en": "do"
     },
     {
-      "he": "ב",
+      "he": "At",
       "en": "at"
     }
   ],
   [
     {
-      "he": "זה",
+      "he": "This",
       "en": "this"
     },
     {
-      "he": "אבל",
+      "he": "But",
       "en": "but"
     },
     {
-      "he": "שלו",
+      "he": "His",
       "en": "his"
     },
     {
-      "he": "על ידי",
+      "he": "By",
       "en": "by"
     }
   ],
   [
     {
-      "he": "מן",
+      "he": "From",
       "en": "from"
     },
     {
-      "he": "הם",
+      "he": "They",
       "en": "they"
     },
     {
-      "he": "אנחנו",
+      "he": "We",
       "en": "we"
     },
     {
-      "he": "לומר",
+      "he": "Say",
       "en": "say"
     }
   ],
   [
     {
-      "he": "שלה",
+      "he": "Her",
       "en": "her"
     },
     {
-      "he": "היא",
+      "he": "She",
       "en": "she"
     },
     {
-      "he": "או",
+      "he": "Or",
       "en": "or"
     },
     {
-      "he": "אחד",
+      "he": "An",
       "en": "an"
     }
   ],
   [
     {
-      "he": "ירצה",
+      "he": "Will",
       "en": "will"
     },
     {
-      "he": "שלי",
+      "he": "My",
       "en": "my"
     },
     {
-      "he": "אחד",
+      "he": "One",
       "en": "one"
     },
     {
-      "he": "הכל",
+      "he": "All",
       "en": "all"
     }
   ],
   [
     {
-      "he": "היה",
+      "he": "Would",
       "en": "would"
     },
     {
-      "he": "שם",
+      "he": "There",
       "en": "there"
     },
     {
-      "he": "שלהם",
+      "he": "Their",
       "en": "their"
     },
     {
-      "he": "מה",
+      "he": "What",
       "en": "what"
     }
   ],
   [
     {
-      "he": "אז",
+      "he": "So",
       "en": "so"
     },
     {
-      "he": "למעלה",
+      "he": "Up",
       "en": "up"
     },
     {
-      "he": "חוץ",
+      "he": "Out",
       "en": "out"
     },
     {
-      "he": "אם",
+      "he": "If",
       "en": "if"
     }
   ],
   [
     {
-      "he": "על אודות",
+      "he": "About",
       "en": "about"
     },
     {
-      "he": "מי",
+      "he": "Who",
       "en": "who"
     },
     {
-      "he": "לקבל",
+      "he": "Get",
       "en": "get"
     },
     {
-      "he": "איזה",
+      "he": "Which",
       "en": "which"
     }
   ],
   [
     {
-      "he": "ללכת",
+      "he": "Go",
       "en": "go"
     },
     {
-      "he": "אני",
+      "he": "Me",
       "en": "me"
     },
     {
-      "he": "מתי",
+      "he": "When",
       "en": "when"
     },
     {
-      "he": "לעשות",
+      "he": "Make",
       "en": "make"
     }
   ],
   [
     {
-      "he": "יכול",
+      "he": "Can",
       "en": "can"
     },
     {
-      "he": "כמו",
+      "he": "Like",
       "en": "like"
     },
     {
-      "he": "זמן",
+      "he": "Time",
       "en": "time"
     },
     {
-      "he": "אין",
+      "he": "No",
       "en": "no"
     }
   ],
   [
     {
-      "he": "רק",
+      "he": "Just",
       "en": "just"
     },
     {
-      "he": "לו",
+      "he": "Him",
       "en": "him"
     },
     {
-      "he": "לדעת",
+      "he": "Know",
       "en": "know"
     },
     {
-      "he": "לקחת",
+      "he": "Take",
       "en": "take"
     }
   ],
   [
     {
-      "he": "אנשים",
+      "he": "People",
       "en": "people"
     },
     {
-      "he": "לתוך",
+      "he": "Into",
       "en": "into"
     },
     {
-      "he": "שנה",
+      "he": "Year",
       "en": "year"
     },
     {
-      "he": "שלך",
+      "he": "Your",
       "en": "your"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Good",
       "en": "good"
     },
     {
-      "he": "קצת",
+      "he": "Some",
       "en": "some"
     },
     {
-      "he": "יכול היה",
+      "he": "Could",
       "en": "could"
     },
     {
-      "he": "אותם",
+      "he": "Them",
       "en": "them"
     }
   ],
   [
     {
-      "he": "לראות",
+      "he": "See",
       "en": "see"
     },
     {
-      "he": "אחר",
+      "he": "Other",
       "en": "other"
     },
     {
-      "he": "מאשר",
+      "he": "Than",
       "en": "than"
     },
     {
-      "he": "אז",
+      "he": "Then",
       "en": "then"
     }
   ],
   [
     {
-      "he": "עכשיו",
+      "he": "Now",
       "en": "now"
     },
     {
-      "he": "לראות",
+      "he": "Look",
       "en": "look"
     },
     {
-      "he": "רק",
+      "he": "Only",
       "en": "only"
     },
     {
-      "he": "לבוא",
+      "he": "Come",
       "en": "come"
     }
   ],
   [
     {
-      "he": "שלו",
+      "he": "Its",
       "en": "its"
     },
     {
-      "he": "מעל",
+      "he": "Over",
       "en": "over"
     },
     {
-      "he": "לחשוב",
+      "he": "Think",
       "en": "think"
     },
     {
-      "he": "גם",
+      "he": "Also",
       "en": "also"
     }
   ],
   [
     {
-      "he": "חזרה",
+      "he": "Back",
       "en": "back"
     },
     {
-      "he": "אחרי",
+      "he": "After",
       "en": "after"
     },
     {
-      "he": "להשתמש",
+      "he": "Use",
       "en": "use"
     },
     {
-      "he": "שתים",
+      "he": "Two",
       "en": "two"
     }
   ],
   [
     {
-      "he": "איך",
+      "he": "How",
       "en": "how"
     },
     {
-      "he": "שלנו",
+      "he": "Our",
       "en": "our"
     },
     {
-      "he": "עבודה",
+      "he": "Work",
       "en": "work"
     },
     {
-      "he": "ראשון",
+      "he": "First",
       "en": "first"
     }
   ],
   [
     {
-      "he": "טוב",
+      "he": "Well",
       "en": "well"
     },
     {
-      "he": "דרך",
+      "he": "Way",
       "en": "way"
     },
     {
-      "he": "אפילו",
+      "he": "Even",
       "en": "even"
     },
     {
-      "he": "חדש",
+      "he": "New",
       "en": "new"
     }
   ],
   [
     {
-      "he": "רוצה",
+      "he": "Want",
       "en": "want"
     },
     {
-      "he": "מפני",
+      "he": "Because",
       "en": "because"
     },
     {
-      "he": "כלשהו",
+      "he": "Any",
       "en": "any"
     },
     {
-      "he": "אלה",
+      "he": "These",
       "en": "these"
     }
   ],
   [
     {
-      "he": "לתת",
+      "he": "Give",
       "en": "give"
     },
     {
-      "he": "יום",
+      "he": "Day",
       "en": "day"
     },
     {
-      "he": "רוב",
+      "he": "Most",
       "en": "most"
     },
     {
-      "he": "אותנו",
+      "he": "Us",
       "en": "us"
     }
   ]
