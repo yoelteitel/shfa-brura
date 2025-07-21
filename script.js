@@ -38,7 +38,6 @@ function openLearningPage() {
     learning.innerHTML = `
         <h2>קבוצה ${currentGroup+1} – שלב א</h2>
         <div id="stage"></div>
-        <button class="nav-btn" onclick="showStage(1)">עבור לשלב ב</button>
     `;
     showStage(0);
 }
@@ -63,6 +62,11 @@ function showStage(stageIndex) {
             `;
             stageDiv.appendChild(div);
         });
+        const btn = document.createElement("button");
+        btn.innerText = "המשך לשלב ב";
+        btn.className = "nav-btn";
+        btn.onclick = () => showStage(1);
+        stageDiv.appendChild(btn);
     }
     else if (stageIndex === 1) {
         const title = document.createElement("h3");
@@ -105,7 +109,7 @@ function showMatchGame(group) {
     stageDiv.appendChild(resultDiv);
     const nextBtn = document.createElement("button");
     nextBtn.className = "nav-btn";
-    nextBtn.innerText = "עבור לשלב ג";
+    nextBtn.innerText = "המשך לשלב ג";
     nextBtn.onclick = () => showStage(2);
     stageDiv.appendChild(nextBtn);
 }
@@ -118,7 +122,7 @@ function selectEn(enWord) {
     if (!selectedHe) return;
     const resultDiv = document.getElementById("matchResult");
     if (selectedHe.en === enWord) {
-        resultDiv.innerHTML = `<span style="color:green;">✔ נכון!</span>`;
+        resultDiv.innerHTML = `<span style="color:green;">✔ נכון! 😊</span>`;
     } else {
         resultDiv.innerHTML = `<span style="color:red;">✖ לא נכון.</span>`;
     }
@@ -126,22 +130,38 @@ function selectEn(enWord) {
 }
 function showSpeakStage(group) {
     const stageDiv = document.getElementById("stage");
-    stageDiv.innerHTML += `
-        <p>בשלב זה אמור בקול את המילים.</p>
-        <button class="nav-btn" onclick="checkMicrophone()">בדוק מיקרופון</button>
-    `;
+    group.forEach((p) => {
+        const div = document.createElement("div");
+        div.innerHTML = `
+            <p><b>${p.he}</b> <span id="smiley-${p.en}" class="smiley"></span></p>
+            <button class="listen-btn" onclick="startListening('${p.en}')">בדוק אם אמרת נכון</button>
+            <div id="result-${p.en}" style="margin-top:5px;"></div>
+        `;
+        stageDiv.appendChild(div);
+    });
 }
 function speak(word) {
     const utterance = new SpeechSynthesisUtterance(word);
     speechSynthesis.speak(utterance);
 }
-function checkMicrophone() {
-    navigator.mediaDevices.getUserMedia({ audio: true })
-        .then(stream => {
-            alert("המיקרופון זמין ומחובר.");
-            stream.getTracks().forEach(track => track.stop());
-        })
-        .catch(err => {
-            alert("המיקרופון לא זמין: " + err.message);
-        });
+function startListening(correctWord) {
+    const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+    recognition.lang = "en-US";
+    recognition.start();
+    recognition.onresult = function(event) {
+        const said = event.results[0][0].transcript.trim().toLowerCase();
+        const correct = correctWord.toLowerCase();
+        const resultDiv = document.getElementById("result-" + correctWord);
+        const smiley = document.getElementById("smiley-" + correctWord);
+        if (said === correct) {
+            resultDiv.innerHTML = `<span style="color:green;">✔ אמרת נכון (${said}) 😊</span>`;
+            smiley.innerHTML = "😊";
+        } else {
+            resultDiv.innerHTML = `<span style="color:red;">✖ שמענו "${said}" במקום "${correct}"</span>`;
+            smiley.innerHTML = "";
+        }
+    };
+    recognition.onerror = function() {
+        alert("לא ניתן לזהות קול. בדוק את המיקרופון.");
+    };
 }

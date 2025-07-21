@@ -34,6 +34,10 @@ button.speak-btn {
     background: #f39c12;
     color: #fff;
 }
+button.listen-btn {
+    background: #9b59b6;
+    color: #fff;
+}
 button:hover {
     opacity: 0.9;
 }
@@ -44,4 +48,8 @@ input.word-input {
 }
 .hidden {
     display: none;
+}
+.smiley {
+    font-size: 24px;
+    margin-left: 10px;
 }
