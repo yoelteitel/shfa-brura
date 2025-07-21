@@ -1,11 +1,12 @@
 
 const allGroups = [
-    [ {he: "שולחן", en: "Table"}, {he: "כסא", en: "Chair"}, {he: "חלון", en: "Window"}, {he: "דלת", en: "Door"} ],
-    [ {he: "ספר", en: "Book"}, {he: "עט", en: "Pen"}, {he: "עיפרון", en: "Pencil"}, {he: "מחברת", en: "Notebook"} ]
+    [ {he: "שולחן", en: "table"}, {he: "כסא", en: "chair"}, {he: "חלון", en: "window"}, {he: "דלת", en: "door"} ],
+    [ {he: "ספר", en: "book"}, {he: "עט", en: "pen"}, {he: "עיפרון", en: "pencil"}, {he: "מחברת", en: "notebook"} ]
 ];
 
 let currentGroup = 0;
 let currentStage = 0;
+let wordsLearned = 0;
 
 function saveProgress() {
     localStorage.setItem("lastGroup", currentGroup);
@@ -24,6 +25,7 @@ function resumeLast() {
 function startFromBeginning() {
     currentGroup = 0;
     currentStage = 0;
+    wordsLearned = 0;
     startGroup(0);
 }
 function startGroup(groupIndex) {
@@ -35,10 +37,7 @@ function startGroup(groupIndex) {
 }
 function openLearningPage() {
     const learning = document.getElementById("learning");
-    learning.innerHTML = `
-        <h2>קבוצה ${currentGroup+1} – שלב א</h2>
-        <div id="stage"></div>
-    `;
+    learning.innerHTML = `<div id="stage"></div>`;
     showStage(0);
 }
 function showStage(stageIndex) {
@@ -58,7 +57,9 @@ function showStage(stageIndex) {
             div.innerHTML = `
                 <button class="word-btn">${p.he} - ${p.en}</button>
                 <button class="speak-btn" onclick="speak('${p.en}')">השמע</button><br/>
-                <input class="word-input" placeholder="כתוב כאן: ${p.en}"/>
+                <input class="word-input" id="input-${p.en}" placeholder="כתוב כאן: ${p.en}" oninput="checkInput('${p.en}')"/>
+                <div class="feedback" id="feedback-${p.en}"></div>
+                <div class="keyboard">${generateKeyboard(p.en)}</div>
             `;
             stageDiv.appendChild(div);
         });
@@ -81,6 +82,33 @@ function showStage(stageIndex) {
         showSpeakStage(group);
     }
 }
+
+function generateKeyboard(word) {
+    const letters = Array.from(new Set(word.split(''))); 
+    return letters.map(letter => `<button onclick="addLetter('${word}','${letter}')">${letter}</button>`).join('');
+}
+
+function addLetter(word, letter) {
+    const input = document.getElementById("input-" + word);
+    input.value += letter;
+    checkInput(word);
+}
+
+function checkInput(word) {
+    const input = document.getElementById("input-" + word).value.trim().toLowerCase();
+    const correct = word.toLowerCase();
+    const feedback = document.getElementById("feedback-" + word);
+    if (input === "") {
+        feedback.innerHTML = "";
+        return;
+    }
+    if (input === correct) {
+        feedback.innerHTML = `<span style="color:green;">✔ נכון! 😊</span>`;
+    } else {
+        feedback.innerHTML = `<span style="color:red;">✖ לא נכון.</span>`;
+    }
+}
+
 function showMatchGame(group) {
     const stageDiv = document.getElementById("stage");
     const heDiv = document.createElement("div");
