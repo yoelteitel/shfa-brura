@@ -2,6 +2,7 @@
 const allGroups = [
     [ {he: "שולחן", en: "Table"}, {he: "כסא", en: "Chair"}, {he: "חלון", en: "Window"}, {he: "דלת", en: "Door"} ],
     [ {he: "ספר", en: "Book"}, {he: "עט", en: "Pen"}, {he: "עיפרון", en: "Pencil"}, {he: "מחברת", en: "Notebook"} ]
+    // להוסיף עוד עד 72 מילים
 ];
 
 let currentGroup = 0;
@@ -24,13 +25,15 @@ function resumeLast() {
 
 window.onload = function() {
     const groupLinks = document.getElementById("groupLinks");
-    allGroups.forEach((_, idx) => {
-        const btn = document.createElement("button");
-        btn.innerText = "קבוצה " + (idx + 1);
-        btn.className = "nav-btn";
-        btn.onclick = () => startGroup(idx);
-        groupLinks.appendChild(btn);
-    });
+    if (groupLinks) {
+        allGroups.forEach((_, idx) => {
+            const btn = document.createElement("button");
+            btn.innerText = "קבוצה " + (idx + 1);
+            btn.className = "nav-btn";
+            btn.onclick = () => startGroup(idx);
+            groupLinks.appendChild(btn);
+        });
+    }
 }
 
 function startGroup(groupIndex) {

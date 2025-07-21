@@ -33,14 +33,11 @@ button.nav-btn {
 button:hover {
     opacity: 0.9;
 }
-.hidden {
-    display: none;
-}
-.review-page {
-    background: #fcf8e3;
-}
 input.word-input {
     margin-top: 5px;
     padding: 5px;
     width: 60%;
+}
+.review-page {
+    background: #fcf8e3;
 }
