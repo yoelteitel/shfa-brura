@@ -2,11 +2,11 @@
 const allGroups = [
     [ {he: "שולחן", en: "table"}, {he: "כסא", en: "chair"}, {he: "חלון", en: "window"}, {he: "דלת", en: "door"} ],
     [ {he: "ספר", en: "book"}, {he: "עט", en: "pen"}, {he: "עיפרון", en: "pencil"}, {he: "מחברת", en: "notebook"} ]
+    // אפשר להוסיף כאן עוד קבוצות עד 72 מילים.
 ];
 
 let currentGroup = 0;
 let currentStage = 0;
-let wordsLearned = 0;
 
 function saveProgress() {
     localStorage.setItem("lastGroup", currentGroup);
@@ -25,7 +25,6 @@ function resumeLast() {
 function startFromBeginning() {
     currentGroup = 0;
     currentStage = 0;
-    wordsLearned = 0;
     startGroup(0);
 }
 function startGroup(groupIndex) {
@@ -57,9 +56,8 @@ function showStage(stageIndex) {
             div.innerHTML = `
                 <button class="word-btn">${p.he} - ${p.en}</button>
                 <button class="speak-btn" onclick="speak('${p.en}')">השמע</button><br/>
-                <input class="word-input" id="input-${p.en}" placeholder="כתוב כאן: ${p.en}" oninput="checkInput('${p.en}')"/>
+                <input class="word-input" id="input-${p.en}" placeholder="כתוב כאן: ${p.en}" onblur="checkInput('${p.en}')"/>
                 <div class="feedback" id="feedback-${p.en}"></div>
-                <div class="keyboard">${generateKeyboard(p.en)}</div>
             `;
             stageDiv.appendChild(div);
         });
@@ -82,18 +80,6 @@ function showStage(stageIndex) {
         showSpeakStage(group);
     }
 }
-
-function generateKeyboard(word) {
-    const letters = Array.from(new Set(word.split(''))); 
-    return letters.map(letter => `<button onclick="addLetter('${word}','${letter}')">${letter}</button>`).join('');
-}
-
-function addLetter(word, letter) {
-    const input = document.getElementById("input-" + word);
-    input.value += letter;
-    checkInput(word);
-}
-
 function checkInput(word) {
     const input = document.getElementById("input-" + word).value.trim().toLowerCase();
     const correct = word.toLowerCase();
@@ -108,13 +94,13 @@ function checkInput(word) {
         feedback.innerHTML = `<span style="color:red;">✖ לא נכון.</span>`;
     }
 }
-
 function showMatchGame(group) {
     const stageDiv = document.getElementById("stage");
     const heDiv = document.createElement("div");
     const enDiv = document.createElement("div");
     heDiv.innerHTML = "<h3>עברית</h3>";
     enDiv.innerHTML = "<h3>אנגלית</h3>";
+
     group.forEach((p,i)=>{
         const btn = document.createElement("button");
         btn.innerText = p.he;
@@ -122,6 +108,8 @@ function showMatchGame(group) {
         btn.onclick = ()=> selectHe(i);
         heDiv.appendChild(btn);
     });
+
+    // ערבוב אקראי לאנגלית
     const shuffled = [...group].sort(()=>Math.random()-0.5);
     shuffled.forEach(p=>{
         const btn = document.createElement("button");
@@ -130,11 +118,14 @@ function showMatchGame(group) {
         btn.onclick = ()=> selectEn(p.en);
         enDiv.appendChild(btn);
     });
+
     stageDiv.appendChild(heDiv);
     stageDiv.appendChild(enDiv);
+
     const resultDiv = document.createElement("div");
     resultDiv.id = "matchResult";
     stageDiv.appendChild(resultDiv);
+
     const nextBtn = document.createElement("button");
     nextBtn.className = "nav-btn";
     nextBtn.innerText = "המשך לשלב ג";
