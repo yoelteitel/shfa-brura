@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>שפה ברורה – דף הבית</title>
     <link rel="stylesheet" href="style.css">
+    <script src="words.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
@@ -18,6 +19,11 @@
         <button class="nav-btn" onclick="resumeLast()">התחל מהמקום האחרון</button>
         <button class="nav-btn" onclick="window.location='explanation.html'">הסבר השיטה</button>
     </div>
-    <div class="container hidden" id="learning"></div>
+    <div class="container hidden" id="learning">
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div id="stage"></div>
+    </div>
 </body>
 </html>
