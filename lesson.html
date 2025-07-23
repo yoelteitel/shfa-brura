@@ -3,36 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="lessonTitle">שפה ברורה – לימוד</title>
+    <title>שפה ברורה – לימוד</title>
     <link rel="stylesheet" href="style.css">
-    <script src="translations.js" defer></script>
-    <script src="language.js" defer></script>
     <script src="words.js" defer></script>
     <script src="lesson.js" defer></script>
 </head>
 <body>
     <header>
-        <h1 id="lesson-title" data-i18n="lessonHeader">קבוצה</h1>
+        <h1 id="lesson-title">קבוצה</h1>
         <div id="progress-bar"><div id="progress-fill"></div></div>
     </header>
     <main>
         <div id="lesson-content"></div>
         <div class="nav-buttons">
-            <button onclick="prevGroup()" data-i18n="prevGroup">חזור קבוצה</button>
-            <button onclick="nextGroup()" data-i18n="nextGroup">הבא קבוצה</button>
+            <button onclick="prevGroup()">חזור קבוצה</button>
+            <button onclick="nextGroup()">הבא קבוצה</button>
         </div>
-        <div class="stage-buttons">
-            <button onclick="showStageA()" data-i18n="stageATitle">שלב א</button>
-            <button onclick="showStageB()" data-i18n="stageBTitle">שלב ב</button>
-            <button onclick="showStageC()" data-i18n="stageCTitle">שלב ג</button>
+        <button onclick="openReview()">חזרות</button><div class="stage-buttons">
+            <button onclick="showStageA()">שלב א</button>
+            <button onclick="showStageB()">שלב ב</button>
+            <button onclick="showStageC()">שלב ג</button>
         </div>
-        <button onclick="openReview()" data-i18n="reviewButton">חזרות</button>
-        <button onclick="location.href='index.html'" data-i18n="backHomeButton">חזור לדף הבית</button>
+        <button onclick="location.href='index.html'">חזור לדף הבית</button>
     </main>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            setLanguage(localStorage.getItem('language') || 'he');
-        });
-    </script>
 </body>
 </html>

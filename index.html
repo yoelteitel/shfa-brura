@@ -3,33 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="title">שפה ברורה – 2000 מילים</title>
+    <title>שפה ברורה – דף הבית</title>
     <link rel="stylesheet" href="style.css">
-    <script src="translations.js" defer></script>
-    <script src="language.js" defer></script>
 </head>
 <body>
     <header>
-        <h1 data-i18n="title">שפה ברורה – 2000 מילים</h1>
+        <h1>שפה ברורה – 2000 מילים</h1>
     </header>
     <main>
-        <label for="language-select" data-i18n="chooseLanguage">בחר שפה:</label>
-        <select id="language-select" onchange="changeLanguage()">
-            <option value="he">עברית</option>
-            <option value="yi">אידיש</option>
-            <option value="en">English</option>
-            <option value="ru">Русский</option>
-            <option value="fr">Français</option>
-            <option value="es">Español</option>
-            <option value="de">Deutsch</option>
-            <option value="ar">العربية</option>
-            <option value="it">Italiano</option>
-            <option value="zh">中文</option>
-        </select>
-        <button onclick="location.href='lesson.html?start=0'" data-i18n="start">התחל מהתחלה</button>
-        <button onclick="continueLast()" data-i18n="continue">המשך מהמקום האחרון</button>
-        <button onclick="location.href='words.html'" data-i18n="wordList">קובץ מילים</button>
-        <button onclick="location.href='explanation.html'" data-i18n="explanation">הסבר השיטה</button>
+        <button onclick="location.href='lesson.html?start=0'">התחל מהתחלה</button>
+        <button onclick="continueLast()">המשך מהמקום האחרון</button>
+        <button onclick="location.href='words.html'">קובץ מילים</button>
+        <button onclick="location.href='explanation.html'">הסבר השיטה</button>
     </main>
     <script>
         function continueLast() {
