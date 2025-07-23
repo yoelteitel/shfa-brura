@@ -1,83 +1,70 @@
 
 body {
     font-family: Arial, sans-serif;
-    direction: rtl;
-    background: #f4f4f4;
+    background: #f0f2f5;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background: #2196F3;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
     text-align: center;
 }
-.top-bar {
-    background: #3498db;
-    padding: 5px;
-    text-align: right;
-}
-.container {
+
+main {
     max-width: 800px;
-    margin: auto;
-    background: #fff;
+    margin: 20px auto;
     padding: 20px;
+    background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin-top: 10px;
+    text-align: center;
 }
+
 button {
     padding: 10px 20px;
-    margin: 5px;
+    margin: 8px;
     border: none;
     border-radius: 5px;
+    background-color: #2196F3;
+    color: #fff;
     cursor: pointer;
+    font-size: 16px;
 }
-button.nav-btn {
-    background: #3498db;
-    color: #fff;
-}
-button.word-btn {
-    background: #2ecc71;
-    color: #fff;
-}
-button.speak-btn {
-    background: #f39c12;
-    color: #fff;
-}
-button.listen-btn {
-    background: #9b59b6;
-    color: #fff;
-}
-button.next-btn {
-    background: #1abc9c;
-    color: #fff;
-}
+
 button:hover {
-    opacity: 0.9;
+    background-color: #1976D2;
 }
-input.word-input {
-    margin-top: 5px;
-    padding: 5px;
-    width: 60%;
+
+.word-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
 }
-.hidden {
-    display: none;
-}
-.feedback {
-    margin-top: 5px;
-    font-weight: bold;
-}
-.smiley {
-    font-size: 24px;
-    margin-left: 10px;
-}
-.progress-bar {
+
+.correct { background: #c8e6c9; }
+.incorrect { background: #ffcdd2; }
+
+#progress-bar {
     width: 100%;
-    height: 20px;
-    background-color: #ddd;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    background: #ddd;
+    height: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    overflow: hidden;
 }
-.progress-fill {
-    height: 100%;
+
+#progress-fill {
+    height: 10px;
+    background: #4CAF50;
     width: 0%;
-    background-color: #4caf50;
-    border-radius: 10px;
-    transition: width 0.3s;
 }
