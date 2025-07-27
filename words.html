@@ -3,25 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>קובץ המילים</title>
+    <title data-i18n="wordList">קובץ המילים</title>
     <link rel="stylesheet" href="style.css">
+    <script src="translations.js" defer></script>
+    <script src="language.js" defer></script>
     <script src="words.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>קובץ המילים</h1>
+        <h1 data-i18n="wordList">קובץ המילים</h1>
     </header>
     <main>
         <div id="word-list"></div>
-        <button onclick="location.href='index.html'">חזור לדף הבית</button>
+        <button onclick="location.href='index.html'" data-i18n="backHomeButton">חזור לדף הבית</button>
     </main>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+console.log('words.html loaded');
+            setLanguage(localStorage.getItem('language') || 'he');
+            const lang = localStorage.getItem('language') || 'he';
             const list = document.getElementById('word-list');
+            list.innerHTML = "";
             allGroups.forEach((group, i) => {
                 const div = document.createElement('div');
-                div.innerHTML = `<h3>קבוצה ${i+1} <button onclick="openGroup(${i})">למד קבוצה זו</button></h3>` +
-                                group.map(w => `<p>${w.he} – ${w.en}</p>`).join('');
+                div.className = "group-block";
+                let title = (translations[lang].groupLabel || "קבוצה") + " " + (i+1);
+                let buttonText = translations[lang].learnThisGroup || "למד קבוצה זו";
+                div.innerHTML = `<h3>${title} <button onclick="openGroup(${i})">${buttonText}</button></h3>` +
+                                 group.map(w => `<p>${w.he} – ${w[lang] || w.he} – ${w.en}</p>`).join('');
                 list.appendChild(div);
             });
         });

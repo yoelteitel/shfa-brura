@@ -1,7 +1,10 @@
 
-const REVIEW_BIG = 72;  // ניתן לשנות בקלות את מספר המילים לחזרה הגדולה
-
 let currentGroup = 0;
+let currentLang = localStorage.getItem('language') || 'he';
+
+function t(key) {
+    return translations[currentLang][key] || key;
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -10,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function loadGroup() {
-    document.getElementById("lesson-title").innerText = `קבוצה ${currentGroup + 1}`;
+    document.getElementById("lesson-title").innerText = t("groupLabel") + " " + (currentGroup + 1);
     showStageA();
     updateProgress();
 }
@@ -20,13 +23,21 @@ function updateProgress() {
     document.getElementById("progress-fill").style.width = percent + "%";
 }
 
+function getWord(wordObj) {
+    const lang = currentLang;
+    if (wordObj[lang]) {
+        return wordObj[lang];
+    }
+    return wordObj.he;
+}
+
 function nextGroup() {
     if (currentGroup + 1 < allGroups.length) {
         currentGroup++;
         localStorage.setItem('lastGroup', currentGroup);
         loadGroup();
     } else {
-        alert("סיימת את כל הקבוצות בקובץ זה! נטען קובץ מילים נוסף...");
+        alert(t("finishedAll"));
         location.href = "index.html";
     }
 }
@@ -42,16 +53,14 @@ function prevGroup() {
 // שלב א
 function showStageA() {
     const content = document.getElementById("lesson-content");
-    content.innerHTML = "<p><b>שלב א:</b> קרא את המילה בעברית ובאנגלית, לחץ 'שמיעה', וכתוב את המילה באנגלית.</p>";
+    content.innerHTML = "<p>" + t("stageAIntro") + "</p>";
     const group = allGroups[currentGroup];
     group.forEach((word, i) => {
-        const div = document.createElement("div");
-        div.className = "word-card";
-        div.innerHTML = `<b>${word.he}</b> – <span>${word.en}</span><br>
-                         <button onclick="speakWord('${word.en}')">שמיעה</button><br>
-                         <input type="text" id="input${i}" placeholder="כתוב באנגלית">
-                         <button onclick="checkAnswer(${i}, '${word.en}')">בדיקה</button>`;
-        content.appendChild(div);
+        const displayWord = getWord(word);
+        content.innerHTML += `<div class="word-card"><b>${displayWord}</b> – <span>${word.en}</span><br>
+            <button onclick="speakWord('${word.en}')">` + t('listen') + `</button><br>
+            <input type="text" id="input${i}" placeholder="` + t('typeEnglish') + `">
+            <button onclick="checkAnswer(${i}, '${word.en}')">` + t('check') + `</button></div>`;
     });
 }
 
@@ -64,18 +73,17 @@ function speakWord(text) {
 function checkAnswer(index, correct) {
     const input = document.getElementById(`input${index}`);
     if (input.value.trim().toLowerCase() === correct.toLowerCase()) {
-        input.parentElement.classList.add("correct");
-        input.parentElement.classList.remove("incorrect");
+        alert(t("correctAnswer"));
     } else {
-        input.parentElement.classList.add("incorrect");
-        input.parentElement.classList.remove("correct");
+        alert(t("incorrectAnswer"));
     }
 }
 
-// שלב ב
+// שלבים נוספים נשארים כבעבר
+
 function showStageB() {
     const content = document.getElementById("lesson-content");
-    content.innerHTML = "<p><b>שלב ב:</b> בחר את התרגום הנכון לכל מילה.</p>";
+    content.innerHTML = "<p>" + t("stageBIntro") + "</p>";
     const group = allGroups[currentGroup];
     const shuffled = group.slice().sort(() => 0.5 - Math.random());
     group.forEach(word => {
@@ -83,7 +91,7 @@ function showStageB() {
         div.className = "word-card";
         div.innerHTML = `<b>${word.he}</b> –
             <select onchange="matchCheck(this, '${word.en}')">
-                <option>בחר</option>
+                <option>` + t("choose") + `</option>
                 ${shuffled.map(w => `<option>${w.en}</option>`).join('')}
             </select>`;
         content.appendChild(div);
@@ -103,12 +111,12 @@ function matchCheck(select, correct) {
 // שלב ג
 function showStageC() {
     const content = document.getElementById("lesson-content");
-    content.innerHTML = "<p><b>שלב ג:</b> אמור בקול את המילה באנגלית.</p>";
+    content.innerHTML = "<p>" + t("stageCIntro") + "</p>";
     const group = allGroups[currentGroup];
     group.forEach(word => {
         const div = document.createElement("div");
         div.className = "word-card";
-        div.innerHTML = `<b>${word.he}</b> – <button onclick="startSpeechRecognition('${word.en}')">אמור באנגלית</button>`;
+        div.innerHTML = `<b>${word.he}</b> – <button onclick="startSpeechRecognition('${word.en}')">` + t('speak') + `</button>`;
         content.appendChild(div);
     });
 }
@@ -119,32 +127,32 @@ function startSpeechRecognition(expectedWord) {
     recognition.start();
     recognition.onresult = function(event) {
         const spoken = event.results[0][0].transcript.trim().toLowerCase();
-        alert(spoken === expectedWord.toLowerCase() ? "נכון!" : `לא נכון (${spoken})`);
+        alert(spoken === expectedWord.toLowerCase() ? t("correctAnswer") : t("incorrectAnswer") + " (" + spoken + ")");
     };
 }
 
 // חזרות
 function openReview() {
     const content = document.getElementById("lesson-content");
-    content.innerHTML = "<h3>בחר חזרה:</h3>" +
-        "<button onclick='showReview(8)'>חזרה על 8 מילים אחרונות</button>" +
-        `<button onclick='showReview(${REVIEW_BIG})'>חזרה חלקית – מילה אחת מכל קובץ</button>`;
+    content.innerHTML = "<h3>" + t("review") + "</h3>" +
+        "<button onclick='showReview(8)'>" + t("review8") + "</button>" +
+        "<button onclick='showReview(72)'>" + t("reviewBig") + "</button>";
 }
 
 function showReview(count) {
     const content = document.getElementById("lesson-content");
     if (count === 8) {
-        content.innerHTML = "<h3>חזרה על 8 המילים האחרונות</h3>";
+        content.innerHTML = "<h3>" + t("review8") + "</h3>";
         let reviewWords = [];
         let startGroup = Math.max(0, currentGroup - 1);
         for (let i = startGroup; i <= currentGroup; i++) {
             reviewWords = reviewWords.concat(allGroups[i]);
         }
         showCustomStageB(reviewWords);
-    } else if (count === REVIEW_BIG) {
-        content.innerHTML = `<h3>חזרה חלקית – מילה אחת מכל קובץ</h3>`;
+    } else {
+        content.innerHTML = "<h3>" + t("reviewBig") + "</h3>";
         let reviewWords = [];
-        let startGroup = Math.max(0, currentGroup - (REVIEW_BIG / 4 - 1));
+        let startGroup = Math.max(0, currentGroup - 17);
         for (let i = startGroup; i <= currentGroup; i++) {
             reviewWords.push(allGroups[i][0]);
         }
@@ -154,16 +162,18 @@ function showReview(count) {
 
 function showCustomStageB(customWords) {
     const content = document.getElementById("lesson-content");
-    content.innerHTML += "<p><b>בחר את התרגום הנכון.</b></p>";
+    content.innerHTML += "<p>" + t("stageBIntro") + "</p>";
     const shuffled = customWords.slice().sort(() => 0.5 - Math.random());
     customWords.forEach(word => {
         const div = document.createElement("div");
         div.className = "word-card";
         div.innerHTML = `<b>${word.he}</b> –
             <select onchange="matchCheck(this, '${word.en}')">
-                <option>בחר</option>
+                <option>` + t("choose") + `</option>
                 ${shuffled.map(w => `<option>${w.en}</option>`).join('')}
             </select>`;
         content.appendChild(div);
     });
 }
+
+console.log('Lesson loaded, groups:', allGroups.length);
