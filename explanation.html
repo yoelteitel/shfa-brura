@@ -3,23 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="explanation">הסבר השיטה</title>
+    <title>הסבר השיטה</title>
     <link rel="stylesheet" href="style.css">
-    <script src="translations.js" defer></script>
-    <script src="language.js" defer></script>
 </head>
 <body>
     <header>
-        <h1 data-i18n="explanation">הסבר השיטה</h1>
+        <h1>הסבר השיטה</h1>
     </header>
     <main>
-        <p data-i18n="methodFull">השיטה מבוססת על חקיקה במוח על ידי כתיבה, שמיעה ודיבור...</p>
-        <button onclick="location.href='index.html'" data-i18n="backHomeButton">חזור לדף הבית</button>
+        <p>
+        השיטה מבוססת על חקיקה במוח על ידי חזרתיות, כתיבה, שמיעה ודיבור.
+        לאחר כל 8 מילים – חזרה עם משחק התאמות.
+        לאחר כל 72 מילים – חזרה כוללת עם מילה אחת מכל קבוצה.
+        </p>
+        <button onclick="location.href='index.html'">חזור לדף הבית</button>
     </main>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            setLanguage(localStorage.getItem('language') || 'he');
-        });
-    </script>
 </body>
 </html>
