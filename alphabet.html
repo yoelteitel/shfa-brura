@@ -1,19 +1,57 @@
 <!DOCTYPE html>
 <html lang="he">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>לימוד אלפא־ביתא</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/alphabet.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>לימוד האלפא־ביתא</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h2 id="alpha-step-title"></h2>
-    <div id="alphabet-container"></div>
-    <button id="prev-alpha-step">שלב קודם</button>
-    <button id="next-alpha-step">שלב הבא</button>
-    <button id="prev-alpha-group">קבוצה קודמת</button>
-    <button id="next-alpha-group">קבוצה הבאה</button>
-    <button onclick="location.href='index.html'">חזרה הביתה</button>
+  <header>
+    <h1>לימוד האלפא־ביתא באנגלית</h1>
+    <nav>
+      <a href="index.html">דף הבית</a> |
+      <a href="method.html">הסבר השיטה</a>
+    </nav>
+  </header>
+  <main>
+    <div id="alphabetStatus"></div>
+    <div class="progress"><div class="progress-bar" id="alphabetProgress"></div></div>
+    <!-- Stage A: listening & writing letters -->
+    <section id="alphaStageA" style="display:none;">
+      <h2>שלב א׳ – שמיעה וכתיבה</h2>
+      <div id="alphaStageAContainer"></div>
+      <div class="buttons-row">
+        <button id="alphaCheckA">בדוק</button>
+        <button id="alphaNextFromA">המשך לשלב ב׳</button>
+        <button id="alphaNextGroupA">לקבוצה הבאה</button>
+        <button id="alphaPrevGroupA">לקבוצה הקודמת</button>
+      </div>
+    </section>
+    <!-- Stage B: matching letters -->
+    <section id="alphaStageB" style="display:none;">
+      <h2>שלב ב׳ – משחק התאמה</h2>
+      <div id="alphaStageBContainer"></div>
+      <div class="buttons-row">
+        <button id="alphaCheckB">בדוק</button>
+        <button id="alphaNextFromB">המשך לשלב ג׳</button>
+        <button id="alphaBackToA">חזור לשלב א׳</button>
+        <button id="alphaNextGroupB">לקבוצה הבאה</button>
+        <button id="alphaPrevGroupB">לקבוצה הקודמת</button>
+      </div>
+    </section>
+    <!-- Stage C: free writing (recognition) -->
+    <section id="alphaStageC" style="display:none;">
+      <h2>שלב ג׳ – כתיבה חופשית</h2>
+      <div id="alphaStageCContainer"></div>
+      <div class="buttons-row">
+        <button id="alphaCheckC">בדוק</button>
+        <button id="alphaBackToB">חזור לשלב ב׳</button>
+        <button id="alphaNextGroupC">לקבוצה הבאה</button>
+        <button id="alphaPrevGroupC">לקבוצה הקודמת</button>
+      </div>
+    </section>
+  </main>
+  <script src="js/alphabet.js"></script>
 </body>
 </html>

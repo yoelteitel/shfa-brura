@@ -1,16 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="he">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>קובץ מילים</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/words_list.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>רשימת מילים</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h2>קובץ מילים</h2>
-    <div id="words-list-container"></div>
-    <button onclick="location.href='index.html'">חזרה הביתה</button>
+  <header>
+    <h1>רשימת כל המילים</h1>
+    <nav>
+      <a href="index.html">דף הבית</a> |
+      <a href="method.html">הסבר השיטה</a>
+    </nav>
+  </header>
+  <main>
+    <div id="listContainer"></div>
+  </main>
+  <!-- נתוני המילים נטענים כאן כדי לאפשר גישה ללא fetch בסביבת FILE:// -->
+  <script src="data/words.js"></script>
+  <script src="js/words_list.js"></script>
 </body>
 </html>
